@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <main>
+        <h2>{{humanize .Title}} </h2>
+        <ul id="post">
+          {{ range .Pages }}
+          <div class="posts">
+             <h3 class="title"> <a href="{{.Permalink}}"> {{.Title}} </a></h3>
+             <p class="desc">{{ .Summary }}</p>
+
+             <ul class="tags">Tags:
+                 {{ range .Params.tags }}
+                   <li><a class="tags-{{.}}" href="#">{{ . }}</a> </li>
+                 {{ end }}
+             </ul>
+          </div>
+          {{ end }}
+         </ul>
+    </main>
+
+{{ end }}

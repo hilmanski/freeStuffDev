@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section id="main">
+  <h1 class="title">{{ .Title }}</h1>
+  <div>
+        <article id="content">
+           {{ .Content }}
+        </article>
+  </div>
+</section>
+
+<aside id="meta">
+    <section>
+        <ul class="tags">Tags:
+            {{ range .Params.tags }}
+              <li><a class="tags-{{.}}" href="#">{{ . }}</a> </li>
+            {{ end }}
+            | <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+        </ul>
+    </section>
+</aside>
+
+{{ end }}

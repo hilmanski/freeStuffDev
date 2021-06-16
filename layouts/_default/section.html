@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+    <main>
+        <ul id="post">
+          {{ range .Paginator.Pages }}
+          <div class="posts">
+             <h3 class="title"> <a href="{{.Permalink}}"> {{.Title}} </a></h3>
+             <p class="desc">{{.Summary}}</p>
+
+             <ul class="tags">Tags:
+                 {{ range .Params.tags }}
+                   <li><a class="tags-{{.}}" href="/tags/{{.}}">{{ . }}</a> </li>
+                 {{ end }}
+             </ul>
+          </div>
+          {{ end }}
+
+          <aside id="pagination">
+            {{ if .Paginator.HasPrev }}
+                <a href="{{ .Paginator.Prev.URL }}">  Prev </a>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+                <a href="{{ .Paginator.Next.URL }}">  Next </a>
+            {{ end }}
+        </aside>    
+
+         </ul>
+    </main>
+
+{{ end }}

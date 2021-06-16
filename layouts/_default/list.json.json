@@ -1,0 +1,13 @@
+   {
+        "data": [
+            {{ range $index, $e := .Data.Pages }}
+            {{ if $index }}, {{ end }} {
+                "title" : "{{ .Title }}",
+                "link" : "{{ .Permalink }}",
+                "snippet": "{{ .Params.Snippet }}",
+                "tags": "{{ .Params.Tags }}",
+                "content": {{.RawContent | jsonify}}
+            }
+            {{ end }}
+        ]
+    }

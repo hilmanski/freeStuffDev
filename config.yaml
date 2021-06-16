@@ -1,0 +1,18 @@
+baseURL : https://freestuff.dev
+languageCode : en
+title : FreeStuff.Dev
+
+params:
+    description: Free stuff for developer
+
+staticDir: static
+
+permalinks:
+    blog : blog/:title/
+
+summaryLength: 25
+
+paginate : 12
+
+outputs:
+    section : ["HTML", "RSS", "JSON"]

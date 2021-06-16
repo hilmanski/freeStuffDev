@@ -1,0 +1,14 @@
+<div class="cards">
+    <img src="{{ .Params.Thumbnail }}" alt="Logo {{.Title}}" width="100">
+    <h3 class="title"> <a target="_blank" href="{{ .Params.Link }}"> {{.Title}} ➜ </a></h3>
+    <p>{{ .Params.Snippet }}</p>
+    <hr>
+    <details>
+      <summary>Show Offer</summary>
+       <p>{{.Content}}</p>
+    </details>
+   
+    <p class="text-small"> <small>
+        -{{ range .Params.tags }} <span>{{ . }}</span> - {{ end }}
+    </small></p>
+</div>

@@ -1,0 +1,62 @@
+<div class="flex is-space-between">
+<sidebar class="is-one-fifth">
+    <div onclick="toggleOfferInfo()">
+        <label for="offerToggle">Auto show offer</label>
+        <input type="checkbox" id="offerToggle">
+        <script>
+            function toggleOfferInfo() {
+                let status = document.getElementById("offerToggle").checked
+                for (var i = 0; i < document.querySelectorAll('details').length; i++) {
+                    document.querySelectorAll('details')[i].open = status
+                }
+            }
+        </script>   
+    </div>
+
+    <div>
+        <label for="searchbox">Search</label>
+        <input type="search" oninput="liveSearch()" id="searchbox">
+        <script>
+            function liveSearch() {
+                let cards = document.getElementsByClassName('cards')
+                let search_query = document.getElementById("searchbox").value;
+
+                for (var i = 0; i < cards.length; i++) {
+                    if(cards[i].innerText.toLowerCase()
+                            .includes(search_query.toLowerCase())) {
+                        cards[i].classList.remove("is-hidden");
+                    } else {
+                        cards[i].classList.add("is-hidden");
+                    }
+                }
+            }
+        </script>
+    </div>
+
+    <div>
+        <ul>
+            {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
+                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>  
+</sidebar> 
+
+
+<main class="is-four-fifth">
+    <div class="cards-wrapper v-distance">
+
+    {{ if eq .Kind "term" }}
+        <h1> Free {{ .Title }} for developer </h1>
+        {{ range .Pages }}
+            {{ partial "stuff-cards.html" . }}
+        {{ end }}
+    {{ else }}
+       {{ range where .Site.RegularPages "Type" "stuff"}}
+            {{ partial "stuff-cards.html" . }}
+        {{ end }}
+    {{ end }}
+
+    </div>
+</main>
+</div>
