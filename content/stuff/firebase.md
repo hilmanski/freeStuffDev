@@ -6,7 +6,6 @@ snippet: Firebase helps you build and run successful apps Backed by Google and
 date: 2021-06-17T03:00:55.034Z
 thumbnail: https://res.cloudinary.com/wegoatdev/image/upload/v1623898842/freestuffdev/stuff/firebase.png
 tags:
-  - analytics
   - database
   - hosting
   - hosting-dynamic
