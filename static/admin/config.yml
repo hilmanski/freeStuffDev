@@ -2,11 +2,22 @@ backend:
   name: git-gateway
   branch: main 
 
-publish_mode: editorial_workflow
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads" 
 
 collections:
+  - name: "stuff"
+    label: "Stuff"
+    folder: "content/stuff"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Snippet", name: "snippet", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "thumbnail", name: "thumbnail", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
@@ -18,17 +29,5 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-  - name: "stuff"
-    label: "Stuff"
-    folder: "content/stuff"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Snippet", name: "snippet", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "thumbnail", name: "thumbnail", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
