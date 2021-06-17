@@ -4,8 +4,7 @@ tags = ["analytics"]
 title="SplitBee"
 link = "https://splitbee.io/"
 thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623897264/freestuffdev/stuff/Screen_Shot_2021-06-17_at_10.34.04_AM.png"
-snippet="Track and optimize your online business with Splitbee.
-Your friendly analytics & conversion platform."
+snippet="Track and optimize your online business with Splitbee. Your friendly analytics & conversion platform."
 +++
 Free analytics  
 Up to 2.500 page views / month
