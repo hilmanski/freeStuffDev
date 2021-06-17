@@ -6,9 +6,13 @@ $gold: rgb(227, 187, 84)
     -ms-box-sizing: border-box !important
     box-sizing: border-box !important
 
+*
+    margin: 0px
+    padding: 0px
+
 body
     margin: 5% auto
-    width: 70%
+    width: 75%
     line-height: 1.6rem
     font-family: 'Oxygen', sans-serif
     color: rgb(87, 87, 87)
@@ -30,6 +34,9 @@ body
 
 .columns
     display: flex
+
+h1, h2
+    margin-bottom: 20px
 
 a
     color: rgb(48, 48, 48)
@@ -69,7 +76,7 @@ header
 .is-avatar
     border-radius: 50%
 
-.posts
+#blog
     .title
         font-size: 1.7rem
         margin-bottom: 0px
@@ -80,18 +87,14 @@ header
             width: 100%
     .desc
         margin: 5px 0
-
-kbd
-    background: rgb(175, 175, 175)
-    padding: 1px 3px
-    font-size: 1rem
-    color: #242729
-    text-shadow: 0 1px 0 #FFF
-    background-color: #e1e3e5
-    border: 1px solid #adb3b9
-    border-radius: 3px
-
-#content
+    article
+        margin-top: 20px
+        p
+            margin-bottom: 5px
+        pre
+            border-radius: 10px
+            padding: 5px
+            margin-bottom: 10px
     h2, h3
         color: $gold
         margin-top: 40px
@@ -107,24 +110,32 @@ kbd
     display: inline-block
     font-size: 1rem
 
-sidebar 
+sidebar
+    ul
+        margin-top: 0px 
     div
         margin-bottom: 10px
-        padding-bottom: 10px
-        border-bottom: 1px solid grey
 
-.flex
+.flex, .flex-on-mobile
     display: flex
-    flex-wrap: wrap
     &.is-space-between
         justify-content: space-between
+    &.is-align-items
+        align-items: center
     .is-one-fifth
         width: (1/5 * 100%)
     .is-four-fifth
         width: (4/5 * 100%)
+    .is-two-third
+        width: (1/3 * 100%)
+    .is-one-third
+        width: (4/3 * 100%)
+
+.flex-on-mobile
+    display: block
 
 .cards
-    padding: 1% 70px
+    padding: 30px 70px
     margin: 0 1%
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
     transition: 0.3s
@@ -136,17 +147,26 @@ sidebar
         text-decoration: underline
     .text-small
         line-height: 1rem
-    > img
-        position: absolute
-        top: 50px
-        left: -50px
-
-.cards-wrapper
-    margin-left: 10%
+    img
+        margin-right: 20px
+        max-width: 100px
+        max-height: 100px
 
 .v-distance
-    div
+    > div
         margin-bottom: 40px
+
+.filter
+    margin-bottom: 20px
+    #searchbox
+        width: 100%
+        padding: 10px
+        border: 1px solid grey
+        border-radius: 10px
+        font-size: 1.2rem
+    input[type="checkbox"]
+        height: 20px
+        width: 20px
 
 .tags
     font-size: 1rem
@@ -154,13 +174,14 @@ sidebar
     li
         display: inline-block
         margin: 0 1px
+        margin-bottom: 2px
     a
-        padding: 0px 10px
+        padding: 0px 5px
+        display: inline-block
         border-radius: 3px
-        background: white
-        display: block
+        background: #838383
         font-size: 0.8rem
-        color: rgb(45, 45, 45)
+        color: white
     .tags-api
         background: rgb(215, 41, 57)
         color: white
@@ -234,6 +255,10 @@ footer
     a
         text-decoration: underline
 
+@media only screen and (min-width: 760px)
+    .ml5-on-desktop
+        margin-left: 5%
+
 @media only screen and (max-width: 760px)
     body
         width: 90%
@@ -250,14 +275,19 @@ footer
         li
             margin: 2px
 
+    .flex-on-mobile
+        display: flex
+
     .flex
         display: block
-        > *
-            width: 100% !important
+        .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-third
+            width: 100%
+        &.flex-mobile
+            display: flex
+            .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-third
+                width: auto
 
     .cards
+        padding: 1% 30px
         width: 95%
         padding-bottom: 30px
-    
-    .cards-wrapper
-        margin-left: 0px

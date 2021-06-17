@@ -1,40 +1,44 @@
 <div class="flex is-space-between">
 <sidebar class="is-one-fifth">
-    <div onclick="toggleOfferInfo()">
-        <label for="offerToggle">Auto show offer</label>
-        <input type="checkbox" id="offerToggle">
-        <script>
-            function toggleOfferInfo() {
-                let status = document.getElementById("offerToggle").checked
-                for (var i = 0; i < document.querySelectorAll('details').length; i++) {
-                    document.querySelectorAll('details')[i].open = status
-                }
-            }
-        </script>   
-    </div>
 
-    <div>
-        <label for="searchbox">Search</label>
-        <input type="search" oninput="liveSearch()" id="searchbox">
-        <script>
-            function liveSearch() {
-                let cards = document.getElementsByClassName('cards')
-                let search_query = document.getElementById("searchbox").value;
+    <div class="filter flex-on-mobile is-space-between is-align-items">
+        <div>
+            <input type="search" oninput="liveSearch()" id="searchbox" placeholder="Search..">
+            <script>
+                function liveSearch() {
+                    let cards = document.getElementsByClassName('cards')
+                    let search_query = document.getElementById("searchbox").value;
 
-                for (var i = 0; i < cards.length; i++) {
-                    if(cards[i].innerText.toLowerCase()
-                            .includes(search_query.toLowerCase())) {
-                        cards[i].classList.remove("is-hidden");
-                    } else {
-                        cards[i].classList.add("is-hidden");
+                    for (var i = 0; i < cards.length; i++) {
+                        if(cards[i].innerText.toLowerCase()
+                                .includes(search_query.toLowerCase())) {
+                            cards[i].classList.remove("is-hidden");
+                        } else {
+                            cards[i].classList.add("is-hidden");
+                        }
                     }
                 }
-            }
-        </script>
+            </script>
+        </div>
+
+        <div onclick="toggleOfferInfo()" class="flex is-align-items">
+            <input type="checkbox" id="offerToggle"> &nbsp;
+            <label for="offerToggle">Show offer</label>
+            <script>
+                function toggleOfferInfo() {
+                    let status = document.getElementById("offerToggle").checked
+                    for (var i = 0; i < document.querySelectorAll('details').length; i++) {
+                        document.querySelectorAll('details')[i].open = status
+                    }
+                }
+            </script>   
+        </div>
     </div>
 
+
     <div>
-        <ul>
+        <p class="marginless">Filter: </p>
+        <ul class="tags">
             {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
                 <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
             {{ end }}
@@ -43,9 +47,8 @@
 </sidebar> 
 
 
-<main class="is-four-fifth">
-    <div class="cards-wrapper v-distance">
-
+<main class="is-four-fifth ml5-on-desktop">
+    <div class="v-distance">
     {{ if eq .Kind "term" }}
         <h1> Free {{ .Title }} for developer </h1>
         {{ range .Pages }}

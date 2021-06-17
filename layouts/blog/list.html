@@ -1,9 +1,9 @@
 {{ define "main" }}
     <main>
         <h2>{{humanize .Title}} </h2>
-        <ul id="post">
+        <ul class="v-distance">
           {{ range .Pages }}
-          <div class="posts">
+          <div class="cards">
              <h3 class="title"> <a href="{{.Permalink}}"> {{.Title}} </a></h3>
              <p class="desc">{{ .Summary }}</p>
 
