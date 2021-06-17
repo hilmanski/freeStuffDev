@@ -29,6 +29,6 @@ collections:
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Snippet", name: "snippet", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "thumbnail", name: "image", widget: "image"}
+      - {label: "thumbnail", name: "thumbnail", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
