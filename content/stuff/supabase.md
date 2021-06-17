@@ -9,6 +9,7 @@ thumbnail: https://res.cloudinary.com/wegoatdev/image/upload/v1623898594/freestu
 tags:
   - database
   - storage-and-media
+  - authentication
 ---
 Get free database, authentication and storage\
 Unlimited API request\
