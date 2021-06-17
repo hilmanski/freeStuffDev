@@ -1,4 +1,6 @@
 $gold: rgb(227, 187, 84)
+$darkmodeBg: rgb(57, 57, 57)
+$darkmodeColor: rgb(227, 227, 227)
 
 *, *:before, *:after
     -webkit-box-sizing: border-box !important
@@ -17,15 +19,18 @@ body
     line-height: 1.6rem
     font-family: 'Oxygen', sans-serif
     color: rgb(87, 87, 87)
+
 .darkmode
-    background: rgb(57, 57, 57)
-    color: rgb(227, 227, 227)
+    background: $darkmodeBg
+    color: $darkmodeColor
     a
-        color: rgb(227, 227, 227)
+        color: $darkmodeColor
     .title
         color: $gold
         a
             color: $gold
+    #bottom-menu
+        background: $darkmodeBg
 
 .is-hidden
     display: none
@@ -173,7 +178,8 @@ sidebar
     margin-bottom: 20px
     > div
         margin-right: 10px
-    #searchbox
+    input[type="search"]
+        -webkit-appearance: none
         width: 100%
         padding: 10px
         border: 1px solid grey
@@ -189,10 +195,10 @@ sidebar
     bottom: 0px
     width: 100%
     background: white
-    border-top: 1px solid grey
     padding-top: 20px
     z-index: 2
-    box-shadow: 0px 10px 5px #D6D6D6, 0px -10px 5px #D6D6D6
+    border-top: 1px solid grey
+    // box-shadow: 0px 10px 5px #D6D6D6, 0px -10px 5px #D6D6D6
 
 .tags
     font-size: 1rem
@@ -281,42 +287,4 @@ footer
     a
         text-decoration: underline
 
-@media only screen and (min-width: 760px)
-    .ml5-on-desktop
-        margin-left: 5%
-
-    .on-desktop-only
-        display: block
-
-@media only screen and (max-width: 760px)
-    body
-        width: 90%
-        font-size: 18px
-
-    .columns
-        display: block
-
-    #brand
-        a
-            font-size: 1.5rem
-
-    .tags
-        li
-            margin: 2px
-
-    .flex-on-mobile
-        display: flex
-
-    .flex
-        display: block
-        .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-third
-            width: 100%
-        &.flex-mobile
-            display: flex
-            .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-third
-                width: auto
-
-    .cards
-        padding: 20px 30px
-        width: 95%
-        padding-bottom: 30px
+@import 'responsive'

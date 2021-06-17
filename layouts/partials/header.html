@@ -15,7 +15,9 @@
     <meta property="og:description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' />
     <meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png{{end}}" />
 
-    <link rel="stylesheet" href="/css/main.css">
+    {{ $style := resources.Get "/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <!-- <link rel="stylesheet" href="/css/main.css"> -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
