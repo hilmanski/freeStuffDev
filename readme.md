@@ -1,8 +1,10 @@
 ## FreeStuffDev
 List of free services for developer like database, hosting, authentication and other stuff.
-[freestuff.dev](freestuff.dev)  
+[freestuff.dev](https://freestuff.dev)  
 
 Inspired by https://free-for.dev/ , I create my own dev-tool list to start prototyping or making a MVP.
+
+Built with Hugo Static site generator and hosted at Netlify
 
 ## Contribute
 Want to add new stuff? 
