@@ -1,12 +1,12 @@
 <div class="cards">
     <div class="flex flex-mobile is-align-items">
-        <img src="{{ .Params.Thumbnail }}" alt="Logo {{.Title}}" width="100" height="100">
+        <img src="{{ .Params.Thumbnail }}" alt="Logo {{.Title}}" width="80" height="auto">
         <div>
             <h3 class="title"> <a target="_blank" href="{{ .Params.Link }}"> {{.Title}} ➜ </a></h3>
             <p>{{ .Params.Snippet }}</p>
         </div>
     </div>
-    <hr>
+    <br><hr>
     <details>
       <summary>Show Offer</summary>
        <p>{{.Content}}</p>
