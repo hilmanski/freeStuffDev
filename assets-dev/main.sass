@@ -120,12 +120,21 @@ sidebar
     div
         margin-bottom: 10px
 
+.button
+    width: 100%
+    padding: 10px
+    border: 1px solid grey
+    border-radius: 10px
+    font-size: 1rem
+
 .flex, .flex-on-mobile
     display: flex
     &.is-space-between
         justify-content: space-between
     &.is-align-items
         align-items: center
+    &.is-flex-end
+        justify-content: flex-end
     .is-one-fifth
         width: (1/5 * 100%)
     .is-four-fifth
@@ -145,7 +154,7 @@ sidebar
     border-radius: 20px
     position: relative
     .title
-        font-size: 1.6rem
+        font-size: 1.5rem
         text-decoration: underline
     .text-small
         line-height: 1rem
@@ -162,6 +171,8 @@ sidebar
 
 .filter
     margin-bottom: 20px
+    > div
+        margin-right: 10px
     #searchbox
         width: 100%
         padding: 10px
@@ -171,6 +182,17 @@ sidebar
     input[type="checkbox"]
         height: 20px
         width: 20px
+
+#bottom-menu
+    position: fixed
+    left: 0px
+    bottom: 0px
+    width: 100%
+    background: white
+    border-top: 1px solid grey
+    padding-top: 20px
+    z-index: 2
+    box-shadow: 0px 10px 5px #D6D6D6, 0px -10px 5px #D6D6D6
 
 .tags
     font-size: 1rem
@@ -262,6 +284,9 @@ footer
 @media only screen and (min-width: 760px)
     .ml5-on-desktop
         margin-left: 5%
+
+    .on-desktop-only
+        display: block
 
 @media only screen and (max-width: 760px)
     body

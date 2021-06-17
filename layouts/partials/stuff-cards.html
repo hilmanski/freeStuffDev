@@ -6,13 +6,14 @@
             <p>{{ .Params.Snippet }}</p>
         </div>
     </div>
+   <!--  <br>
+    <p class="text-small"> 
+        <small>-{{ range .Params.tags }} <span>{{ . }}</span> - {{ end }}</small>
+    </p>
+ -->
     <br><hr>
-    <details>
+    <details style="text-align: right;">
       <summary>Show Offer</summary>
        <p>{{.Content}}</p>
     </details>
-   
-    <p class="text-small"> <small>
-        -{{ range .Params.tags }} <span>{{ . }}</span> - {{ end }}
-    </small></p>
 </div>
