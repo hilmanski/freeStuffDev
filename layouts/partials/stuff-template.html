@@ -65,7 +65,7 @@
     {{ if eq .Kind "term" }}
         <h1> Free {{ .Title }} for developer </h1>
 
-        {{ range where .Pages "Type" "stuff"}}
+        {{ range where .Pages "Type" "stuff" | shuffle}}
             {{ partial "stuff-cards.html" . }}
         {{ end }}
 
