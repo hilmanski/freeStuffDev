@@ -55,9 +55,11 @@
     <div class="v-distance">
     {{ if eq .Kind "term" }}
         <h1> Free {{ .Title }} for developer </h1>
-        {{ range .Pages }}
+
+        {{ range where .Pages "Type" "stuff"}}
             {{ partial "stuff-cards.html" . }}
         {{ end }}
+
     {{ else }}
        {{ range where .Site.RegularPages "Type" "stuff"}}
             {{ partial "stuff-cards.html" . }}
