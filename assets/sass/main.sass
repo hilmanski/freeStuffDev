@@ -1,5 +1,6 @@
 $gold: rgb(227, 187, 84)
 $darkmodeBg: rgb(57, 57, 57)
+$darkmodeItemBg: #403E40
 $darkmodeColor: rgb(227, 227, 227)
 
 *, *:before, *:after
@@ -14,7 +15,7 @@ $darkmodeColor: rgb(227, 227, 227)
 
 body
     margin: 5% auto
-    width: 75%
+    width: 50%
     max-width: 1100px
     line-height: 1.6rem
     font-family: 'Oxygen', sans-serif
@@ -29,8 +30,8 @@ body
         color: $gold
         a
             color: $gold
-    #bottom-menu
-        background: $darkmodeBg
+    .cards, #bottom-menu
+        background: #403E40
 
 .is-hidden
     display: none
@@ -62,20 +63,8 @@ pre
     overflow: auto
 
 header
-    display: flex
-    justify-content: space-between
     margin-bottom: 20px
-    font-size: 20px
-
-#brand
-    display: flex
-    align-items: center
-    img
-        margin-right: 10px
-    a
-        font-size: 1.8rem
-    p
-        margin: 0px
+    font-size: 1.2rem
 
 #theme
     font-size: 1.5rem
@@ -126,7 +115,6 @@ sidebar
         margin-bottom: 10px
 
 .button
-    width: 100%
     padding: 10px
     border: 1px solid grey
     border-radius: 10px
@@ -136,6 +124,8 @@ sidebar
     display: flex
     &.is-space-between
         justify-content: space-between
+    &.is-space-around
+        justify-content: space-around
     &.is-align-items
         align-items: center
     &.is-flex-end
@@ -180,20 +170,19 @@ sidebar
         margin-right: 10px
     input[type="search"]
         -webkit-appearance: none
-        width: 100%
         padding: 10px
         border: 1px solid grey
         border-radius: 10px
-        font-size: 1.2rem
+        font-size: 1rem
     input[type="checkbox"]
         height: 20px
         width: 20px
 
 #bottom-menu
     position: fixed
-    left: 0px
+    left: 25%
     bottom: 0px
-    width: 100%
+    width: 50%
     background: white
     padding-top: 20px
     z-index: 2

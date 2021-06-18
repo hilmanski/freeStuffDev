@@ -15,9 +15,9 @@
     <meta property="og:description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' />
     <meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png{{end}}" />
 
-    {{ $style := resources.Get "/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "/sass/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
-    <!-- <link rel="stylesheet" href="/css/main.css"> -->
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -35,51 +35,19 @@
 
 </head>
 <body class="darkmode">
-    <header>
-        <div id="brand">
+    <header class="flex flex-mobile is-space-between is-align-items">
+        <div class="flex flex-mobile is-space-between is-align-items">
             <img src="https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png" alt="logo we goat dev" height="100" width="100" class="is-avatar">
             <div>
                 <a href='/'> {{ .Site.Title }} </a>
                 <p>{{ .Site.Params.description }}</p>
             </div>
         </div>
-
-        <div id="theme">
-            <div onclick="setDarkMode(true)" id="darkBtn" class=""> 🌚 </div>
-            <div onclick="setDarkMode(false)" id="lightBtn" class="is-hidden"> 🌝 </div>
-        </div>
-
-        <script>
-            //check localstorage
-            if(localStorage.getItem('preferredTheme') == 'dark') {
-                setDarkMode(true)
-            }
-
-            function setDarkMode(isDark) {
-                var darkBtn = document.getElementById('darkBtn')
-                var lightBtn = document.getElementById('lightBtn')
-
-                if(isDark) {
-                    lightBtn.style.display = "block"
-                    darkBtn.style.display = "none"
-                    localStorage.setItem('preferredTheme', 'dark');
-                } else {
-                    lightBtn.style.display = "none"
-                    darkBtn.style.display = "block"
-                    localStorage.removeItem('preferredTheme');
-                }
-
-                document.body.classList.toggle("darkmode");
-            }
-        </script>
+        <nav>
+            <a href="https://twitter.com/freestuffdev" target="_blank">@freestuffdev |</a>
+            <a href="/blog">Blog |</a>
+            <span id="darkModeBtn"> 🌝 </span>
+        </nav> 
     </header>
 
-    <!-- {{ if eq .Section "blog" }}
-    <nav class="tags">
-        {{ range $name, $taxonomy :=  .Site.Taxonomies.tags }}
-            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-                <li><a class="tags-{{ $name }}"  href="{{ .Permalink }}">{{ $name }}</a></li>
-            {{ end }}
-        {{ end }}
-    </nav>
-    {{ end }} -->
+ 

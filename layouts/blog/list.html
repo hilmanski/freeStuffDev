@@ -1,4 +1,14 @@
 {{ define "main" }}
+   <!-- {{ if eq .Section "blog" }}
+    <nav class="tags">
+        {{ range $name, $taxonomy :=  .Site.Taxonomies.tags }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                <li><a class="tags-{{ $name }}"  href="{{ .Permalink }}">{{ $name }}</a></li>
+            {{ end }}
+        {{ end }}
+    </nav>
+    {{ end }} -->
+    
     <main>
         <h2>{{humanize .Title}} </h2>
         <ul class="v-distance">
