@@ -108,11 +108,12 @@ header
     display: inline-block
     font-size: 1rem
 
-sidebar
-    ul
-        margin-top: 0px 
-    div
-        margin-bottom: 10px
+#filter-tag
+    padding: 5px 0
+    border-top: 1px solid grey
+    border-bottom: 1px solid grey
+    summary
+        margin-bottom: 5px
 
 .button
     padding: 10px
@@ -164,10 +165,15 @@ sidebar
     > div
         margin-bottom: 40px
 
-.filter
-    margin-bottom: 20px
-    > div
-        margin-right: 10px
+#bottom-menu
+    position: fixed
+    left: 25%
+    bottom: 0px
+    width: 50%
+    background: white
+    padding: 20px 0
+    z-index: 2
+    border-top: 1px solid grey
     input[type="search"]
         -webkit-appearance: none
         padding: 10px
@@ -180,17 +186,6 @@ sidebar
     input[type="checkbox"]
         height: 20px
         width: 20px
-
-#bottom-menu
-    position: fixed
-    left: 25%
-    bottom: 0px
-    width: 50%
-    background: white
-    padding-top: 20px
-    z-index: 2
-    border-top: 1px solid grey
-    // box-shadow: 0px 10px 5px #D6D6D6, 0px -10px 5px #D6D6D6
 
 .tags
     font-size: 1rem

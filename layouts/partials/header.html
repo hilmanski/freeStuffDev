@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ if eq .Kind "term" }} Free {{ .Title }} for dev {{ else }}{{ .Title }}{{ end }} </title>
-    <meta name="description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' property="og:description">
+    <title>{{ if eq .Kind "term" }} Free {{ .Title }} service for dev {{ else }}{{ .Title }}{{ end }} </title>
+    <meta name="description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} service for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' property="og:description">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@freestuffdev" />
     <meta name="twitter:creator" content="@freestuffdev" />
     <meta property="og:url" content=" {{ .Permalink }}" />
-    <meta property="og:title" content='{{ if eq .Kind "term" }}Free {{ .Title }} for dev{{ else }}{{ .Title }}{{ end }}' />
-    <meta property="og:description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' />
+    <meta property="og:title" content='{{ if eq .Kind "term" }}Free {{ .Title }} service for dev{{ else }}{{ .Title }}{{ end }}' />
+    <meta property="og:description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} service for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' />
     <meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png{{end}}" />
 
     {{ $style := resources.Get "/sass/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}

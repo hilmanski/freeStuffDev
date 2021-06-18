@@ -1,58 +1,52 @@
-<div id="bottom-menu">
-    <div class="filter flex flex-mobile is-space-around is-align-items">
+<div id="bottom-menu" class="flex flex-mobile is-space-around is-align-items">
+    <div onclick="toggleOfferInfo()" class="flex is-align-items">
+        <input type="checkbox" id="offerToggle"> &nbsp;
+        <label for="offerToggle">Show offer</label>
+        <script>
+            function toggleOfferInfo() {
+                let status = document.getElementById("offerToggle").checked
+                for (var i = 0; i < document.querySelectorAll('details').length; i++) {
+                    document.querySelectorAll('details')[i].open = status
+                }
+            }
+        </script>   
+    </div>
 
-        <div onclick="toggleOfferInfo()" class="flex is-align-items">
-            <input type="checkbox" id="offerToggle"> &nbsp;
-            <label for="offerToggle">Show offer</label>
-            <script>
-                function toggleOfferInfo() {
-                    let status = document.getElementById("offerToggle").checked
-                    for (var i = 0; i < document.querySelectorAll('details').length; i++) {
-                        document.querySelectorAll('details')[i].open = status
+    <div>
+        <input type="search" oninput="liveSearch()" id="searchbox" placeholder="Search..">
+        <script>
+            function liveSearch() {
+                let cards = document.getElementsByClassName('cards')
+                let search_query = document.getElementById("searchbox").value;
+
+                for (var i = 0; i < cards.length; i++) {
+                    if(cards[i].innerText.toLowerCase()
+                            .includes(search_query.toLowerCase())) {
+                        cards[i].classList.remove("is-hidden");
+                    } else {
+                        cards[i].classList.add("is-hidden");
                     }
                 }
-            </script>   
-        </div>
+            }
+        </script>
+    </div>
 
-        <div>
-            <input type="search" oninput="liveSearch()" id="searchbox" placeholder="Search..">
-            <script>
-                function liveSearch() {
-                    let cards = document.getElementsByClassName('cards')
-                    let search_query = document.getElementById("searchbox").value;
-
-                    for (var i = 0; i < cards.length; i++) {
-                        if(cards[i].innerText.toLowerCase()
-                                .includes(search_query.toLowerCase())) {
-                            cards[i].classList.remove("is-hidden");
-                        } else {
-                            cards[i].classList.add("is-hidden");
-                        }
-                    }
-                }
-            </script>
-        </div>
-
-        <div>
-            <a class="button" href="https://github.com/hilmanski/freeStuffDev/new/main/content/stuff?value=%2B%2B%2B%0Adate%20%3D%20%22YYYY-MM-DDT00%3A00%3A00%2B00%3A00%22%0Atags%20%3D%20%5B%22tag%22%5D%0Atitle%3D%22Title%22%0Alink%20%3D%20%22https%3A%2F%2Flink%22%0Athumbnail%20%3D%20%22url_thumbnail%22%0Asnippet%3D%22Snippet%20of%20product%22%0A%2B%2B%2B%0ADetail%20what%27s%20free%20here..%0A" target="_blank">
-            New +
-            </a>
-        </div>
-
+    <div>
+        <a class="button" href="https://github.com/hilmanski/freeStuffDev/new/main/content/stuff?value=%2B%2B%2B%0Adate%20%3D%20%22YYYY-MM-DDT00%3A00%3A00%2B00%3A00%22%0Atags%20%3D%20%5B%22tag%22%5D%0Atitle%3D%22Title%22%0Alink%20%3D%20%22https%3A%2F%2Flink%22%0Athumbnail%20%3D%20%22url_thumbnail%22%0Asnippet%3D%22Snippet%20of%20product%22%0A%2B%2B%2B%0ADetail%20what%27s%20free%20here..%0A" target="_blank">
+        New +
+        </a>
     </div>
 </div>
 
-<section>
-    <div>
-        <details>
+<section id="filter-tag">
+    <details>
         <summary class="marginless" style="font-size: 1.2rem;">Filter: </summary>
         <ul class="tags">
             {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
                 <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
             {{ end }}
         </ul>
-        </details>
-    </div>  
+    </details>
 </section>  <br>
 
 <main>
