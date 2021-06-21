@@ -1,19 +1,12 @@
 <div class="cards">
-    <div class="flex flex-mobile is-align-items">
-        <img data-src="{{ .Params.Thumbnail }}" alt="Logo {{.Title}}" width="80" height="auto">
-        <div>
-            <h3 class="title"> <a target="_blank" href="{{ .Params.Link }}"> {{.Title}} ➜ </a></h3>
-            <p>{{ .Params.Snippet }}</p>
+    <div class="flex is-space-between is-align-items">
+        <div class="flex flex-mobile is-align-items is-two-third">
+            <img data-src="{{ .Params.Thumbnail }}" alt="Logo {{.Title}}" width="80" height="auto">
+            <div>
+                <h3 class="title"> <a target="_blank" href="{{ .Params.Link }}"> {{.Title}} ➜ </a></h3>
+                <p>{{ .Params.Snippet }}</p>
+            </div>
         </div>
+        <div style="text-align: right;"> <b>Free Offer:</b> <small> {{.Content}} </small></div>
     </div>
-   <!--  <br>
-    <p class="text-small"> 
-        <small>-{{ range .Params.tags }} <span>{{ . }}</span> - {{ end }}</small>
-    </p>
- -->
-    <br><hr>
-    <details style="text-align: right;">
-      <summary>Show Offer</summary>
-       <p>{{.Content}}</p>
-    </details>
 </div>

@@ -15,7 +15,7 @@ $darkmodeColor: rgb(227, 227, 227)
 
 body
     margin: 5% auto
-    width: 50%
+    width: 60%
     max-width: 1100px
     line-height: 1.6rem
     font-family: 'Oxygen', sans-serif
@@ -30,7 +30,7 @@ body
         color: $gold
         a
             color: $gold
-    .cards, #bottom-menu
+    .cards
         background: #403E40
 
 .is-hidden
@@ -38,9 +38,6 @@ body
 
 .marginless
     margin: 0px
-
-.columns
-    display: flex
 
 h1, h2
     margin-bottom: 20px
@@ -109,17 +106,8 @@ header
     font-size: 1rem
 
 #filter-tag
-    padding: 5px 0
-    border-top: 1px solid grey
-    border-bottom: 1px solid grey
     summary
         margin-bottom: 5px
-
-.button
-    padding: 10px
-    border: 1px solid grey
-    border-radius: 10px
-    font-size: 1rem
 
 .flex, .flex-on-mobile
     display: flex
@@ -131,6 +119,8 @@ header
         align-items: center
     &.is-flex-end
         justify-content: flex-end
+    .is-half
+        width: 50%
     .is-one-fifth
         width: (1/5 * 100%)
     .is-four-fifth
@@ -149,6 +139,7 @@ header
     transition: 0.3s
     border-radius: 20px
     position: relative
+    transition: padding 0.5s ease
     .title
         font-size: 1.5rem
         text-decoration: underline
@@ -160,32 +151,24 @@ header
         margin-right: 20px
         max-width: 80px
         max-height: 80px
+    &:hover
+        padding: 30px
 
 .v-distance
     > div
         margin-bottom: 40px
 
-#bottom-menu
-    position: fixed
-    left: 25%
-    bottom: 0px
-    width: 50%
-    background: white
-    padding: 20px 0
-    z-index: 2
-    border-top: 1px solid grey
-    input[type="search"]
-        -webkit-appearance: none
-        padding: 10px
-        border: 1px solid grey
-        border-radius: 10px
-        font-size: 1rem
-        background: transparent
-        &:focus
-            outline: none
-    input[type="checkbox"]
-        height: 20px
-        width: 20px
+input[type="search"]
+    -webkit-appearance: none
+    display: block
+    width: 100%
+    padding: 10px
+    border: 1px solid grey
+    border-radius: 10px
+    font-size: 1rem
+    background: transparent
+    &:focus
+        outline: none
 
 .tags
     font-size: 1rem
