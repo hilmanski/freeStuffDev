@@ -6,4 +6,3 @@ thumbnail = "https://carbon.now.sh/favicon.ico"
 snippet="Carbon is the easiest way to create and share beautiful images of your source code."
 tags = ["code-snippet","tool"]
 +++
-Free

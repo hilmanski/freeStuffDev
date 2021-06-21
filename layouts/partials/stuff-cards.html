@@ -7,6 +7,9 @@
                 <p>{{ .Params.Snippet }}</p>
             </div>
         </div>
+        
+        {{ if ne .Content "" }}
         <small><div style="text-align: right; white-space: break-spaces;"> <b>Free Offer:</b>  {{.Content}} </div></small>
+        {{end}}
     </div>
 </div>
