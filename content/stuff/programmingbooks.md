@@ -1,6 +1,6 @@
 +++
 date = "2021-06-21T00:00:00+00:00"
-tags = ["programming boks"]
+tags = ["books"]
 title="Free Programming Books"
 link = "https://GoalKicker.com"
 thumbnail = "https://books.goalkicker.com/goalkicker_books.png"
