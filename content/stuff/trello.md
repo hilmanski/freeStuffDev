@@ -6,6 +6,6 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623985447/frees
 snippet="Trello helps teams move work forward."
 tags = ["Project-Management"]
 +++
-Unlimited cards  
-Unlimited members  
+Unlimited cards
+Unlimited members
 Up to 10 boards

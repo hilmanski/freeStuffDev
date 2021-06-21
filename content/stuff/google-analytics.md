@@ -6,6 +6,6 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623912368/frees
 snippet="Get a deeper understanding of your customers. Google Analytics gives you the free tools you need to analyze data for your business in one place."
 tags = ["analytics"]
 +++
-Perfect for Individuals and small to medium-sized companies  
-Multiple data collection options across websites, apps, and internet-connected devices  
+Perfect for Individuals and small to medium-sized companies
+Multiple data collection options across websites, apps, and internet-connected devices
 Data access via mobile app, API, email notifications, and more

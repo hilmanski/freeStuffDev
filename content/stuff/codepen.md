@@ -6,7 +6,7 @@ thumbnail = "https://i0.wp.com/blog.codepen.io/wp-content/uploads/2012/06/Button
 snippet="The best place to build, test, and discover front-end code."
 tags = ["playground"]
 +++
-Unlimited public Pens and Collections  
-Unlimited templates  
-Debug view (requires log in)  
+Unlimited public Pens and Collections
+Unlimited templates
+Debug view (requires log in)
 1 project with 10 files

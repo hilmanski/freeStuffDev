@@ -6,7 +6,7 @@ thumbnail = "https://pbs.twimg.com/profile_images/1171375829382774784/70ZgE-ke_4
 snippet="Where teams build faster, together. Create, share, and get feedback with collaborative sandboxes for rapid web development."
 tags = ["IDE", "playground"]
 +++
-Free for individuals  
-✓ All Platform features  
-✓ Public sandboxes  
+Free for individuals
+✓ All Platform features
+✓ Public sandboxes
 ✓ Personal workspace

@@ -7,8 +7,8 @@ snippet="100% FREE Live Chat Software, Ticketing & Knowledge Base!"
 tags = ["chat", "knowledge-base"]
 +++
 Free forever
-Live Chat  
-Ticketing  
-Knowledge Base  
-Chat Pages  
+Live Chat
+Ticketing
+Knowledge Base
+Chat Pages
 Team Chat 

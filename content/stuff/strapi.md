@@ -6,7 +6,7 @@ thumbnail = "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.co
 snippet="Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first."
 tags = ["API", "CMS"]
 +++
-Free forever (open source)  
-REST & GraphQL API  
-Highly Flexible Content Structure  
+Free forever (open source)
+REST & GraphQL API
+Highly Flexible Content Structure
 Powerful Content Management

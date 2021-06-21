@@ -9,9 +9,6 @@ tags:
   - database
 ---
 3 free databases
-
 10GB storage*
-
 100 Million rows read/mo*
-
 10 Million rows written/mo*

@@ -6,8 +6,8 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623913723/frees
 snippet="Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market."
 tags = ["database","hosting-dynamic"]
 +++
-550-1,000 dyno hours per month  
-Deploy with Git and Docker  
-Custom domains  
-Container orchestration  
+550-1,000 dyno hours per month
+Deploy with Git and Docker
+Custom domains
+Container orchestration
 Automatic OS patching

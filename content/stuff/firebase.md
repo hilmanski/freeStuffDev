@@ -13,8 +13,8 @@ tags:
   - storage
   - authentication
 ---
-Authentication 10k/month\
-Cloud Firestore (stored data: 1 GiB total)\
-Realtime Database (stored data: 1 GB)\
-Hosting storage 10 GB\
+Authentication 10k/month
+Cloud Firestore (stored data: 1 GiB total)
+Realtime Database (stored data: 1 GB)
+Hosting storage 10 GB
 Cloud storage 5 GB

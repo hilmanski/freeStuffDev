@@ -6,6 +6,6 @@ thumbnail = "https://d3r49iyjzglexf.cloudfront.net/apple-touch-icon-f1ef1fb6f37f
 snippet="Get the best continuous integration and delivery for any platform, in our cloud or on your own infrastructure"
 tags = ["CI-CD"]
 +++
-2,500 free credits/week  
-Run 1 job at a time  
+2,500 free credits/week
+Run 1 job at a time
 Build on Linux, Windows, and Arm

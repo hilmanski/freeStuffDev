@@ -6,7 +6,7 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623912868/frees
 snippet="Turn spreadsheets into powerful APIs to rapidly develop prototypes, websites, apps and more."
 tags = ["API", "database"]
 +++
-Unlimited Projects  
-Read, Write, Edit and Delete  
-200 requests per month  
+Unlimited Projects
+Read, Write, Edit and Delete
+200 requests per month
 100 rows per sheet

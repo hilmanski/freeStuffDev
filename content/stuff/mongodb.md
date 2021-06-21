@@ -6,8 +6,8 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623912368/frees
 snippet="The database for modern applications. MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era."
 tags = ["database"]
 +++
-NoSQL Mongo Database  
-512MB to 5GB of storage  
-Shared RAM  
-End-to-end encryption  
+NoSQL Mongo Database
+512MB to 5GB of storage
+Shared RAM
+End-to-end encryption
 Built-in GUI for exploring and manipulating data

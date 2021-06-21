@@ -6,6 +6,6 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623985486/frees
 snippet="The All-In-One Toolkit for Working Remotely."
 tags = ["Project-Management"]
 +++
-3 Projects  
-20 users  
+3 Projects
+20 users
 1 GB storage space

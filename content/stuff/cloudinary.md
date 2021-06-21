@@ -10,16 +10,12 @@ thumbnail: https://res.cloudinary.com/wegoatdev/image/upload/v1623894867/freestu
 tags:
   - storage
 ---
-Media CDN  
-
-Upload widget, API and search  
-
+Media CDN
+Upload widget, API and search
 Image and video transformations
 
 Video transcoding and adaptive streaming
 
-25k transformations or  
-
-25 GB of managed storage or  
-
+25k transformations or
+25 GB of managed storage or
 25 GB of net viewing bandwidth

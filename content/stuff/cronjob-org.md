@@ -6,6 +6,6 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623913723/frees
 snippet="Scheduled execution of your websites and scripts"
 tags = ["cron"]
 +++
-Execution up to 60x an hour  
-Status notifications  
+Execution up to 60x an hour
+Status notifications
 Execution history

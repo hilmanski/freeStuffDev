@@ -10,5 +10,4 @@ tags:
   - mail
 ---
 For new users who want to evaluate Mailtrap or intend to apply it on a personal side project.
-
 500 Email test / month

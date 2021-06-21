@@ -6,5 +6,5 @@ thumbnail = "https://c.disquscdn.com/next/current/marketing/assets/img/brand/app
 snippet="Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising"
 tags = ["comment"]
 +++
-Real time comments  
+Real time comments
 Automated Spam Moderation

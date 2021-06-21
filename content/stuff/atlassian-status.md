@@ -6,9 +6,9 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1624255587/frees
 snippet="Easily communicate real-time status to your users. Just like DigitalOcean, Dropbox, and Intercom. "
 tags = ["status"]
 +++
-100 subscribers  
-2 team members  
-2 metrics  
-email notifications  
-Slack notifications  
+100 subscribers
+2 team members
+2 metrics
+email notifications
+Slack notifications
 REST API

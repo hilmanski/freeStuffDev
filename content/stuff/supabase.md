@@ -11,11 +11,11 @@ tags:
   - storage
   - authentication
 ---
-Get free database, authentication and storage\
-Unlimited API request\
-Database space (Up to 500MB)\
-Users 10.000 users\
-Social Auth provider\
-Storage Up to 1GB\
-Transfer Limit Up to 2GB\
+Get free database, authentication and storage
+Unlimited API request
+Database space (Up to 500MB)
+Users 10.000 users
+Social Auth provider
+Storage Up to 1GB
+Transfer Limit Up to 2GB
 Team members: unlimited

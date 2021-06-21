@@ -6,7 +6,7 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623913388/frees
 snippet="Secure, durable, and scalable object storage infrastructure."
 tags = ["storage"]
 +++
-1 Year Free  
-5 GB of Standard Storage  
-20,000 Get Requests  
+1 Year Free
+5 GB of Standard Storage
+20,000 Get Requests
 2,000 Put Requests

@@ -6,7 +6,7 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623912868/frees
 snippet="The power of a database with the familiarity of a spreadsheet."
 tags = ["API","database"]
 +++
-Unlimited bases  
-1,200 records per base  
-2GB of attachments per base  
+Unlimited bases
+1,200 records per base
+2GB of attachments per base
 Grid, calendar, kanban, form, & gallery views

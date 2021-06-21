@@ -7,7 +7,7 @@ snippet="Collaborate on code with inline comments and pull requests. Manage and 
 tags = ["git-hosting"]
 +++
 Unlimited private repo
-Up to 5 users  
-50 min / mo  
+Up to 5 users
+50 min / mo
 Git Large File Storage 1 GB
 CI/CD

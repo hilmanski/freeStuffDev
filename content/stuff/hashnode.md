@@ -6,11 +6,11 @@ thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623914065/frees
 snippet="Everything you need to start blogging as a developer!"
 tags = ["blogging", "community"]
 +++
-Content Ownership.  
-Blog on your personal domain  
-Add your personality  
-Own your data  
+Content Ownership.
+Blog on your personal domain
+Add your personality
+Own your data
 Free in-built newsletter service
-AMP Support  
-Automatic GitHub Backup  
+AMP Support
+Automatic GitHub Backup
 Free in-built newsletter service
