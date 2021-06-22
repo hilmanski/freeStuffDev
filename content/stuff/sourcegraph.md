@@ -1,6 +1,6 @@
 +++
 date = "2021-06-21T16:25:00+08:00"
-tags = ["big-code","code-search","search", "code-intelligence"]
+tags = ["code-search","code-intelligence"]
 title="Sourcegraph"
 link = "https://sourcegraph.com"
 thumbnail = "https://sourcegraph.com/.assets/img/sourcegraph-head-logo.svg?v2"
