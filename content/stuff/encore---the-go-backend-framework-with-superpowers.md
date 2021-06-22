@@ -4,7 +4,7 @@ title = "Encore - The Go backend framework with superpowers"
 link = "https://encore.dev"
 thumbnail = "https://encore.dev/assets/icons/safari-pinned-tab.svg"
 snippet="The Encore backend framework let's you go from idea to running API in production in minutes, with no servers to manage. Get productive with Encore."
-tags = ["hosting","cloud","tracing","backend"]
+tags = ["hosting","serverless","API","tracing","hosting-backend"]
 +++
 Backend development platform
 Cloud hosting
