@@ -1,0 +1,135 @@
+{{ define "main" }}
+
+<section>
+    <h1>Add New</h1>
+    <p>
+        We'll redirect you to <b>github PR's page</b> after submit. <br>
+        *Make sure you already login to github
+    </p>
+
+    <br>
+    <div id="form">
+        <div>
+        <label for="url"><b>1. Link</b></label>
+        <input id="input_url" type="url" label="link" required>
+        </div>
+
+        <div>
+        <label for="tags"><b>2. Tags</b>  </label>
+       <input id="input_tags" type="text" label="tags" required> 
+<pre>example: hosting,authentication ..</pre>
+        </div>
+
+        <div>
+            <label for="benefit"><b>3. What's free?</b></label>
+            <textarea name="benefits" id="input_benefits" cols="30" rows="5"></textarea>
+<small> <pre>
+example:
+Free self-hosted
+Upload up to 30mb
+</pre></small>
+        </div>
+
+        <button onclick="return validateSubmission();">Submit</button>
+
+        <br><br>
+        <p>Thanks for your contribution!</p>
+    </div>
+
+    <script>
+        function validateSubmission() {
+            let url = document.getElementById('input_url').value
+            let tags = document.getElementById('input_tags').value
+            let benefits = document.getElementById('input_benefits').value
+
+            let METAFETCH_URL = "https://web-meta-scrapper.vercel.app/api?url=" + url
+            fetch(METAFETCH_URL)
+                .then(response => response.json())
+                .then(function(data){
+                    console.log(data)
+
+                    let preFilledlink = generateUrl(data.body, url, tags, benefits)
+                    console.log(preFilledlink)
+                     window.open(preFilledlink)
+
+                    //redirect with all encoded data   
+                    return false;
+                });
+
+            return false;
+        }
+
+        function generateUrl(_info, _URL, _tags, _benefits) {
+            //1. Date
+            const _date = new Date()
+            const date = _date.toISOString();
+
+            //2. Thumbnail
+            let thumbnail = ''
+            if(_info.icon != null || _info.maskIcon != null || _info.touchIcons.length != 0)
+                thumbnail =  _info.icon.href || _info.touchIcons[0].href || _info.maskIcon.href
+
+            //3. Tags
+            const tags = '["' + _tags.replace(/,/g, '","') + '"]'
+
+            //4. Title
+            const title = _info.name || _info.title
+
+            //5. link
+            const url = _URL
+
+            //6. Snippet
+            const snippet = _info.description
+
+            //7. Content
+            const content = _benefits
+
+            //8. FIlename
+            const filename = generateFileName(title) + ".md"
+
+            let fileText = `+++
+date = ${date}
+title = "${title}"
+link = "${url}"
+thumbnail = "${thumbnail}"
+snippet="${snippet}"
+tags = ${tags}
++++
+${content}`
+
+            fileText = encodeURIComponent(fileText)
+
+            return "https://github.com/hilmanski/freeStuffDev/new/main/content/stuff?value=" + fileText
+            +"&filename=" + filename 
+        }
+
+        function generateFileName(_title) {
+          return _title.replace(/\s/g, '-').replace(/\./g, '-').replace(/"/g, '\\"').toLowerCase();
+        }
+
+    </script>
+
+    <style>
+        #form {
+            border:  1px solid grey;
+            padding: 10px;
+        }
+
+        #form div{
+            margin-bottom: 10px;
+        }
+
+        #form label{
+            display: block;
+        }
+
+        #form input{
+            height: 30px;
+            width: 250px;
+            padding: 5px;
+        }
+    </style>
+</section>
+
+<br>
+{{ end }}
