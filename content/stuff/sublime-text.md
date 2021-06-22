@@ -6,4 +6,5 @@ thumbnail = "https://www.sublimetext.com/favicon.ico"
 snippet="Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance."
 tags = ["text-editor"]
 +++
-Free with pop up
+Evaluated for free, a license must be purchased for continued use. 
+There is currently no enforced time limit for the evaluation.
