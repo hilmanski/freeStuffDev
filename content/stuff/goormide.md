@@ -1,7 +1,7 @@
 +++ 
 date = 2021-06-21T12:32:34+03:00 
 title = "Goorm" 
-link = "https://https://ide.goorm.io/" 
+link = "https://ide.goorm.io/" 
 thumbnail = "https://ide.goorm.io/favicon.ico" 
 snippet="goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams. It provides collaborative edit feature, many languages, ability to develop GUI and root-access inside containers. Also there are such features as ssh access into container, port forwarding and custom domains" 
 tags = ["IDE"] 
