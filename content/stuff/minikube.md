@@ -6,4 +6,3 @@ link = "https://minikube.sigs.k8s.io"
 thumbnail = "https://miro.medium.com/max/400/0*KzqL3xqmXzV5PPjX.png"
 snippet="Tool that lets you run Kubernetes locally"
 +++
-Open Source
