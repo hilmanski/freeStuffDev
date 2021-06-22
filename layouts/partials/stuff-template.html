@@ -1,18 +1,21 @@
-<div class="flex flex-mobile is-space-between">
-        <!-- Place this tag where you want the button to render. -->
-    <a class="github-button" href="https://github.com/hilmanski/freeStuffDev" data-color-scheme="no-preference: dark_dimmed; light: dark_dimmed; dark: dark_dimmed;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+<p style="text-align: center; width: 80%; margin: 0 auto;">
+<em>List of free stuff or services for developer by developer to use.
+Some services free forever or have a free tier at least for 1 year</em>
+</p>
+<br>
+
 
     <section id="filter-tag" style="text-align:right;">
         <details>
             <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
             <ul class="tags">
+                <li><a href="/">All</a></li>
                 {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
                     <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
                 {{ end }}
             </ul>
         </details>
     </section>  
-</div>
     <br>
 
     <div>
