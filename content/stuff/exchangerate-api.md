@@ -1,6 +1,6 @@
 +++
 date = "2021-06-21T11:47:02+0000"
-tags = ["API", "currency conversion", "exchange rates", "JSON API"]
+tags = ["API"]
 title = "ExchangeRate-API"
 link = "https://www.exchangerate-api.com"
 thumbnail = "https://www.exchangerate-api.com/img/hr-cube-2022-invert-rc.png"
