@@ -1,6 +1,6 @@
 +++
 date = "2021-06-21T13:21:00+00:00"
-tags = ["data-science","notebook"]
+tags = ["data-science","note-taking"]
 title = "Deepnote"
 link = "https://deepnote.com"
 thumbnail = "https://storage.googleapis.com/deepnote-mg-cdn/logo-white.png"

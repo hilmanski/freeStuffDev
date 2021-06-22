@@ -1,7 +1,7 @@
-<div class="flex">
-    <section id="filter-tag" class="is-half">
+<div class="">
+    <section id="filter-tag" style="text-align:right;">
         <details>
-            <summary class="marginless" style="font-size: 1.2rem;">Filter: </summary>
+            <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
             <ul class="tags">
                 {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
                     <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
@@ -9,8 +9,9 @@
             </ul>
         </details>
     </section>  
+    <br>
 
-    <div class="is-half">
+    <div>
         
         <input type="search" oninput="setTimeout(function(){ liveSearch(); }, 500);" id="searchbox" placeholder="Search..">
         <script>
