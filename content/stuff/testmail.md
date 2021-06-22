@@ -1,6 +1,6 @@
 +++
 date = 2021-06-22T22:35:02.379Z
-title = "Automate email tests | loved by developers & QA teams"
+title = "Testmail App"
 link = "https://testmail.app/"
 thumbnail = "https://pbs.twimg.com/profile_images/1171971160751390720/JMNL8lL3_400x400.jpg"
 snippet="Test new user signups, transactional emails, spam scores, and more. Get started on our free forever plan with unlimited email addresses and mailboxes."
