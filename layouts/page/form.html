@@ -67,7 +67,7 @@ Upload up to 30mb
             //2. Thumbnail
             let thumbnail = ''
             if(_info.icon != null || _info.maskIcon != null || _info.touchIcons.length != 0)
-                thumbnail =  _info.icon.href || _info.touchIcons[0].href || _info.maskIcon.href
+                thumbnail =  _info.maskIcon.href || _info.icon.href || _info.touchIcons[_info.touchIcons.length - 1].href 
 
             //3. Tags
             const tags = '["' + _tags.replace(/,/g, '","') + '"]'
@@ -123,7 +123,7 @@ ${content}`
             display: block;
         }
 
-        #form input{
+        #form input, button{
             height: 30px;
             width: 250px;
             padding: 5px;
