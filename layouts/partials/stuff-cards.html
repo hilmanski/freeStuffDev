@@ -3,7 +3,7 @@
         <div class="flex flex-mobile is-align-items is-two-third">
             <img src="{{ .Params.Thumbnail }}" loading="lazy" alt="Logo {{.Title}}" width="80" height="auto">
             <div>
-                <h3 class="title">  {{.Title}} </h3>
+                <h3 class="title"> <a href="{{ .Params.Link }}?ref=freeStuffDev" target="_blank"> {{.Title}} </a></h3>
                 <p>{{ .Params.Snippet }}</p>
             </div>
         </div>
@@ -15,6 +15,6 @@
     <br>
     <div style="text-align:right;">
         <a class="link" href="https://github.com/hilmanski/freeStuffDev/edit/main/content/{{ .File.Path }}" target="_blank">Edit</a> &nbsp;
-        <a class="link" target="_blank" href="{{ .Params.Link }}">Visit Link</a>
+        <a class="link" target="_blank" href="{{ .Params.Link }}?ref=freeStuffDev">Visit Link</a>
     </div>
 </div>
