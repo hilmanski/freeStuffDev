@@ -4,6 +4,6 @@ title = "Jenkins"
 link = "https://www.jenkins.io/"
 thumbnail = "https://www.jenkins.io/apple-touch-icon.png"
 snippet="an open source automation server which enables developers around the world to reliably build, test, and deploy their software"
-tags = ["CI-CD"]
+tags = ["CI-CD", "deployment"]
 +++
 Free forever and Open Source

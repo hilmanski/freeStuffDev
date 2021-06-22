@@ -1,6 +1,6 @@
 +++
 date = "2021-06-22T11:00:00+07:00"
-tags = ["container"]
+tags = ["container", "kubernetes"]
 title="Kubernetes"
 link = "https://kubernetes.io/"
 thumbnail = "https://kubernetes.io/images/nav_logo.svg"

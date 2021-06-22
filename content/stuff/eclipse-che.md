@@ -1,6 +1,6 @@
 +++
 date = "2021-06-21T11:34:54+0000"
-tags = ["ide", "devtools", "k8s", "kubernetes"]
+tags = ["ide", "devtools", "kubernetes"]
 title="Eclipse Che"
 link = "https://www.eclipse.org/che/"
 thumbnail = "https://raw.githubusercontent.com/eclipse/che-website/master/che/images/getting-started/che-logo.png"
