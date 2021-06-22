@@ -31,29 +31,35 @@ Upload up to 30mb
         </div>
 
         <button onclick="return validateSubmission();">Submit</button>
-
+        <p id="status"></p>
         <br><br>
         <p>Thanks for your contribution!</p>
     </div>
 
     <script>
         function validateSubmission() {
+            let status = document.getElementById('status')
             let url = document.getElementById('input_url').value
             let tags = document.getElementById('input_tags').value
             let benefits = document.getElementById('input_benefits').value
 
             let METAFETCH_URL = "https://web-meta-scrapper.vercel.app/api?url=" + url
+
+            status.innerText = 'Loading...'
             fetch(METAFETCH_URL)
                 .then(response => response.json())
                 .then(function(data){
-                    console.log(data)
+                    status.innerText = 'Redirect..'
 
                     let preFilledlink = generateUrl(data.body, url, tags, benefits)
                     console.log(preFilledlink)
-                     window.open(preFilledlink)
+                    window.open(preFilledlink)
 
                     //redirect with all encoded data   
                     return false;
+                }).catch((error) => {
+                  status.innerHTML = "Sorry.. something went wrong. \n"
+                  +"You can still contribute via<a class='link' href='https://github.com/hilmanski/freeStuffDev/new/main/content/stuff?value=%2B%2B%2B%0Adate%20%3D%20%22YYYY-MM-DDT00%3A00%3A00%2B00%3A00%22%0Atags%20%3D%20%5B%22tag%22%5D%0Atitle%3D%22Title%22%0Alink%20%3D%20%22https%3A%2F%2Flink%22%0Athumbnail%20%3D%20%22url_thumbnail%22%0Asnippet%3D%22Snippet%20of%20product%22%0A%2B%2B%2B%0ADetail%20what%27s%20free%20here..%0A'> this link </a>"
                 });
 
             return false;
@@ -66,8 +72,15 @@ Upload up to 30mb
 
             //2. Thumbnail
             let thumbnail = ''
-            if(_info.icon != null || _info.maskIcon != null || _info.touchIcons.length != 0)
-                thumbnail =  _info.maskIcon.href || _info.icon.href || _info.touchIcons[_info.touchIcons.length - 1].href 
+
+            if(_info.icon != null)
+                thumbnail = _info.icon
+
+            if(_info.maskIcon != null)
+                thumbnail = _info.maskIcon.href
+
+            if(_info.touchIcons.length != 0)
+                thumbnail = _info.touchIcons[_info.touchIcons.length - 1].href
 
             //3. Tags
             const tags = '["' + _tags.replace(/,/g, '","') + '"]'
