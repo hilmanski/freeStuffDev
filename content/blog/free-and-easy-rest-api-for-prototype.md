@@ -3,7 +3,7 @@ title: Free and Easy Rest API for Prototype
 description: How to make an API free for prototyping your app without writing any
   backend code or setup a server
 date: 2019-03-31 05:04:22 +0000
-tags:
+topics:
 - api
 - tool
 image: https://res.cloudinary.com/dr1pp4pqp/image/upload/v1554010128/blog/Screen_Shot_2019-03-31_at_1.26.08_PM.png

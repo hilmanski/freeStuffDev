@@ -2,7 +2,7 @@
 date = "2019-06-13T16:00:00+00:00"
 description = "oftentimes we need to filter or select data in mysql by the interval time"
 image = ""
-tags = ["sql"]
+topics = ["sql"]
 title = "Filter data by interval time (between) in mysql"
 
 +++

@@ -2,7 +2,7 @@
 title: "What Is Bash and How It Can Save Your Time"
 date: 2019-04-02T06:23:48+08:00
 description: "Have you heard about bash? but not sure what does bash actually do? Let's see how it can save you r time.. a lot"
-tags: ["bash", "productivity"]
+topics: ["bash", "productivity"]
 ---
 
 Have you heard about bash (Unix shell)? but not sure what does bash actually do? Let's see how it can save your time.. a lot.

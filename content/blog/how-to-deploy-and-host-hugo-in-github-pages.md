@@ -2,7 +2,7 @@
 title: "How to Deploy and Host Hugo in Github Pages"
 description: "How to deploy your hugo website and Host it for free in Github Pages"
 date: 2019-03-30T06:45:45+08:00
-tags: ["hugo"]
+topics: ["hugo"]
 ---
 Have you heard that github offers a service to host your static site for free? well, maybe you read this and say
 "How about blog website?" don't worry, now we have a static-site-generator like jekyll, hugo, etc. that make static not just "static anymore". You could make a blog or any kind of listing site with this, without always have to copy and paste every layout.

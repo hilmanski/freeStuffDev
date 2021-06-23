@@ -1,7 +1,7 @@
 ---
 title: How to Make Dynamic Twitter Card for Hugo
 date: 2019-04-04 02:26:14 +0000
-tags:
+topics:
 - hugo
 description: Hot to make a nice dynamic twitter card in Hugo to optimize our twitter
   post

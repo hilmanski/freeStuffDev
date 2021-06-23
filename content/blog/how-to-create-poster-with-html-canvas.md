@@ -3,7 +3,7 @@ title: How to Create Poster With Html Canvas
 date: 2019-03-30 22:14:17 +0000
 description: Learn how to make a poster with html canvas, in this example we will
   make a poster for making a quoter for instagram post
-tags:
+topics:
 - html
 - javascript
 - canvas

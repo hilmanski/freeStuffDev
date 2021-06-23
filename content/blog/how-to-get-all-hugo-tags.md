@@ -2,7 +2,7 @@
 title: "How to Get All Hugo Tags"
 date: 2019-03-31T10:10:28+08:00
 description: "How to get all hugo tags or taxonomy or category you use for your static website"
-tags: ["hugo"]
+topics: ["hugo"]
 ---
 
 If you need all the tags you currently use for your website built with Hugo, you can grab it from .Site.Taxonomis.tags. You can get the Permalink directly and the name itself.

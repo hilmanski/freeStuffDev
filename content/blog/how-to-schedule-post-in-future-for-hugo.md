@@ -2,7 +2,7 @@
 title: How to Schedule Post in Future for Hugo
 date: 2019-04-01 01:46:10 +0000
 description: How to set hugo post schedule in the future with netlify and cron task
-tags:
+topics:
 - hugo
 - tool
 image: https://res.cloudinary.com/wegoatdev/image/upload/v1554076813/blog/Screen_Shot_2019-04-01_at_7.00.16_AM.png

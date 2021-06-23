@@ -3,7 +3,7 @@ title: How to Customize Front Matter in Hugo
 date: 2019-04-04 05:27:17 +0000
 description: Learn how to customize you pre-defined fields in front matter in your
   hugo app
-tags:
+topics:
 - hugo
 image: https://res.cloudinary.com/wegoatdev/image/upload/v1554254942/blog/Screen_Shot_2019-04-03_at_9.28.01_AM.png
 

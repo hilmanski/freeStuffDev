@@ -2,7 +2,7 @@
 title: "Create New Hugo Post Faster With Bash"
 date: 2019-04-02T01:03:49+08:00
 description: "How to create new hugo post faster with bash script? without writing hugo new command anymore"
-tags: ["bash", "hugo", "productivity"]
+topics: ["bash", "hugo", "productivity"]
 ---
 
 If I can't automate a repetitive task, i always try to find a way to make it faster. One of the pain point in creating new post with hugo is we always have to type.

@@ -2,7 +2,7 @@
 title: "Move My Hugo Site From Github Pages to Netlify"
 date: 2019-04-01T08:02:42+08:00
 description: "Today i move my static site using hugo from github-pages to netlify hosting provider"
-tags: ["sharing", "hugo"]
+topics: ["sharing", "hugo"]
 ---
 
 Today i move my static hugo site from github-pages to netlify. I heard a lot of good things about netlify before, but github-pages seems easier to use (less complicated) for me.

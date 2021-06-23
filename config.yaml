@@ -14,3 +14,8 @@ summaryLength: 25
 
 outputs:
     section : ["HTML", "RSS", "JSON"]
+
+taxonomies:
+    category : categories
+    topic : topics
+    tag : tags

@@ -4,7 +4,7 @@ title: On building freestuff.dev
 description: reason why I start building freestuff.dev
 date: 2021-06-23T05:58:53.475Z
 image: /img/uploads/screen-shot-2021-06-23-at-2.09.24-pm.png
-tags:
+topics:
   - sharing
 ---
 Whenever I find some free cool developer tools/services that I can use for my next product, I immediately write it down in my private note.

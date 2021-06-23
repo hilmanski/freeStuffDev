@@ -5,7 +5,7 @@ description: Learn How to backup database on Laravel App. Remember to always
   backup your database, never underestimate what happen tomorrow
 date: 2021-04-22T07:05:31.079Z
 image: /img/uploads/screen-shot-2021-04-22-at-3.12.12-pm.png
-tags:
+topics:
   - laravel
 ---
 Never underestimate what might happen tomorrow. No one know when your app got hacked or when you accidentally do something wrong with your production database.

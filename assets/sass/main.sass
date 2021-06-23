@@ -83,8 +83,6 @@ header
         font-size: 2rem
         line-height: 2.2rem
         margin-bottom: 0px
-        &:hover
-            text-decoration: underline
         a
             display: block
             width: 100%
@@ -100,13 +98,13 @@ header
             font-size: 1.2rem
         pre
             border-radius: 10px
-            padding: 5px
+            padding: 5px 15px
             margin-bottom: 10px
+        a
+            text-decoration: underline
     h2, h3
-        color: $gold
-        margin-top: 40px
-    a
-        text-decoration: underline
+        font-size: 1.5rem
+        margin-top: 30px
     img
         display: block
         margin-left: auto
@@ -182,7 +180,7 @@ input[type="search"]
     &:focus
         outline: none
 
-.tags
+.topics, .tags
     font-size: 1rem
     list-style: none
     li
@@ -196,64 +194,6 @@ input[type="search"]
         background: #838383
         font-size: 0.8rem
         color: white
-    .tags-api
-        background: rgb(215, 41, 57)
-        color: white
-    .tags-atom
-        background: #1DA977
-    .tags-bash
-        background: rgb(28, 28, 28)
-        color: white
-    .tags-css
-        background: rgb(83, 212, 200)
-    .tags-canvas
-        background: rgb(105, 176, 203)
-        color: white
-    .tags-firebase
-        background: rgb(235, 190, 55)
-    .tags-go
-        background: rgb(89, 205, 255)
-    .tags-html
-        background: rgb(245, 108, 58)
-        color: white
-    .tags-hugo
-        background: #FF4088
-        color: white
-    .tags-javascript
-        background: rgb(212, 210, 83)
-    .tags-jquery
-        background: #0766A9
-        color: white
-    .tags-mac
-        background: rgb(217, 217, 217)
-    .tags-nodejs
-        background: rgb(142, 222, 138)
-    .tags-php
-        background: rgb(190, 50, 193)
-    .tags-python
-        background: rgb(60, 112, 246)
-    .tags-productivity
-        background: #4165c3
-        color: white
-    .tags-react
-        background: rgb(53, 152, 232)
-    .tags-sharing
-        background: rgb(249, 112, 153)
-        color: white
-    .tags-tool
-        background: rgb(224, 166, 52)
-    .tags-vue
-        background: rgb(92, 179, 108)
-    .tags-kotlin
-        background: #DA6B75
-        color: white
-    .tags-laravel
-        background: #FE4F32
-        color: white
-    .tags-sql
-        background: #0FC1C9
-    .tags-database
-        background: rgb(64, 182, 179)
 
 #pagination
     text-align: center
@@ -269,4 +209,5 @@ footer
     a
         text-decoration: underline
 
+@import 'topics-label'
 @import 'responsive'

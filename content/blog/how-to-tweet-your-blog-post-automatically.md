@@ -2,7 +2,7 @@
 title: "How to Tweet Your Blog Post Automatically"
 description: "How to tweet your blog content automatically via RSS by schedule that you define yourself"
 date: 2019-03-31T19:03:13+08:00
-tags: ["tool", "productivity"]
+topics: ["tool", "productivity"]
 ---
 
 There are many social media manager out there, like Hootsuite and Buffer, but not many people have heard about [dlvr.it](https://dlvrit.com/). Just like other, it offers a scheduling feature, with a bonus: we can connect our RSS blog feed with dlvr.it to automatically tweet our new post.

@@ -2,7 +2,7 @@
 title: "Mac Shortcut to Improve Productivity"
 date: 2019-03-31T20:06:47+08:00
 description: "Some mac's shortcut to improve your productivity while working with mac"
-tags: ["mac", "productivity"]
+topics: ["mac", "productivity"]
 ---
 
 I still remember when one of my friend said to me "I don't use mouse, I'm a keyboard freak". I didn't really get the point back then, why would someone use mouse -less? isn't mouse there to help us work faster? In some cases, the answer is yes, but while I spend so much time work on mac laptop/computer, i already find myself keep looking for shortcut for certain task, since moving my hand from keyboard to mouse "takes time" and feels like I'm breaking the "zone".
