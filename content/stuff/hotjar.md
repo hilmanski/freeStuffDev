@@ -2,7 +2,7 @@
 date = 2021-06-23T22:14:33.706Z
 title = "Hotjar"
 link = "https://www.hotjar.com/"
-thumbnail = "[object Object]"
+thumbnail = "https://ik.imagekit.io/kodingclub/freestuffdev/stuff/Screen_Shot_2021-06-24_at_6.16.04_AM_jj5CaBKQS.png"
 snippet="See how visitors are really using your website, collect user feedback and turn more visitors into customers."
 tags = ["UX","analytics"]
 +++
