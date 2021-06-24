@@ -1,0 +1,34 @@
+{{ $title := .Title }}
+{{ $desc := "" }}
+
+{{ if .Description }} 
+    {{ $desc = .Description }} 
+{{ else }} 
+    {{ $desc = .Site.Params.Description }}  
+{{ end }}
+
+{{ if hasPrefix .RelPermalink "/tags/" }}
+    {{ $title = printf "%s%s%s" "Free " .Title " service for dev"}}
+    {{ $desc = printf "%s%s%s" "List of free " .Title " service or stuff for developer to use for MVP or prototyping product"}}
+{{ end }}
+
+{{ if hasPrefix .RelPermalink "/topics/" }}
+    {{ $title = printf "%s%s" "Dev blog about " .Title}}
+     {{ $desc = printf "%s%s%s" "Developer blog around " .Title " to read by freestuff.dev"}}
+{{ end }}
+
+{{ if eq .URL "/blog/" }}
+    {{$title = "Developer blog by freestuff.dev"}}
+    {{$desc = "Blog around developer stuff by freestuff.dev. Topics include hugo, database, productivity, larave, javascript and more"}}
+{{ end }}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{$desc}}" property="og:description">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@freestuffdev" />
+<meta name="twitter:creator" content="@freestuffdev" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{$desc}}" />
+<meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png{{end}}" />

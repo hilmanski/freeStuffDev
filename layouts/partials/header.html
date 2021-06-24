@@ -4,16 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ if eq .Kind "term" }} Free {{ .Title }} service for dev {{ else }}{{ .Title }}{{ end }} </title>
-    <meta name="description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} service for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' property="og:description">
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@freestuffdev" />
-    <meta name="twitter:creator" content="@freestuffdev" />
-    <meta property="og:url" content=" {{ .Permalink }}" />
-    <meta property="og:title" content='{{ if eq .Kind "term" }}Free {{ .Title }} service for dev{{ else }}{{ .Title }}{{ end }}' />
-    <meta property="og:description" content='{{ if eq .Kind "term" }} List of free {{ .Title }} service for developer {{else}}{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }} {{ end }}' />
-    <meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png{{end}}" />
+    {{ partial "metadata.html" .}}
 
     {{ $style := resources.Get "/sass/main.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
@@ -36,15 +27,14 @@
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
-
-
+    
 <body class="darkmode">
     <header class="flex flex-mobile is-space-between is-align-items">
         <div class="flex flex-mobile is-space-between is-align-items">
             <img src="https://i.ibb.co/qRXK9gd/logo-freedevstuff.png" alt="logo we goat dev" height="100" width="100">
             <div id="branding">
                 <b> <a href='/'> {{ .Site.Title }} </a></b>
-                <p>{{ .Site.Params.description }}</p>
+                <p>Free Stuff for Dev</p>
                 <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
             </div>
         </div>
@@ -55,5 +45,3 @@
             <span id="darkModeBtn"> 🌝 </span>
         </nav> 
     </header>
-
- 

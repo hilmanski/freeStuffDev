@@ -3,7 +3,7 @@ languageCode : en
 title : Free Dev Stuff
 
 params:
-    description: Free stuff for developer
+    description: List of free stuff for developer by developer to use
 
 staticDir: static
 

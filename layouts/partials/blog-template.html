@@ -5,7 +5,12 @@
      {{ end }}
  {{ end }}
 </nav>
+
 <br>
+<h2>
+  {{ if eq .Kind "term" }} Dev blog about {{ .Title }} {{end}}
+</h2>
+<hr><br>
 
 <main>
  <ul class="v-distance">
