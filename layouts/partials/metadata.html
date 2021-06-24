@@ -17,7 +17,7 @@
      {{ $desc = printf "%s%s%s" "Developer blog around " .Title " to read by freestuff.dev"}}
 {{ end }}
 
-{{ if eq .URL "/blog/" }}
+{{ if eq .RelPermalink "/blog/" }}
     {{$title = "Developer blog by freestuff.dev"}}
     {{$desc = "Blog around developer stuff by freestuff.dev. Topics include hugo, database, productivity, larave, javascript and more"}}
 {{ end }}
