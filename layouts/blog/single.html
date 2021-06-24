@@ -11,9 +11,9 @@
     <br>
     <aside id="meta">
         <section>
-            <ul class="tags">Tags:
-                {{ range .Params.tags }}
-                  <li><a class="tags-{{.}}" href="#">{{ . }}</a> </li>
+            <ul class="topics">Topics:
+                {{ range .Params.topics }}
+                  <li><a class="topics-{{.}}" href="/topics/{{.}}">{{ . }}</a> </li>
                 {{ end }}
                 | <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
             </ul>

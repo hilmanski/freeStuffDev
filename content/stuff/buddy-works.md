@@ -4,7 +4,7 @@ title = "Buddy Works"
 link = "https://buddy.works/"
 thumbnail = "https://buddy.works/assets/icons/apple-touch-icon-114x114.png"
 snippet="Get the most powerful and easy-to-configure continuous integration and delivery platform."
-tags = ["CI-CD"]
+tags = ["CI-CD","deployment"]
 +++
 Unlimited Delivery Pipelines
 High-performance Build Environment

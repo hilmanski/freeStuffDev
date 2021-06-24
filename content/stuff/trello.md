@@ -4,7 +4,7 @@ title = "Trello"
 link = "https://trello.com/"
 thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623985447/freestuffdev/stuff/trello-icon-gradient-blue.svg"
 snippet="Trello helps teams move work forward."
-tags = ["Project-Management"]
+tags = ["Project-Management","remote"]
 +++
 Unlimited cards
 Unlimited members

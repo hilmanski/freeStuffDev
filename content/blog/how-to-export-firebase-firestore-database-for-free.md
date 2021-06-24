@@ -2,7 +2,7 @@
 date = "2019-04-07T03:00:00+00:00"
 description = "How to export firebase firestore database for free"
 image = "https://res.cloudinary.com/wegoatdev/image/upload/v1554011887/blog/Screen_Shot_2019-03-31_at_1.52.06_PM.png"
-tags = ["firebase"]
+topics = ["firebase"]
 title = "How to export firebase firestore database for free"
 
 +++

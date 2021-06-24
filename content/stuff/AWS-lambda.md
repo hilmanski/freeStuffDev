@@ -4,7 +4,7 @@ title = "AWS Lambda"
 link = "https://aws.amazon.com/lambda"
 thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623913145/freestuffdev/stuff/lambda.png"
 snippet="Compute service that runs your code in response to events and automatically manages the compute resources."
-tags = ["serverless"]
+tags = ["serverless","AWS"]
 +++
-1,000,000 free requests per month  
+1,000,000 free requests per month
 Up to 3.2 million seconds of compute time per month

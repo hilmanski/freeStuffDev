@@ -2,7 +2,7 @@
 date = "2019-07-10T16:00:00+00:00"
 description = "I'd like to share my experince as a web developer to try learn how to make an android app with kotlin"
 image = ""
-tags = ["kotlin"]
+topics = ["kotlin"]
 title = "My experience learning android with kotlin from web development background"
 
 +++

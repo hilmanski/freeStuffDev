@@ -1,7 +1,7 @@
 ---
 title: "How to Include JQuery via Inspect Console"
 date: 2019-04-03T07:41:43+08:00
-tags: ["jquery"]
+topics: ["jquery"]
 description: "How can you include a jquery for website that didn't use it via javascript console or inspect element"
 ---
 

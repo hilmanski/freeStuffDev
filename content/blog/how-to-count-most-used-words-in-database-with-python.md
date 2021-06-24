@@ -2,7 +2,7 @@
 date = "2019-04-06T09:00:00+00:00"
 description = "How to count most used words in a sentence or article with  python programming language"
 image = "https://res.cloudinary.com/wegoatdev/image/upload/v1554360497/blog/python.jpg"
-tags = ["python"]
+topics = ["python"]
 title = "How to count most used words in database with python"
 
 +++

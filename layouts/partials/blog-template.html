@@ -1,0 +1,17 @@
+<nav class="topics">
+ {{ range $name, $taxonomy :=  .Site.Taxonomies.topics }}
+     {{ with $.Site.GetPage (printf "/topics/%s" $name) }}
+         <li><a class="topics-{{ $name }}"  href="{{ .Permalink }}">{{ $name }}</a></li>
+     {{ end }}
+ {{ end }}
+</nav>
+<br>
+
+<main>
+ <ul class="v-distance">
+   {{ range .Pages }}
+     {{ partial "blog-cards.html" . }}
+   {{ end }}
+  </ul>
+</main>
+<br>

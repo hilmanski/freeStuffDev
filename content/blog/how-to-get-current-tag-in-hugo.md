@@ -2,7 +2,7 @@
 title: "How to Get Current Tag in Hugo"
 date: 2019-03-30T10:09:07+08:00
 description: "How to get current active tag or taxonomy in hugo website? it is the same way you got the last part of the url, wait, i found a simpler one"
-tags: ["hugo"]
+topics: ["hugo"]
 ---
 
 When i'm working on this hugo website, i struggle how to get the current tag or taxonomy. ~~Unfortunately i didn't find any straightforward solution for this~~.

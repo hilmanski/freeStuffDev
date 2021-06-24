@@ -2,7 +2,7 @@
 date = "2019-10-05T16:00:00+00:00"
 description = "How to read a json file that has a dynamic or random key in Go language. We'll use the map data type to solve this"
 image = ""
-tags = ["go"]
+topics = ["go"]
 title = "Read json file with random key in Go Lang"
 
 +++

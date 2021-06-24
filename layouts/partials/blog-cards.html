@@ -1,0 +1,10 @@
+ <div>
+   <h3 class="title" style="font-size: 1.5rem;"> <a class="link" href="{{.Permalink}}"> {{.Title}} </a></h3>
+   <p class="desc">{{ .Summary }}</p>
+
+   <ul class="topics">Tags:
+       {{ range .Params.topics }}
+         <li><a class="topics-{{.}}" href="/topics/{{.}}">{{ . }}</a> </li>
+       {{ end }}
+   </ul>
+</div>

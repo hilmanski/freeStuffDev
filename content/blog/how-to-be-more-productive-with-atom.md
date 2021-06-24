@@ -2,7 +2,7 @@
 title: "How to Be More Productive With Atom"
 date: 2019-03-30T20:42:34+08:00
 description: "There are many things you can do with atom text editor to make you more productive"
-tags: ["atom", "productivity"]
+topics: ["atom", "productivity"]
 ---
 
 There are many things you can do with atom text editor to make you more productive. Installing some [nice packages for atom](my-atom-recommended-packages/) is the first step, now let's go further by learning some shortcut (which means using -mouse- less)!

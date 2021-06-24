@@ -2,7 +2,7 @@
 date = "2019-10-05T16:00:00+00:00"
 description = "I want to migrate my firebase site (data stored in firestore) to Hugo posts. The problem is hugo made with files not database per se. Here is how i convert or migrate from firebase to hugo markdown to create post"
 image = ""
-tags = ["database", "firebase", "hugo"]
+topics = ["database", "firebase", "hugo"]
 title = "Migrate from firebase to Hugo"
 
 +++

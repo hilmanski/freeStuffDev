@@ -2,7 +2,7 @@
 title: "How to Draw Image in Html Canvas"
 date: 2019-03-31T06:00:02+08:00
 description: "Let's learn how to draw an image with HTML canvas. We'll see how to upload image and draw it or browse it on our machine's library"
-tags: ["html", "javascript", "canvas"]
+topics: ["html", "javascript", "canvas"]
 ---
 
 Besides, [drawing text in canvas](/how-to-draw-text-in-html-canvas/), we also can add an image, whether from url link or browse any image on our library.

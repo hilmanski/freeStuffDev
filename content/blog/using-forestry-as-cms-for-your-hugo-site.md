@@ -2,7 +2,7 @@
 date = "2019-04-05T03:00:00+00:00"
 description = "We need to make our blogging experience as fun and easy as possible, content management system might help us to do that"
 image = "https://res.cloudinary.com/wegoatdev/image/upload/v1554258977/blog/forestry.png"
-tags = ["hugo"]
+topics = ["hugo"]
 title = "Using forestry as CMS for your Hugo site"
 
 +++

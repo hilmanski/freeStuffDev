@@ -2,7 +2,7 @@
 date = "2019-04-08T16:00:00+00:00"
 description = "Learn how to consume and display data from an API with Axios package in Vuejs"
 image = "https://res.cloudinary.com/wegoatdev/image/upload/v1554791743/blog/axios.png"
-tags = ["api", "vue"]
+topics = ["api", "vue"]
 title = "How to consume API in Vue with Axios"
 
 +++

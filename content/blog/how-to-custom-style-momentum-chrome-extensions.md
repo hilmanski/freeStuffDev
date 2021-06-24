@@ -2,7 +2,7 @@
 date = "2019-08-04T16:00:00+00:00"
 description = "Chrome extensions is just like other program, it's inside your computer after downloaded, so you can customize it too"
 image = ""
-tags = ["sharing"]
+topics = ["sharing"]
 title = "How to custom style momentum chrome extensions"
 
 +++

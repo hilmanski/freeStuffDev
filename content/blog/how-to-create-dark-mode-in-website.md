@@ -2,7 +2,7 @@
 title: "How to Create Dark Mode in Website"
 description: "Learn how to create a dark mode website for your website. It's actually easier that you think"
 date: 2019-03-30T09:38:40+08:00
-tags: ["html", "css", "javascript"]
+topics: ["html", "css", "javascript"]
 ---
 
 Oftentimes we see a dark mode in website, just like this one. For me personally, i can't stare too long on a bright screen, that's why i prefer dark mode for some websites. And as a developer, it's hard not to think "how is it made?".

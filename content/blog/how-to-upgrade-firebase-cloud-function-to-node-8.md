@@ -2,7 +2,7 @@
 date = "2019-08-03T16:00:00+00:00"
 description = "Learn how to upgrade your firebase project that using cloud function to node version 8"
 image = ""
-tags = ["firebase"]
+topics = ["firebase"]
 title = "How to upgrade firebase cloud function to node 8"
 
 +++

@@ -2,7 +2,7 @@
 title: "How to Make Custom Atom Snippet"
 description: "How to make a custom atom's snippet, to make your coding time more productive"
 date: 2019-03-30T18:53:30+08:00
-tags: ["atom", "productivity"]
+topics: ["atom", "productivity"]
 ---
 
 DRY or don't repeat yourself is one of the most popular advice we got in coding. Not just for the code we write, it also apply for things we do while writing code. If you love using atom as your main text editor, we can make some snippets to help us generate text/code that we often use.

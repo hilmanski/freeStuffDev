@@ -12,6 +12,7 @@ tags:
   - hosting-static
   - storage
   - authentication
+  - real-time
 ---
 Authentication 10k/month
 Cloud Firestore (stored data: 1 GiB total)

@@ -2,7 +2,7 @@
 title: "My Atom Recommended Packages"
 description: "What's your favorite atom packages? here is some of my atom recommended packages"
 date: 2019-03-30T20:10:17+08:00
-tags: ["atom"]
+topics: ["atom"]
 ---
 
 As a developer, a text editor is not something we can just ignore. Since I found out about atom, I never go back 😘. Even "visual studio code" clearly run faster on my machine, atom just feels right for me. If you are an atom guy/girl like me, here are some atom packages made by awesome community you might find useful:

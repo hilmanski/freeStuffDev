@@ -2,7 +2,7 @@
 title: "How to Create Simple Pagination in Hugo"
 date: 2019-04-03T14:23:13+08:00
 description: "How to create simple next and previous button for your website's pagination in Hugo"
-tags: ["hugo"]
+topics: ["hugo"]
 ---
 
 If you start looking how to paginate your blog in Hugo, it's a very good sign 🤗 ! why? it means you take your blog seriously, you post more than once (at least 😅). Luckily, Hugo make it very simple to create a pagination

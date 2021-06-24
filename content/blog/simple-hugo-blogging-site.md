@@ -2,7 +2,7 @@
 title: "Simple Hugo Blogging Site"
 description: "How to make a simple hugo website for blogging with tagging or category system."
 date: 2019-03-30T05:43:40+08:00
-tags: ["hugo"]
+topics: ["hugo"]
 ---
 
 I always search for something simple for any of my problem. Just like every developer who wants to start a blog, deciding which platform to use is really hard. For me, the criteria are something hackable and fast for the reader. Luckily, I met Hugo! The claim “The world’s fastest framework for building websites” they put in their landing page is an honest slogan! I've got a very good experience so far with Hugo (I’ve tried Jekyll, Nuxt, Next).

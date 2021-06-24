@@ -2,7 +2,7 @@
 title: "Welcome to WeGoat.dev"
 description: "welcome to wegoatdev, a blog to share around dev topics. Lets explore code's world through experiment"
 date: 2019-03-29T13:50:22+08:00
-tags: ["sharing"]
+topics: ["sharing"]
 ---
 
 Welcome to wegoatdev, a blog to share around dev topics.
