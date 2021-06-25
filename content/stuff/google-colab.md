@@ -6,4 +6,3 @@ thumbnail = "https://colab.research.google.com/img/colab_favicon_256px.png"
 snippet="Colab is a free Jupyter notebook environment that runs entirely in the cloud."
 tags = ["data-science","data-visualizations"]
 +++ 
-Free to use
