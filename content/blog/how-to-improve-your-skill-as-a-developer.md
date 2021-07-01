@@ -9,6 +9,8 @@ topics:
   - sharing
   - open-source
 ---
+Whether you are writing your first or 1000th line of code, I’m sure we all strive to improve our skill as programmers. We want to do more, learn more, and know more about coding.
+
 How to improve your programming skill? This is the question that we should ask. To answer this question, this article provides a list of how to improve your programming skill
 
 > **Disclaimer:**\
