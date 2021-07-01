@@ -7,4 +7,5 @@ snippet="The world's most popular web automation, data extraction, and web testi
 tags = ["automation","testing"]
 +++
 Free browser add on
-Limited to 50 actions/commands/lines. Available for Firefox, Chrome, and Internet Explorer.
+Limited to 50 actions/commands/lines. 
+Available for Firefox, Chrome, & IE.
