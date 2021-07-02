@@ -1,6 +1,6 @@
 +++
 date = 2021-07-02T05:39:50.976Z
-title = "DeepSource: Automated code reviews for fast moving teams"
+title = "DeepSource"
 link = "https://deepsource.io/"
 thumbnail = "https://static.deepsource.io/core/img/favicon-light.png"
 snippet="DeepSource helps you write clean code on every pull-request. Built for teams who move fast and don’t break things."
