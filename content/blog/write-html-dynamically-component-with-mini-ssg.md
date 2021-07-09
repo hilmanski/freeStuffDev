@@ -136,4 +136,6 @@ attach it like this
 			
 ```
 
+It's a build tool, means you have to run a command (in this case \`npm run dev\`) to generate final static sites for you. I also integrate live server, so you can have localserver running while you are building your sites.
+
 That's the preview of mini SSG package that I built, maybe you need this too :). Here is [mini SSG website's link](https://minissg.vercel.app/)
