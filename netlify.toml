@@ -25,3 +25,8 @@ HUGO_VERSION = "0.74.3"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://onebite.dev/*"
+  status = 301
