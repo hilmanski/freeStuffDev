@@ -27,6 +27,7 @@ HUGO_VERSION = "0.74.3"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/blog/*"
-  to = "https://onebite.dev/*"
+  from = "https://freestuff.dev/blog/*"
+  to = "https://onebite.dev/:splat"
   status = 301
+  force = true
