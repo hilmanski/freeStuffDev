@@ -1,2 +1,2 @@
-https://freestuff.dev/blog/* https://onebite.dev/:splat 301!
-https://freestuff.dev/blog https://onebite.dev/posts 301!
+/blog/* https://onebite.dev/:splat 301
+/blog https://onebite.dev/posts 301
