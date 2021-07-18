@@ -2,7 +2,7 @@
 date = 2021-06-17T15:03:36+08:00
 title = "AWS DynamoDB"
 link = "https://aws.amazon.com/dynamodb"
-thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623913145/freestuffdev/stuff/220px-DynamoDB.png"
+thumbnail = "https://ik.imagekit.io/kodingclub/freestuffdev/stuff/dynamodb_s2DmACess.png"
 snippet="Fast and flexible NoSQL database with seamless scalability."
 tags = ["database","AWS","nosql"]
 +++

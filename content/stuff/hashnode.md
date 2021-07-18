@@ -2,7 +2,7 @@
 date = 2021-06-17T15:14:30+08:00
 title = "Hashnode"
 link = "https://hashnode.com/"
-thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623914065/freestuffdev/stuff/Screen_Shot_2021-06-17_at_3.13.50_PM.png"
+thumbnail = "https://cdn.hashnode.com/res/hashnode/image/upload/v1611242155728/W3_BYVVVh.png"
 snippet="Everything you need to start blogging as a developer!"
 tags = ["blogging"]
 +++

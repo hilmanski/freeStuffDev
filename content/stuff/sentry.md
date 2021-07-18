@@ -2,7 +2,7 @@
 date = 2021-06-21T06:56:18.793Z
 title = "Sentry"
 link = "https://sentry.io/"
-thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1624258688/freestuffdev/stuff/Screen_Shot_2021-06-21_at_2.57.30_PM.png"
+thumbnail = "https://avatars.githubusercontent.com/u/1396951?s=200&v=4"
 snippet="Self-hosted and cloud-based application monitoring that helps software teams discover, triage, and prioritize errors in real-time."
 tags = ["status","monitor"]
 +++

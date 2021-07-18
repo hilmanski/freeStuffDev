@@ -4,7 +4,7 @@ link: https://auth0.com/
 snippet: Auth0 is an easy to implement, adaptable authentication and
   authorization platform.
 date: 2021-06-17T03:07:15.856Z
-thumbnail: https://res.cloudinary.com/wegoatdev/image/upload/v1623912368/freestuffdev/stuff/Screen_Shot_2021-06-17_at_11.06.34_AM-removebg-preview.png
+thumbnail: https://pbs.twimg.com/profile_images/1415048949103267845/y1qoJqsU_400x400.jpg
 tags:
   - authentication
 ---

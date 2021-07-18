@@ -5,7 +5,7 @@ snippet: The Open Source Firebase Alternative Create a backend in less than 2
   minutes. Start your project with a Postgres Database, Authentication, instant
   APIs, realtime subscriptions and Storage.
 date: 2021-06-17T02:56:44.222Z
-thumbnail: https://res.cloudinary.com/wegoatdev/image/upload/v1623898594/freestuffdev/stuff/Screen_Shot_2021-06-17_at_10.56.12_AM-removebg-preview.png
+thumbnail: https://pbs.twimg.com/profile_images/1397471927132844033/jN-wuufb_400x400.jpg
 tags:
   - database
   - storage

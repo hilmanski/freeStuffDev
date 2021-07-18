@@ -3,7 +3,7 @@ date = "2021-06-15T00:00:00+00:00"
 tags = ["hosting", "hosting-dynamic", "hosting-static", "serverless"]
 title="Netlify"
 link = "https://www.netlify.com/"
-thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623795952/freestuffdev/stuff/netlify.png"
+thumbnail = "https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg"
 snippet="An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps"
 +++
 Host static and serverless function
