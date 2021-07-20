@@ -1,69 +1,89 @@
-<p style="width: 80%; margin: 0 auto;" class="center">
-<em>List of free  {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff or services for developer by developer to use.
-Some services free forever or have a free tier at least for 1 year</em>
-</p>
+<div class="flex">
+    <div class="is-one-third pr-5">
+        <p>
+        <em>List of free  {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff or services for developer by developer to use.
+        Some services free forever or have a free tier at least for 1 year</em>
+        </p>
 
-<p  class="center">
-    Referral:
-<a href="https://m.do.co/c/add83b15b18d" class="link" target="_blank">Free 100$ credit by DigitalOcean</a>
-</p>
-<br>
+        <p> Referral:
+        <a href="https://m.do.co/c/add83b15b18d" class="link" target="_blank">Free 100$ credit by DigitalOcean</a>
+        </p>
+        <br>
 
 
-    <section id="filter-tag" style="text-align:right;">
-        <details>
-            <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
-            <ul class="tags">
-                <li><a href="/">All</a></li>
-                {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
-                    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-                {{ end }}
-            </ul>
-        </details>
-    </section>  
-    <br>
+        <section class="on-mobile-only" id="filter-tag" style="text-align:right;">
+            <hr>
+            <details>
+                <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
+                <ul class="tags">
+                    <li><a href="/">All</a></li>
+                    {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </details>
+            <hr>
+        </section>  
+        <br>
 
-    <div>
-        
-        <input type="search" oninput="setTimeout(function(){ liveSearch(); }, 500);" id="searchbox" placeholder="Search..">
-        <script>
-            function liveSearch() {
+        <div>
+            <input type="search" oninput="setTimeout(function(){ liveSearch(); }, 500);" id="searchbox" placeholder="Search..">
+            <script>
+                function liveSearch() {
 
-                let cards = document.getElementsByClassName('cards')
-                let search_query = document.getElementById("searchbox").value;
-                
-                console.log(search_query)
+                    let cards = document.getElementsByClassName('cards')
+                    let search_query = document.getElementById("searchbox").value;
+                    
+                    console.log(search_query)
 
-                for (var i = 0; i < cards.length; i++) {
-                    if(cards[i].innerText.toLowerCase()
-                            .includes(search_query.toLowerCase())) {
-                        console.log('here..')
-                        cards[i].classList.remove("is-hidden");
-                    } else {
-                        console.log('there..')
-                        cards[i].classList.add("is-hidden");
+                    for (var i = 0; i < cards.length; i++) {
+                        if(cards[i].innerText.toLowerCase()
+                                .includes(search_query.toLowerCase())) {
+                            console.log('here..')
+                            cards[i].classList.remove("is-hidden");
+                        } else {
+                            console.log('there..')
+                            cards[i].classList.add("is-hidden");
+                        }
                     }
                 }
-            }
-        </script>
+            </script>
+        </div> 
+
+        <div class="on-mobile-only">
+            <br>
+        </div>
+
+        <div class="on-desktop-only">
+          <br>
+          <ul class="tags">
+            <li><a href="/">All</a></li>
+            {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
+                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+        </ul>
+        </div>       
     </div>
-<br>
 
-<main>
-    <div class="v-distance">
-    {{ if eq .Kind "term" }}
-        <h1> Free {{ .Title }} service for developer </h1> <br>
+    <div class="is-two-third">
+        <main>
+            <div class="v-distance">
+            {{ if eq .Kind "term" }}
+                <h1> Free {{ .Title }} service for developer </h1> <br>
 
-        {{ range where .Pages "Type" "stuff" | shuffle}}
-            {{ partial "stuff-cards.html" . }}
-        {{ end }}
+                {{ range where .Pages "Type" "stuff" | shuffle}}
+                    {{ partial "stuff-cards.html" . }}
+                {{ end }}
 
-    {{ else }}
-       {{ range where .Site.RegularPages "Type" "stuff"}}
-            {{ partial "stuff-cards.html" . }}
-        {{ end }}
-    {{ end }}
+            {{ else }}
+               {{ range where .Site.RegularPages "Type" "stuff"}}
+                    {{ partial "stuff-cards.html" . }}
+                {{ end }}
+            {{ end }}
 
+            </div>
+        </main>
     </div>
-</main>
 </div>
+
+
