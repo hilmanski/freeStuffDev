@@ -6,7 +6,6 @@ thumbnail = "https://stream-blog-v2.imgix.net/blog/wp-content/uploads/1361532232
 snippet="Scalable & fast API for building social networks, activity feeds, activity streams and chat apps."
 tags = ["chat","feeds","api"]
 +++
-Free access to feeds and chat for teams with:
 5 or less team members
 Less than $10k in monthly revenue
 Less than $100k in funding
