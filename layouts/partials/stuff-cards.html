@@ -4,7 +4,12 @@
             <img src="{{ .Params.Thumbnail }}" loading="lazy" alt="Logo {{.Title}}" width="80" height="auto">
             <div>
                 <h3 class="title"> <a href="{{ .Params.Link }}?ref=freeStuffDev" target="_blank"> {{.Title}} </a></h3>
-                <p>{{ .Params.Snippet }}</p>
+                <p>{{ .Params.Snippet }}</p> 
+
+                <br>
+                <p> <em>
+                Tag: {{delimit .Params.tags ", "}}
+                </em></p>
             </div>
         </div>
         
