@@ -9,7 +9,7 @@
 
 {{ if hasPrefix .RelPermalink "/tags/" }}
     {{ $title = printf "%s%s%s" "Free " .Title " service for dev"}}
-    {{ $desc = printf "%s%s%s" "List of free " .Title " service or stuff for developer to use for MVP or prototyping product"}}
+    {{ $desc = printf "%s%s%s%s%s" "List of free " .Title " service or stuff for developer to use for MVP or prototyping product. This is a collective list of free " .Title " service, you can also submit your product here."}}
 {{ end }}
 
 {{ if hasPrefix .RelPermalink "/topics/" }}
@@ -25,10 +25,10 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{$desc}}" property="og:description">
 
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@freestuffdev" />
-<meta name="twitter:creator" content="@freestuffdev" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@onebite_dev" />
+<meta name="twitter:creator" content="@onebite_dev" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{$desc}}" />
-<meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://res.cloudinary.com/wegoatdev/image/upload/v1623795832/freestuffdev/logo-freedevstuff.png{{end}}" />
+<meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://i.ibb.co/vVXdSqH/thumbnail-fsd.jpg{{end}}" />

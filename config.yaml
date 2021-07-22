@@ -3,7 +3,7 @@ languageCode : en
 title : Free Dev Stuff
 
 params:
-    description: List of free stuff for developer by developer to use
+    description: List of free stuff for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea.
 
 staticDir: static
 
