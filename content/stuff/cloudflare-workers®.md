@@ -7,7 +7,6 @@ snippet="Build your next application with Cloudflare Workers"
 tags = ["serverless"]
 +++
 100,000 requests per day
-(Across all of your Worker scripts, UTC+0)
 Deploy up to 30 Worker scripts
 Runs on all 200 data centers
 Free workers.dev subdomain
