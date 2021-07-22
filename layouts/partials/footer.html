@@ -1,13 +1,16 @@
-    <footer>
-        <p>
-            {{ if not .IsHome }}
-                 <a href="/"> < FreeStuff.Dev </a>
-            {{ end }}
-                / <a href="https://onebite.dev" target="_blank"> Blog </a>
-                <!-- / <a href="https://eepurl.com/gmnhpb" target="_blank"> Subscribe mailist </a> -->
-                / <a href="/sitemap.xml">Sitemap</a>
-                / <a class="twitter-follow-button" target="_blank" href="https://twitter.com/onebite_dev" data-size="large"> Follow @onebite_dev</a>
-        </p>
+    <footer class="flex is-space-between">
+        <div>
+            Referral Link:
+            <li><a href="https://m.do.co/c/add83b15b18d" target="_blank">Free 100$ credit by DigitalOcean</a></li>
+            
+            <li> <a href="https://namecheap.pxf.io/onebitedev" target="_blank"> Find your next domain name with namecheap</a></li>
+        </div>
+
+        <div>
+           <li><a href="https://onebite.dev" target="_blank"> Blog </a></li> 
+           <li><a href="/sitemap.xml">Sitemap</a></li> 
+           <li><a class="twitter-follow-button" target="_blank" href="https://twitter.com/onebite_dev" data-size="large"> Follow @onebite_dev</a> </li> 
+        </div>
     </footer>
 
     {{ $mainJs := resources.Get "/js/main.js" | js.Build "main.js" | minify }}
