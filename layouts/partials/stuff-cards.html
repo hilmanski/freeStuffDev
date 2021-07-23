@@ -5,22 +5,18 @@
             <div>
                 <h3 class="title"> <a href="{{ .Params.Link }}?ref=freeStuffDev" target="_blank"> {{.Title}} </a></h3>
                 <p>{{ .Params.Snippet }}</p> 
-            </div>
-        </div>
-        
-        {{ if ne .Content "" }}
-        <small><div style="text-align: right; white-space: break-spaces;"> <b>Free Offer:</b>  {{.Content}} </div></small>
-        {{end}}
-    </div>
-    <br>
-    <div class="flex is-space-between">
+
         <p> <em>
         Tag: {{delimit .Params.tags ", "}}
         </em></p>
-
+            </div>
+        </div>
+        
+        {{ if ne .Content "" }}<div class="offerlist"><small><b>Free Offer:</b> {{.Content}} </small></div>{{end}}
+    </div>
+    <br>
     <div style="text-align:right;">
         <a class="link" href="https://github.com/hilmanski/freeStuffDev/edit/main/content/{{ .File.Path }}" target="_blank">Edit</a> &nbsp;
         <a class="link" target="_blank" href="{{ .Params.Link }}?ref=freeStuffDev">Visit Link</a>
-    </div>
     </div>
 </div>

@@ -6,6 +6,7 @@ thumbnail = "https://ik.imagekit.io/kodingclub/freestuffdev/stuff/Screen_Shot_20
 snippet="Ad-free Business Email Hosting with a clean, minimalist interface. Integrated Calendar, Contacts, Notes, Tasks apps. Free for up to 5 users."
 tags = ["mail"]
 +++
-Up to five users, 5GB/User, 25MB attachment limit.
+Up to five users, 5GB/User
+25MB attachment limit.
 Web access and free mobile apps.
 Email hosting for single domain
