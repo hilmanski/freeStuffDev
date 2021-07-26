@@ -73,13 +73,13 @@
                 </div>
 
             {{ if eq .Kind "term" }}
-                <h1> Free {{ .Title }} service for developer 👇🏽 </h1> <br>
+                <h1> Free {{ .Title }} service for developer 👇🏽 </h1>
                 {{ range where .Pages "Type" "stuff" | shuffle}}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}
 
             {{ else }}
-                <h1>Free Dev Tool/Services for developer 👇🏽</h1> <br>
+                <h1>Free Dev Tool/Services for developer 👇🏽</h1>
                {{ range where .Site.RegularPages "Type" "stuff"}}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}
