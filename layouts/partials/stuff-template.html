@@ -5,6 +5,11 @@
         Some services free forever or have a free tier at least for 1 year</em>
         </p>
 
+        <div class="on-mobile-only">
+            {{ partial "sponsor.html" . }}
+            <br>
+        </div>
+
         <section class="on-mobile-only" id="filter-tag" style="text-align:right;">
             <hr>
             <details>
@@ -44,25 +49,13 @@
             </script>
         </div> 
 
-        <div class="on-desktop-only">
-            <!-- <br>
-            <h3>Sponsor</h3>
-            <a class="cards flex" href="https://www.deta.sh?utm_source=freestuffdev_banner" target="_blank">
-                <img src="https://ik.imagekit.io/kodingclub/freestuffdev/stuff/detalogo_RzXQLpee3O.png?updatedAt=1627190417298" alt="Deta SH Logo" style="width: 100px !important;">
-                <div>
-                    <p class="title">Deta</p>
-                    <p>Free cloud for the Next Billion Ideas.</p>
-                </div>
-            </a> -->
-        </div>
-
-
         <div class="on-mobile-only">
             <br>
         </div>
 
         <div class="on-desktop-only">
           <br>
+          <p>or filter by tag</p> <br>
           <ul class="tags">
             <li><a href="/">All</a></li>
             {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
@@ -75,14 +68,18 @@
     <div class="is-two-third">
         <main>
             <div class="v-distance">
-            {{ if eq .Kind "term" }}
-                <h1> Free {{ .Title }} service for developer </h1> <br>
+                <div class="on-desktop-only">
+                    {{ partial "sponsor.html" . }}
+                </div>
 
+            {{ if eq .Kind "term" }}
+                <h1> Free {{ .Title }} service for developer 👇🏽 </h1> <br>
                 {{ range where .Pages "Type" "stuff" | shuffle}}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}
 
             {{ else }}
+                <h1>Free Dev Tool/Services for developer 👇🏽</h1> <br>
                {{ range where .Site.RegularPages "Type" "stuff"}}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}

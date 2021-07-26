@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
+
 $gold: rgb(227, 187, 84)
 $darkmodeBg: rgb(57, 57, 57)
 $darkmodeItemBg: #403E40
 $darkmodeColor: rgb(227, 227, 227)
+$fontBase: 'Oxygen', sans-serif
+
 
 *, *:before, *:after
     -webkit-box-sizing: border-box !important
@@ -18,8 +22,8 @@ body
     margin: 5% auto
     width: 80%
     max-width: 1100px
-    line-height: 1.6rem
-    font-family: 'Oxygen', sans-serif
+    line-height: 1.4rem
+    font-family: $fontBase
     color: rgb(87, 87, 87)
     nav
         span
@@ -43,6 +47,18 @@ body
 
 .is-hidden
     display: none
+
+.cards
+   &.sponsor
+        padding: 0px !important
+        .title
+            font-size: 1.1rem
+            margin-bottom: 5px
+        a
+            padding: 15px
+            transition: padding ease-in 0.5s
+            &:hover
+                padding: 20px 15px
 
 .marginless
     margin: 0px
@@ -167,6 +183,9 @@ header
     transition: padding 0.5s ease
     .title
         font-size: 1.5rem
+    .subtitle
+        font-size: 1.2rem
+        margin-bottom: 5px
     .text-small
         line-height: 1rem
     summary
@@ -178,6 +197,18 @@ header
         min-width: 80px
     &:hover
         padding: 30px
+
+.label
+    padding: 2px 5px
+    display: inline-block
+    background: $gold
+    color: white
+    border-radius: 5px
+
+.pin-right
+    position: absolute
+    right: 25px
+    top: 0px
 
 .v-distance
     > div
