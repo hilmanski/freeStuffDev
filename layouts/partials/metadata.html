@@ -9,7 +9,7 @@
 
 {{ if hasPrefix .RelPermalink "/tags/" }}
     {{ $title = printf "%s%s%s" "Free " .Title " service for dev"}}
-    {{ $desc = printf "%s%s%s%s%s" "List of free " .Title " service or stuff for developer to use for MVP or prototyping product. This is a collective list of free " .Title " service, you can also submit your product here."}}
+    {{ $desc = printf "%s%s%s%s%s%s%s" "List of free " .Title " service or " .Title " tools for developer to use for MVP or prototyping product. This is a collective list of free " .Title " service, you can also submit your product here."}}
 {{ end }}
 
 {{ if hasPrefix .RelPermalink "/topics/" }}

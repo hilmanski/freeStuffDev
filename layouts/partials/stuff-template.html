@@ -1,7 +1,7 @@
 <div class="flex">
     <div class="is-one-third pr-5">
         <p>
-        <em>List of free  {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff or services for developer by developer to use.
+        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff, {{ if eq .Kind "term" }} {{ .Title }} {{end}} tool or {{ if eq .Kind "term" }} {{ .Title }} {{end}} services for developer by developer to use.
         Some services free forever or have a free tier at least for 1 year</em>
         </p>
 
@@ -74,7 +74,7 @@
                 </div>
 
             {{ if eq .Kind "term" }}
-                <h1> Free {{ .Title }} service for developer 👇🏽 </h1>
+                <h1>List of free {{ .Title }} tool/service for developer 👇🏽 </h1>
                 {{ range where .Pages "Type" "stuff" | shuffle}}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}
