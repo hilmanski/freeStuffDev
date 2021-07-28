@@ -31,3 +31,9 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://onebite.dev/:splat"
   status = 301
   force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+      Access-Control-Allow-Origin = "*"
+      Access-Control-Allow-Methods = "GET"
