@@ -6,7 +6,7 @@
                 "link" : "{{ .Permalink }}",
                 "snippet": "{{ .Params.Snippet }}",
                 "tags": "{{ .Params.Tags }}",
-                "content": {{.RawContent | jsonify}}
+                "date": "{{ .Params.Date}}"
             }
             {{ end }}
         ]
