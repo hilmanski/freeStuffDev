@@ -76,9 +76,7 @@
             {{ if eq .Kind "term" }}
                 <h1>List of free {{ .Title }} tool/service for developer 👇🏽 </h1>
                 {{ range where .Pages "Type" "stuff" | shuffle}}
-                    {{ if le .Params.Date.Unix now.Unix }}
-                        {{ partial "stuff-cards.html" . }}
-                    {{ end }}
+                    {{ partial "stuff-cards.html" . }}
                 {{ end }}
 
             {{ else }}
