@@ -26,37 +26,17 @@
         </section>  
         <br>
 
-        <div>
-            <input type="search" oninput="setTimeout(function(){ liveSearch(); }, 500);" id="searchbox" placeholder="Search..">
-            <script>
-                function liveSearch() {
-
-                    let cards = document.getElementsByClassName('cards')
-                    let search_query = document.getElementById("searchbox").value;
-                    
-                    console.log(search_query)
-
-                    for (var i = 0; i < cards.length; i++) {
-                        if(cards[i].innerText.toLowerCase()
-                                .includes(search_query.toLowerCase())) {
-                            console.log('here..')
-                            cards[i].classList.remove("is-hidden");
-                        } else {
-                            console.log('there..')
-                            cards[i].classList.add("is-hidden");
-                        }
-                    }
-                }
-            </script>
-        </div> 
-
         <div class="on-mobile-only">
             <br>
         </div>
 
+        <div>
+            <input type="search" oninput="setTimeout(function(){ liveSearch(); }, 500);" id="searchbox" placeholder="Live search keyword..">
+        </div> 
+
         <div class="on-desktop-only">
           <br>
-          <p>or filter by tag</p> <br>
+          <p>Filter by tag</p> <br>
           <ul class="tags">
             <li><a href="/">All</a></li>
             {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
@@ -90,6 +70,28 @@
 
             </div>
         </main>
+
+
+            <script>
+                function liveSearch() {
+
+                    let cards = document.getElementsByClassName('cards')
+                    let search_query = document.getElementById("searchbox").value;
+                    
+                    console.log(search_query)
+
+                    for (var i = 0; i < cards.length; i++) {
+                        if(cards[i].innerText.toLowerCase()
+                                .includes(search_query.toLowerCase())) {
+                            console.log('here..')
+                            cards[i].classList.remove("is-hidden");
+                        } else {
+                            console.log('there..')
+                            cards[i].classList.add("is-hidden");
+                        }
+                    }
+                }
+            </script>
     </div>
 </div>
 
