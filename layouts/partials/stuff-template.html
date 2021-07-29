@@ -1,8 +1,7 @@
 <div class="flex">
     <div class="is-one-third pr-5">
         <p>
-        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff, {{ if eq .Kind "term" }} {{ .Title }} {{end}} tool or {{ if eq .Kind "term" }} {{ .Title }} {{end}} services for developer by developer to use.
-        Some services free forever or have a free tier at least for 1 year</em>
+        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff for developer by developer to use. Some services are free forever or have a free tier at least for 1 year</em>
         </p>
 
         <div class="on-mobile-only">
@@ -98,5 +97,21 @@
             </script>
     </div>
 </div>
+
+<br> <hr>
+<p>
+    {{ $tagTerm := "" }}
+    {{ if eq .Kind "term" }} 
+    {{ $tagTerm = .Title }} 
+    {{end}}
+    <b> What is this?</b>
+    This website is a list or collection of 
+    free {{$tagTerm}} tools for developer,
+    free {{$tagTerm}} resources for developer,
+    free {{$tagTerm}} services for developer,
+    and free {{$tagTerm}} developer stuff.
+    Are you looking for {{$tagTerm}} tools recommendation to use in your next project? Take a look 
+    at the list above for you to get started on your MVP. You don't have to worry about the money, you can start your next project for free.
+</p>
 
 
