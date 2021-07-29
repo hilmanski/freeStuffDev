@@ -55,17 +55,21 @@
 
             {{ if eq .Kind "term" }}
                 <h1>List of free {{ .Title }} tool/service for developer 👇🏽 </h1>
+                <div id="card-list" class="v-distance">
                 {{ range where .Pages "Type" "stuff" | shuffle}}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}
+                </div>
 
             {{ else }}
                 <h1>Free Dev Tool/Services for developer 👇🏽</h1>
-               {{ range where .Site.RegularPages "Type" "stuff"}}
-                    {{ if le .Params.Date.Unix now.Unix }}
-                        {{ partial "stuff-cards.html" . }}
+                <div id="card-list" class="v-distance">
+                   {{ range where .Site.RegularPages "Type" "stuff"}}
+                        {{ if le .Params.Date.Unix now.Unix }}
+                            {{ partial "stuff-cards.html" . }}
+                        {{ end }}
                     {{ end }}
-                {{ end }}
+                </div>
             {{ end }}
 
             </div>

@@ -1,6 +1,31 @@
 {{ define "main" }}
 	{{ partial "stuff-template.html" . }}
+
 	<script>
+		const CONTENT_COUNT = 'content_count'
+		const contents =  document.querySelectorAll('#card-list .cards');
+		
+		const cachedContentCount = localStorage.getItem(CONTENT_COUNT)
+		if(cachedContentCount == null) {
+			//New User
+			localStorage.setItem(CONTENT_COUNT, contents.length);
+		} else {
+			//If new content added
+			const diffCount = contents.length - cachedContentCount 
+			if(diffCount > 0) {
+				for (let i=0; i<diffCount; i++) {
+				   console.log(contents[i].querySelector('.title'))
+				   const newLabel = "<div class='label pin-left label-new'>New</div>"
+				   contents[i].insertAdjacentHTML('afterbegin', newLabel);
+				}
+
+				//update in localstorage
+				localStorage.setItem(CONTENT_COUNT, contents.length);
+			}
+		}
+
+
+	   //Netlify CMS stuff
 	  if (window.netlifyIdentity) {
 	    window.netlifyIdentity.on("init", user => {
 	      if (!user) {
