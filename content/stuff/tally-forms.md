@@ -6,4 +6,5 @@ thumbnail = "https://tally.so/favicon.ico"
 snippet="The simplest way to create beautiful forms & surveys, for free. Without knowing how to code!"
 tags = ["form"]
 +++
-99% of Tally's features are available to solo user for free and without limits.
+99% features are available to solo user
+for free and without limits.
