@@ -45,20 +45,6 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
     
-<body class="darkmode">
-    <header class="flex flex-mobile is-space-between is-align-items">
-        <div class="flex flex-mobile is-space-between is-align-items">
-            <img src="https://i.ibb.co/qRXK9gd/logo-freedevstuff.png" alt="logo we goat dev" height="100" width="100">
-            <div id="branding">
-                <b> <a href='/'> {{ .Site.Title }} </a></b>
-                <p>Free Stuff/Tool/Service for Developer</p>
-                <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-            </div>
-        </div>
-        <nav>
-            <a class="button" href="/new-stuff">Submit+|</a>
-            <a href="https://onebite.dev/" target="_blank">Blog|</a>
-            <a href="https://twitter.com/fullofdev" target="_blank">Twitter|</a>
-            <span id="darkModeBtn"> 🌝 </span>
-        </nav> 
-    </header>
+<body>
+    <div class="flex">
+    {{ partial "sidebar.html" . }}

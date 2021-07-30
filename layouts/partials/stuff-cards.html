@@ -1,12 +1,13 @@
 <div class="cards">
     <div class="flex is-space-between is-align-items">
-        <div class="flex flex-mobile is-align-items is-two-third">
+        <div class="flex flex-mobile is-two-thirds">
             <img src="{{ .Params.Thumbnail }}" loading="lazy" alt="Logo {{.Title}}" width="80" height="auto">
             <div>
                 <h3 class="title"> <a href="{{ .Params.Link }}?ref=freeStuffDev" target="_blank"> {{.Title}} </a></h3>
                 <p>{{ .Params.Snippet }}</p> 
 
-        <p> <em>
+
+        <p class="mt-20"> <em>
         Tag: {{delimit .Params.tags ", "}}
         </em></p>
             </div>

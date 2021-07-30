@@ -1,105 +1,38 @@
-<div class="flex">
-    <div class="is-one-third pr-5">
-        <p>
-        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff for developer by developer to use. Some services are free forever or have a free tier at least for 1 year</em>
-        </p>
-
-        <div class="on-mobile-only">
-            <br>
-            {{ partial "sponsor.html" . }}
-            <br>
-        </div>
-
-        <section class="on-mobile-only" id="filter-tag" style="text-align:right;">
-            <hr>
-            <details>
-                <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
-                <ul class="tags">
-                    <li><a href="/">All</a></li>
-                    {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
-                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-                    {{ end }}
-                </ul>
-            </details>
-            <hr>
-        </section>  
-        <br>
-
-        <div class="on-mobile-only">
-            <br>
-        </div>
-
-        <div>
-            <input type="search" oninput="setTimeout(function(){ liveSearch(); }, 500);" id="searchbox" placeholder="Live search keyword..">
-        </div> 
-
-        <div class="on-desktop-only">
-          <br>
-          <p>Filter by tag</p> <br>
-          <ul class="tags">
-            <li><a href="/">All</a></li>
-            {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
-                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-            {{ end }}
-        </ul>
-        </div>       
-    </div>
-
-    <div class="is-two-third">
-        <main>
-            <div class="v-distance">
-                <div class="on-desktop-only">
-                    {{ partial "sponsor.html" . }}
-                </div>
-
-            {{ if eq .Kind "term" }}
-                <h1>List of free {{ .Title }} tool/service for developer 👇🏽 </h1>
-                <div id="card-list" class="v-distance">
-                {{ range where .Pages "Type" "stuff" | shuffle}}
-                    {{ partial "stuff-cards.html" . }}
-                {{ end }}
-                </div>
-
-            {{ else }}
-                <h1>Free Dev Tool/Services for developer 👇🏽</h1>
-                <div id="card-list" class="v-distance">
-                   {{ range where .Site.RegularPages "Type" "stuff"}}
-                        {{ if le .Params.Date.Unix now.Unix }}
-                            {{ partial "stuff-cards.html" . }}
-                        {{ end }}
-                    {{ end }}
-                </div>
-            {{ end }}
-
+<div class="is-two-thirds maincontent">
+    <main>
+        <div class="v-distance">
+            <div class="on-desktop-only">
+                {{ partial "sponsor.html" . }}
             </div>
-        </main>
 
+        {{ if eq .Kind "term" }}
+            <h1>List of free {{ .Title }} tool/service for developer👇🏽 </h1>
+            {{ partial "search.html" . }}
+            <div id="card-list" class="v-distance">
+            {{ range where .Pages "Type" "stuff" | shuffle}}
+                {{ partial "stuff-cards.html" . }}
+            {{ end }}
+            </div>
 
-            <script>
-                function liveSearch() {
+        {{ else }}
+            <h1>Free Dev Tool/Services for developer👇🏽</h1>
+            {{ partial "search.html" . }}
+            <div id="card-list" class="v-distance">
+               {{ range where .Site.RegularPages "Type" "stuff"}}
+                    {{ if le .Params.Date.Unix now.Unix }}
+                        {{ partial "stuff-cards.html" . }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        {{ end }}
 
-                    let cards = document.getElementsByClassName('cards')
-                    let search_query = document.getElementById("searchbox").value;
-                    
-                    console.log(search_query)
-
-                    for (var i = 0; i < cards.length; i++) {
-                        if(cards[i].innerText.toLowerCase()
-                                .includes(search_query.toLowerCase())) {
-                            console.log('here..')
-                            cards[i].classList.remove("is-hidden");
-                        } else {
-                            console.log('there..')
-                            cards[i].classList.add("is-hidden");
-                        }
-                    }
-                }
-            </script>
-    </div>
+        </div>
+    </main>
 </div>
+</div> <!-- end flex -->
 
-<br> <hr>
-<p>
+<br><br><hr>
+<p class="my-20 maincontent">
     {{ $tagTerm := "" }}
     {{ if eq .Kind "term" }} 
     {{ $tagTerm = .Title }} 
@@ -113,5 +46,3 @@
     Are you looking for {{$tagTerm}} tools recommendation to use in your next project? Take a look 
     at the list above for you to get started on your MVP. You don't have to worry about the money, you can start your next project for free.
 </p>
-
-

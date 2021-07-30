@@ -1,0 +1,49 @@
+<sidebar class="is-one-third">
+    <div class="flex flex-mobile is-align-items">
+        <img src="https://i.ibb.co/qRXK9gd/logo-freedevstuff.png" alt="logo freestuffdev" height="80" width="80">
+          <div id="branding">
+            <b> <a href='/'> {{ .Site.Title }} </a></b>
+            <p>Free Stuff/Tool/Service for Developer</p>
+            <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+        </div>
+    </div>
+
+    <nav class="flex flex-mobile my-20">
+        <a class="button" href="/new-stuff">Submit+</a>
+        <a href="https://onebite.dev/" target="_blank">Blog</a>
+        <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a>
+        <!-- <span id="darkModeBtn"> 🌝 </span> -->
+    </nav> 
+    
+
+        <p>
+        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff for developer by developer to use. Some services are free forever or have a free tier at least for 1 year</em>
+        </p>
+
+        <div class="on-mobile-only my-20">
+            {{ partial "sponsor.html" . }}
+        </div> 
+
+        <section id="filter-tag" class="on-mobile-only my-20">
+            <details>
+                <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
+                <br>
+                <ul class="tags">
+                    <li><a href="/">All</a></li>
+                    {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </details>
+        </section> 
+
+        <div class="on-desktop-only my-20">
+            <p>Filter Category: </p> <br>
+            <ul class="tags" style="max-height: 300px; overflow-y: auto;">
+                <li><a href="/">All</a></li>
+                {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
+                    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                {{ end }}
+            </ul>
+        </div> 
+</sidebar>     

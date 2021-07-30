@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
 
 $gold: rgb(227, 187, 84)
+$bodyBg: #F7F8FF
+$mainColor: #333
 $darkmodeBg: #29313d
 $darkmodeItemBg: #403E40
 $darkmodeColor: rgb(227, 227, 227)
@@ -19,31 +21,49 @@ $fontBase: 'Oxygen', sans-serif
 
 body
     font-size: 14px
-    margin: 20px auto
-    width: 80%
-    max-width: 1100px
+    margin: 50px auto
+    width: 90%
+    max-width: 1200px
     line-height: 1.4rem
     font-family: $fontBase
-    color: rgb(87, 87, 87)
-    nav
-        span
-            cursor: pointer
-.darkmode
-    background: $darkmodeBg
-    color: $darkmodeColor
+    color: $mainColor
+    background: $bodyBg
+
+nav
+    font-weight: bold
+    font-size: 1rem
     a
-        color: $darkmodeColor
-    input[type=search]
-        color: #e3e3e3
-    .title
-        color: $gold
-        a
-            color: $gold
-    .cards
-        background: #343941
-    .tags
-        a 
-            color: #e3e3e3
+        padding-right: 10px
+    span
+        cursor: pointer
+
+// .darkmode
+//     background: $darkmodeBg
+//     color: $darkmodeColor
+//     a
+//         color: $darkmodeColor
+//     input[type=search]
+//         color: #e3e3e3
+//     .title
+//         color: $gold
+//         a
+//             color: $gold
+//     .cards
+//         background: #343941
+//     .tags
+//         a 
+//             color: #e3e3e3
+
+sidebar
+    background: white
+    position: fixed
+    top: 0px
+    left: 0px
+    padding: 50px 30px
+    min-height: 100%
+
+.maincontent
+    margin-left: 1/3 * 100%
 
 .is-hidden
     display: none
@@ -106,44 +126,14 @@ header
 .is-avatar
     border-radius: 50%
 
-#blog
-    .title
-        font-size: 2rem
-        line-height: 2.2rem
-        margin-bottom: 0px
-        a
-            display: block
-            width: 100%
-    .desc
-        margin: 5px 0
-    article
-        margin-top: 20px
-        p
-            font-size: 1.2rem
-            margin-bottom: 15px
-            line-height: 1.8rem
-        li
-            font-size: 1.2rem
-        pre
-            border-radius: 10px
-            padding: 5px 15px
-            margin-bottom: 10px
-        a
-            text-decoration: underline
-    h2, h3
-        font-size: 1.5rem
-        margin-top: 30px
-    img
-        display: block
-        margin-left: auto
-        margin-right: auto
-        width: 75%
-
 #date
     display: inline-block
     font-size: 1rem
 
 #filter-tag
+    border-top: 1px solid #333
+    border-bottom: 1px solid #333
+    padding: 5px 0
     summary
         margin-bottom: 5px
 
@@ -163,7 +153,11 @@ header
         width: (1/5 * 100%)
     .is-four-fifth
         width: (4/5 * 100%)
-    .is-two-third
+    .is-two-fifths
+        width: (2/5 * 100%)
+    .is-three-fifths
+        width: (3/5 * 100%)
+    .is-two-thirds
         width: (2/3 * 100%)
     .is-one-third
         width: (1/3 * 100%)
@@ -175,6 +169,7 @@ header
     padding-right: 5%
 
 .cards
+    background: #fff
     padding: 20px 30px 20px
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
     transition: 0.3s
@@ -217,6 +212,13 @@ header
     position: absolute
     left: 25px
     top: 5px
+
+.mt-20
+    margin-top: 20px
+
+.my-20
+    margin-top: 20px
+    margin-bottom: 20px
 
 .v-distance
     > div

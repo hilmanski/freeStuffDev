@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section>
+<section class="is-three-fifths maincontent">
     <h1>Add New</h1>
     <p>
         We'll redirect you to <b>github PR's page</b> after submit. <br>
@@ -141,8 +141,19 @@ ${content}`
             width: 250px;
             padding: 5px;
         }
+
+        button {
+            background: #239BDD;
+            border-radius: 5px;
+            color:  white;
+            border: none;
+        }
+        button:hover {
+            cursor: pointer;
+            background: #238BDD;
+        }
     </style>
 </section>
-
+</div>
 <br>
 {{ end }}
