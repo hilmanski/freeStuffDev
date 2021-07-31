@@ -2,13 +2,13 @@
     <div class="flex flex-mobile is-align-items">
         <img src="https://i.ibb.co/qRXK9gd/logo-freedevstuff.png" alt="logo freestuffdev" height="80" width="80">
           <div id="branding">
-            <b> <a href='/'> {{ .Site.Title }} </a></b>
+            <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> 
+            <p> <a href='/'> {{ .Site.Title }} </a></p>
             <p>Free Stuff/Tool/Service for Developer</p>
-            <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
         </div>
     </div>
 
-    <nav class="flex flex-mobile my-20">
+    <nav class="flex-mobile my-20">
         <a class="button" href="/new-stuff">Submit+</a>
         <a href="https://onebite.dev/" target="_blank">Blog</a>
         <a href="https://twitter.com/fullofdev" target="_blank">Twitter</a>
@@ -30,7 +30,7 @@
                 <br>
                 <ul class="tags">
                     <li><a href="/">All</a></li>
-                    {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
+                    {{ range .Site.Taxonomies.tags }}
                         <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
                     {{ end }}
                 </ul>
@@ -38,12 +38,13 @@
         </section> 
 
         <div class="on-desktop-only my-20">
-            <p>Filter Category: </p> <br>
-            <ul class="tags" style="max-height: 300px; overflow-y: auto;">
-                <li><a href="/">All</a></li>
-                {{ range where .Site.Taxonomies.tags "Section" "stuff" }}
-                    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-                {{ end }}
-            </ul>
-        </div> 
+        <p class="mb-10">Top 20 Categories: </p> 
+        <ul class="tags mb-10">
+        {{ range (first 20 $.Site.Taxonomies.tags.ByCount) }}
+            <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a></li>
+        {{ end }}
+        </ul>
+        <button id="moreTagsBtn">Show All Categories</button>
+        </div>
+
 </sidebar>     

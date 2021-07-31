@@ -5,6 +5,7 @@ $bodyBg: #F7F8FF
 $mainColor: #333
 $darkmodeBg: #29313d
 $darkmodeItemBg: #403E40
+$lightGray: #EBEAE6
 $darkmodeColor: rgb(227, 227, 227)
 $fontBase: 'Oxygen', sans-serif
 
@@ -30,29 +31,15 @@ body
     background: $bodyBg
 
 nav
-    font-weight: bold
     font-size: 1rem
     a
-        padding-right: 10px
+        display: block
+        border-radius: 10px
+        padding: 5px 10px
+        &:hover
+            background: $lightGray
     span
         cursor: pointer
-
-// .darkmode
-//     background: $darkmodeBg
-//     color: $darkmodeColor
-//     a
-//         color: $darkmodeColor
-//     input[type=search]
-//         color: #e3e3e3
-//     .title
-//         color: $gold
-//         a
-//             color: $gold
-//     .cards
-//         background: #343941
-//     .tags
-//         a 
-//             color: #e3e3e3
 
 sidebar
     background: white
@@ -216,6 +203,9 @@ header
 .mt-20
     margin-top: 20px
 
+.mb-10
+    margin-bottom: 10px
+
 .my-20
     margin-top: 20px
     margin-bottom: 20px
@@ -280,5 +270,6 @@ footer
 .on-mobile-only
     display: none
 
+@import 'modal'
 @import 'topics-label'
 @import 'responsive'

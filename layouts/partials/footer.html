@@ -13,6 +13,20 @@
         </div>
     </footer>
 
+    <!-- The Modal -->
+    <div id="modalwrapper" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 class="mb-10">All categories: </h3> 
+         <ul class="tags">
+            <li><a href="/">All</a></li>
+            {{ range .Site.Taxonomies.tags }}
+                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+        </ul>
+      </div>
+    </div>
+
     {{ $mainJs := resources.Get "/js/main.js" | js.Build "main.js" | minify }}
     <script src="{{ $mainJs.Permalink }}"></script>
 </body>
