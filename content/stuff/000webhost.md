@@ -2,7 +2,7 @@
 date = 2021-08-01T10:55:27+03:00
 title = "000 Webhost"
 link = "https://www.000webhost.com/"
-thumbnail = "https://www.000webhost.com/static/default.000webhost.com/images/logo/000webhost-logo.svg"
+thumbnail = "https://github.com/hilmanski/freeStuffDev/edit/main/content/stuff/000webhost.md"
 snippet="Zero cost website hosting with PHP, MySQL, cPanel & no ads!e"
 tags = ["Hosting","PHP","Mysql"]
 +++ 
