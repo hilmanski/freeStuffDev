@@ -10,7 +10,7 @@
     <br>
     <div id="form">
         <div>
-        <label for="url"><b>1. Link</b></label>
+        <label for="url"><b>1. Link (use http:// or https://)</b></label>
         <input id="input_url" type="url" label="link" required>
         </div>
 
@@ -30,18 +30,25 @@ Upload up to 30mb
 </pre></small>
         </div>
 
+        <div>
+            <label for="benefit"><b>4. (Optional) Schedule post</b></label>
+            <input class="input" type="datetime-local" id="date">
+        </div>
+
         <button onclick="return validateSubmission();">Submit</button>
         <p id="status"></p>
         <br><br>
         <p>Thanks for your contribution!</p>
     </div>
 
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
     <script>
         function validateSubmission() {
             let status = document.getElementById('status')
             let url = document.getElementById('input_url').value
             let tags = document.getElementById('input_tags').value
             let benefits = document.getElementById('input_benefits').value
+            let date = document.getElementById('date').value
 
             let METAFETCH_URL = "https://web-meta-scrapper.vercel.app/api?url=" + url
 
@@ -51,7 +58,7 @@ Upload up to 30mb
                 .then(function(data){
                     status.innerText = 'Redirect..'
 
-                    let preFilledlink = generateUrl(data.body, url, tags, benefits)
+                    let preFilledlink = generateUrl(data.body, url, tags, benefits, date)
                     console.log(preFilledlink)
                     window.open(preFilledlink)
 
@@ -65,10 +72,16 @@ Upload up to 30mb
             return false;
         }
 
-        function generateUrl(_info, _URL, _tags, _benefits) {
+        function generateUrl(_info, _URL, _tags, _benefits, date) {
+            
             //1. Date
-            const _date = new Date()
-            const date = _date.toISOString();
+            if(date == '') {
+                console.log('----')
+                date = new Date().toISOString()
+            } else {
+                date = dayjs(new Date(document.getElementById('date').value)).format('YYYY-MM-DDThh:mm')
+            }
+            console.log(date)
 
             //2. Thumbnail
             let thumbnail = ''
