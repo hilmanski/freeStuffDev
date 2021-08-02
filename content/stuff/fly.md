@@ -1,5 +1,5 @@
 +++
-date = 2021-08-04T02:03
+date = 2021-08-04T02:03:00
 title = "Fly"
 link = "https://fly.io/"
 thumbnail = "https://fly.io/ui/images/favicon/apple-touch-icon.png"
