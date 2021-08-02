@@ -39,23 +39,36 @@
         display: block
         .is-half, .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-thirds, .is-three-fifths
             width: 100%
-        &.flex-mobile
+        &.flex-on-mobile
             display: flex
-            .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-thirds
+            .is-half, .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-thirds, .is-three-fifths
                 width: auto
 
     .cards
-        padding: 20px 30px
+        padding: 40px 30px
         width: 100%
-        padding-bottom: 30px
         img
+            position: absolute
+            left: -25px
+            top: 30px
             max-width: 50px
             max-height: 50px
             min-width: 50px
+        .offerlist
+            text-align: left
+            margin-top: 10px
+            padding-left: 0px
         &.sponsor
             font-size: 0.8rem
             .title
                 margin-bottom: 0px
+
+    .sponsor
+        .cards
+            img
+                left: 0px
+                top: 0px
+                position: relative
 
     .on-mobile-only
         display: block

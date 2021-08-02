@@ -1,5 +1,5 @@
 <sidebar class="is-one-third">
-    <div class="flex flex-mobile is-align-items">
+    <div class="flex flex-on-mobile is-align-items">
         <img src="https://i.ibb.co/qRXK9gd/logo-freedevstuff.png" alt="logo freestuffdev" height="80" width="80">
           <div id="branding">
             <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> 
@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <nav class="flex-mobile my-20">
+    <nav class="flex-on-mobile my-20 is-space-around">
         <a class="button" href="/new-stuff">✏️ Submit+</a>
         <a href="https://onebite.dev/" target="_blank">📒 Blog</a>
         <a href="https://twitter.com/fullofdev" target="_blank">🐥 Twitter</a>
@@ -20,7 +20,7 @@
         <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff for developer by developer to use. Some services are free forever or have a free tier at least for 1 year</em>
         </p>
 
-        <div class="on-mobile-only my-20">
+        <div class="on-mobile-only my-20 sponsor">
             {{ partial "sponsor.html" . }}
         </div> 
 
