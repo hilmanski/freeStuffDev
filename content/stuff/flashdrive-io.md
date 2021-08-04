@@ -7,3 +7,7 @@ snippet="Deploy, manage and scale Node.js, Python, GO, Java, Ruby, PHP apps in s
 tags = ["hosting"]
 +++
 FlashDrive.io is free for developers and micro-services
+512MB RAM
+0.5 vCPU
+Unlimited traffic
+3 Free Apps
