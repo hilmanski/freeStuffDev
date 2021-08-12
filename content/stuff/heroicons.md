@@ -6,3 +6,4 @@ thumbnail = "https://heroicons.com/_next/static/media/apple-touch-icon.a91ed695b
 snippet="Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS."
 tags = ["asset"," icon"]
 +++
+Free Beautiful Icons
