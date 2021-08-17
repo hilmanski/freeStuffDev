@@ -1,6 +1,6 @@
 +++
 date = 2021-08-17T05:38:00.933Z
-title = "Home - SmallDev.tools"
+title = "SmallDev.tools"
 link = "https://smalldev.tools"
 thumbnail = "https://smalldev.tools/favicon.png"
 snippet="FREE tools for developers like encoder/decoder, HTML/CSS/Javascript formatters, minifiers, fake or test data generators & much more."
