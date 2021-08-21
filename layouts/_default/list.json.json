@@ -3,7 +3,7 @@
             {{ range $index, $e := .Data.Pages }}
             {{ if $index }}, {{ end }} {
                 "title" : "{{ .Title }}",
-                "link" : "{{ .Permalink }}",
+                "link" : "{{ .Params.Link }}",
                 "snippet": "{{ .Params.Snippet }}",
                 "tags": "{{ .Params.Tags }}",
                 "date": "{{ .Params.Date}}"
