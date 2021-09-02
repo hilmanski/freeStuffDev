@@ -13,12 +13,13 @@
 
       {{ range .Params.tags }}
         {{ $tagTitle := . }}
-        {{ $tagTitleWithSpace := print " " .}}
+        {{ $tagTitleWithSpace := print " " $tagTitle}}
+        
         <h2 style="margin-bottom: 0px;">👉🏽 {{ $titleHolder }} alternatives as a {{ $tagTitle }} tool</h2>
         <p style="margin-top: -5px;">Are you looking for {{ $titleHolder }} alternative as a {{$tagTitle}} tool? Here is the list of {{$titleHolder}}'s competitor or rival as a {{$tagTitle}} service with their free offers.</p>
 
         {{ range $key, $val := $filterStuff}}
-            {{ if or (in .Params.tags $tagTitleWithSpace) (in .Params.tags $tagTitle) }}
+            {{ if or (in .Params.tags $tagTitleWithSpace) (in .Params.tags $tagTitle) (in .Params.tags (upper $tagTitle)) }}
               {{ if ne $val.Title $titleHolder }}
               
               <br>
