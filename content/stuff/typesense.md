@@ -6,3 +6,4 @@ thumbnail = "https://typesense.org/favicon.png"
 snippet="Typesense is a fast, typo-tolerant search engine optimized for instant search-as-you-type experiences and each of use."
 tags = ["search"]
 +++
+Open source, free self hosted
