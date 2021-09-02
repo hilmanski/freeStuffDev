@@ -1,6 +1,6 @@
 +++
 date = "2021-08-14T00:00:00+00:00"
-tags = ["design", "tool"]
+tags = ["design"]
 title="Canva"
 link = "https://www.canva.com/"
 thumbnail = "https://pbs.twimg.com/profile_images/1425980048322953217/WKM50IAL_400x400.png"
