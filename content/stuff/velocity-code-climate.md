@@ -4,7 +4,7 @@ title = "Code Climate - Velocity"
 link = "https://codeclimate.com/velocity/"
 thumbnail = "https://pbs.twimg.com/profile_images/1270413310954004482/ZwhcBeAu_400x400.jpg"
 snippet="Velocity synthesizes the data from your repos to give you full visibility and empowers your team for continuous delivery."
-tags = ["workflows"," remote"," insight"]
+tags = ["workflow"," remote"," insight"]
 +++
 Free for teams of up to 20
 Repositories 50

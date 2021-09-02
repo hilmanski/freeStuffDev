@@ -11,6 +11,7 @@ staticDir: static
 
 permalinks:
     blog : blog/:title/
+    stuff : /alternative/:title
 
 summaryLength: 25
 

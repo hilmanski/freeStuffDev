@@ -17,7 +17,7 @@
     
 
         <p>
-        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} stuff for developer by developer to use. Some services are free forever or have a free tier at least for 1 year</em>
+        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} service for developer to use. Some services are free forever or have a free tier at least for 1 year</em>
         </p>
 
         <div class="on-mobile-only my-20 sponsor">
@@ -38,9 +38,9 @@
         </section> 
 
         <div class="on-desktop-only my-20">
-        <p class="mb-10">Top 20 Categories: </p> 
+        <p class="mb-10">Top 25 Categories: </p> 
         <ul class="tags mb-10">
-        {{ range (first 20 $.Site.Taxonomies.tags.ByCount) }}
+        {{ range (first 25 $.Site.Taxonomies.tags.ByCount) }}
             <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a></li>
         {{ end }}
         </ul>

@@ -1,5 +1,7 @@
 {{ $title := .Title }}
 {{ $desc := "" }}
+{{ $ogimage := "https://i.ibb.co/vVXdSqH/thumbnail-fsd.jpg" }}
+{{ $twCardStyle := "summary_large_image" }}
 
 {{ if .Description }} 
     {{ $desc = .Description }} 
@@ -7,28 +9,27 @@
     {{ $desc = .Site.Params.Description }}  
 {{ end }}
 
+{{ if hasPrefix .RelPermalink "/alternative/" }}
+    {{ $title = print .Title " free alternatives service"}}
+    {{ $listtags := "" }}
+    {{ with .Params.tags }}{{ $listtags = delimit . ", "}}{{ end }}
+    {{ $desc = print "List of free alternatives to " .Title " for developer. Find other service for " $listtags " other than " .Title ". Find out what is " .Title " rival and competitor" }}
+    {{ $ogimage = .Params.Thumbnail }}
+    {{ $twCardStyle = "summary" }}
+{{ end }}
+
 {{ if hasPrefix .RelPermalink "/tags/" }}
-    {{ $title = printf "%s%s%s" "Free " .Title " service for dev"}}
-    {{ $desc = printf "%s%s%s%s%s%s%s" "List of free " .Title " service or " .Title " tools for developer to use for MVP or prototyping product. This is a collective list of free " .Title " service, you can also submit your product here."}}
-{{ end }}
-
-{{ if hasPrefix .RelPermalink "/topics/" }}
-    {{ $title = printf "%s%s" "Dev blog about " .Title}}
-     {{ $desc = printf "%s%s%s" "Developer blog around " .Title " to read by freestuff.dev"}}
-{{ end }}
-
-{{ if eq .RelPermalink "/blog/" }}
-    {{$title = "Developer blog by freestuff.dev"}}
-    {{$desc = "Blog around developer stuff by freestuff.dev. Topics include hugo, database, productivity, larave, javascript and more"}}
+    {{ $title = print "Free " .Title " service for dev"}}
+    {{ $desc = print "List of free " .Title " service or " .Title " tools for developer to use for MVP or prototyping product. This is a collective list of free " .Title " service, you can also submit your product here."}}
 {{ end }}
 
 <title>{{ $title }}</title>
 <meta name="description" content="{{$desc}}" property="og:description">
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@onebite_dev" />
-<meta name="twitter:creator" content="@onebite_dev" />
+<meta name="twitter:card" content="{{ $twCardStyle }}" />
+<meta name="twitter:site" content="@fullofdev" />
+<meta name="twitter:creator" content="@fullofdev" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{$desc}}" />
-<meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}}https://i.ibb.co/vVXdSqH/thumbnail-fsd.jpg{{end}}" />
+<meta property="og:image" content="{{ $ogimage }}" />

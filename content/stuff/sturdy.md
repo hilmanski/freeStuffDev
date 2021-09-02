@@ -4,7 +4,7 @@ title = "Sturdy"
 link = "https://getsturdy.com/"
 thumbnail = "https://getsturdy.com/assets/SwimmingDuck512.717387fb.png"
 snippet="Software collaboration for teams. Collaborate on code — without git"
-tags = ["collaboration-tool"," git"]
+tags = ["collaboration"," git"]
 +++
 Unlimited Codebases
 Codebases with up to 3 collaborators
