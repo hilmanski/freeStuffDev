@@ -7,7 +7,6 @@
         <language>en</language>
         <lastBuildDate>{{ now | safeHTML }}</lastBuildDate>
         <atom:link href="{{.Permalink}}index.xml" rel="self" type="application/rss+xml"/>
-    </channel>
     {{ range where .Site.RegularPages "Type" "stuff"}}
         {{ if le .Params.Date.Unix now.Unix }}
         <item>
@@ -28,4 +27,5 @@
             <description>List of free {{.Page.Title}} service or {{.Page.Title}} tools for developer to use for MVP or prototyping product. This is a collective list of free {{.Page.Title}} service, you can also submit your product here. </description>
         </item>
     {{ end }}
+    </channel>
 </rss>
