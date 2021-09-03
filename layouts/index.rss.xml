@@ -5,11 +5,11 @@
         <link>{{ .Permalink }}</link>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        {{ if not .Date.IsZero }}
-        <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+        <lastBuildDate>{{ now | safeHTML }}</lastBuildDate>
         <atom:link href="{{.Permalink}}index.xml" rel="self" type="application/rss+xml"/>
     </channel>
     {{ range where .Site.RegularPages "Type" "stuff"}}
+        {{ if le .Params.Date.Unix now.Unix }}
         <item>
             <title>Alternative to {{ .Title }}</title>
             <link>{{ .Permalink }}</link>
@@ -18,6 +18,7 @@
             <guid>{{ .Permalink }}</guid>
             <description>{{ .Params.snippet }}</description>
         </item>
+        {{ end }}
     {{ end }}
     {{ range .Site.Taxonomies.tags }}
         <item>
