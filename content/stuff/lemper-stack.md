@@ -4,7 +4,7 @@ title = "LEMPer Stack"
 link = "https://masedi.net/lemper"
 thumbnail = "https://raw.githubusercontent.com/joglomedia/LEMPer/master/.github/assets/lemper-logo.svg"
 snippet="LEMPer Stack is terminal-based LEMP/LNMP stack manager for Debian & Ubuntu cloud or virtual server (vps) and on-premise (bare metal)."
-tags = ["hosting","lemp stack","lnmp stack","nginx installer","php installer"]
+tags = ["hosting","lempstack","nginx","php"]
 +++
 Free cPanel Alternative
 Free Web Hosting Manager
