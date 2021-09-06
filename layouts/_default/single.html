@@ -15,16 +15,20 @@
         {{ $tagTitle := . }}
         {{ $tagTitleWithSpace := print " " $tagTitle}}
         
+        {{ $relatedStuff := where $regularPages "Params.tags" "intersect" (slice $tagTitle $tagTitleWithSpace (upper $tagTitle)) }}
+        {{ if gt (len $relatedStuff) 1 }}
+
         <h2 style="margin-bottom: 0px;">👉🏽 {{ $titleHolder }} alternatives as a {{ $tagTitle }} tool</h2>
         <p style="margin-top: -5px;">Are you looking for {{ $titleHolder }} alternative as a {{$tagTitle}} tool? Here is the list of {{$titleHolder}}'s competitor or rival as a {{$tagTitle}} service with their free offers.</p>
 
-        {{ range $key, $val := where $regularPages "Params.tags" "intersect" (slice $tagTitle $tagTitleWithSpace (upper $tagTitle)) }}
+        {{ range $key, $val := $relatedStuff }}
           {{ if ne $val.Title $titleHolder }}
             <br>
             <h3>{{ $val.Title }} VS {{ $titleHolder }}</h3>
             {{ partial "stuff-cards.html" . }}
           {{ end }}
         {{ end }}
+        {{end}}
         <br>
       {{ end }}
     </section>

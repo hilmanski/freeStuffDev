@@ -4,5 +4,5 @@ title = "DeepAI API"
 link = "https://deepai.org/apis"
 thumbnail = "https://deepai.org/static/images/favicon.ico"
 snippet="Add cutting-edge functionality to your apps with machine learning"
-tags = ["AI"," API"]
+tags = ["AI","machinelearning-API"]
 +++

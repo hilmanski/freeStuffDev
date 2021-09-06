@@ -4,7 +4,7 @@ title = "Dapi"
 link = "https://dapiok.com/"
 thumbnail = "https://dapiok.com/favicon.png"
 snippet="Workplace for building API together"
-tags = ["API"]
+tags = ["API","collaboration","API-documentation"]
 +++
 3 personal projects
 1 project collaborator
