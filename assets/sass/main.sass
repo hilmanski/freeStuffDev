@@ -3,10 +3,12 @@
 $gold: rgb(227, 187, 84)
 $bodyBg: #F7F8FF
 $mainColor: #333
-$darkmodeBg: #29313d
+$darkmodeBg: #2D2D2D
 $darkmodeItemBg: #403E40
 $lightGray: #EBEAE6
+$darkGray: #8E8E8E
 $darkmodeColor: rgb(227, 227, 227)
+$darkmodeLinkColor: rgb(247, 247, 247)
 $fontBase: 'Oxygen', sans-serif
 
 
@@ -29,6 +31,35 @@ body
     font-family: $fontBase
     color: $mainColor
     background: $bodyBg
+
+body.darkmode 
+    background: $darkmodeBg
+    color: $darkmodeColor
+    sidebar
+        background: $darkmodeItemBg
+        color: $darkmodeColor
+    .cards
+        background: $darkmodeItemBg
+        color: $darkmodeColor
+    .sponsor
+        &:hover
+            background: $darkmodeItemBg
+        a
+            &:hover
+                background: $darkmodeItemBg
+                border-radius: 20px
+    a
+        color: $darkmodeLinkColor
+        &:hover 
+            background: $darkGray
+    .darkModeBtn
+        &:hover
+            background: $darkGray
+    input[type=search]
+        color: $darkmodeColor
+    .modal-content
+        background: $darkmodeItemBg
+    
 
 nav
     font-size: 1rem
@@ -54,6 +85,14 @@ sidebar
 
 .is-hidden
     display: none
+
+.darkModeBtn 
+    display: block
+    border-radius: 10px
+    padding: 5px 10px
+    &:hover
+        background: #ebeae6
+    
 
 .cards
    &.sponsor
