@@ -4,7 +4,7 @@ title = "SeaTable"
 link = "https://seatable.io"
 thumbnail = "https://seatable.io/wp-content/uploads/2020/06/logo.svg"
 snippet="SeaTable is the new flexible way for teams to work on tasks, projects or ideas."
-tags = ["product-management", "collaboration", "nocode", "api", "self-hosted", "on-premises", "cloud", "spreadsheet", "database", "task management", "productivity", "remote", "storage", "analytics"]
+tags = ["product-management", "collaboration", "nocode", "api","spreadsheet", "database", "task-management", "productivity", "remote"]
 +++
 Unlimited number of tables
 10,000 rows per account
