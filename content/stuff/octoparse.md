@@ -4,7 +4,7 @@ title = "Octoparse"
 link = "https://www.octoparse.com/"
 thumbnail = "https://www.octoparse.com/images/logo_blue.png"
 snippet="A Free, Simple, and Powerful Web Scraping Tool. Automate Data Extraction from websites within clicks without coding."
-tags = ["crawl"]
+tags = ["crawl","scraping"]
 +++
 Unlimited pages per crawl
 Unlimited computers
