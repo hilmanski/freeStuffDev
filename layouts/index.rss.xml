@@ -11,11 +11,11 @@
         {{ if le .Params.Date.Unix now.Unix }}
         <item>
             <title>Today's Dev tool: {{ .Title }}</title>
-            <link>{{ .Params.link }}</link>
+            <description>{{ .Params.snippet }}</description>
+            <link>{{ .Params.link }}?ref=freestuffdev</link>
             <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
             {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-            <guid>{{ .Params.link }}</guid>
-            <description>{{ .Params.snippet }}</description>
+            <guid>{{ .Params.link }}?ref=freestuffdev</guid>
         </item>
         {{ end }}
     {{ end }}
