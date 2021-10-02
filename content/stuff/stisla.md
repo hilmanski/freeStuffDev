@@ -1,6 +1,6 @@
 +++
 date = 2021-10-01T10:21:00
-title = "Free Bootstrap Admin Template — Stisla"
+title = "Stisla"
 link = "https://getstisla.com/"
 thumbnail = "https://getstisla.com/landing/stisla.png"
 snippet="Stisla is a free Bootstrap admin template. Stisla will help you to speed up your project, design your own dashboard UI and the users will love it."
