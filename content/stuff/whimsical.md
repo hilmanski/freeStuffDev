@@ -1,5 +1,5 @@
 +++
-date = 2021-10-02T06:53:00
+date = 2021-10-07T06:53:00
 title = "Whimsical"
 link = "https://whimsical.com/"
 thumbnail = "https://global-uploads.webflow.com/5d9d02c4b01a536c7d5d4a35/5db9fbf017048042c0fde339_favicon-256.png"
