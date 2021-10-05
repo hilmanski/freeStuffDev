@@ -6,4 +6,3 @@ thumbnail = "https://webcode.tools/favicon.png"
 snippet="The ultimate web code generators. Generate HTML, CSS, JSON-LD, Twitter Cards, Open Graph and more! No coding skills required."
 tags = ["html","css"," JSON"," meta"]
 +++
-Free Website code generator for web developers
