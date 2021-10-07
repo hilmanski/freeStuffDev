@@ -2,8 +2,8 @@
 date = "2021-10-06T15:21:45.644Z"
 title= "freeCodeCamp"
 link = "https://www.freecodecamp.org/"
-thumbnail = "https://d33wubrfki0l68.cloudfront.net/bbfa33a202e8612d49b6c1ed05c1fdd8e4001566/bbdd1/img/fcc_secondary_small.svg"
+thumbnail = "https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_400x400.jpg"
 snippet= "freecodecamp.org is a nonprofit community that helps you learn to code by building projects."
-tags = ["learning-resource","programming"]
+tags = ["learning-resource","community"]
 +++
 Every aspect of freeCodeCamp is 100% free.
