@@ -1,12 +1,11 @@
 +++
-date = 2021-10-10T06:00:00
+date = 2021-10-12T06:00:00
 title = "Figma"
 link = "https://www.figma.com"
 thumbnail = "https://static.figma.com/app/icon/1/touch-180.png"
 snippet="Build better products as a team. Design, prototype, and gather feedback all in one place with Figma."
-tags = ["design"," ui"," ux"," team"," collaboration", " alternative"]
+tags = ["design","collaboration", "alternative"]
 +++
-Free Plan:
 Unlimited files in drafts
 Unlimited viewers and commenters
 Unlimited editors on 3 team files
