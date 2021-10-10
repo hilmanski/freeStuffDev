@@ -1,5 +1,5 @@
 +++
-date = 2021-10-10T06:30:00
+date = 2021-10-11T06:30:00
 title = "Jitsi Meet"
 link = "https://meet.jit.si/"
 thumbnail = "https://meet.jit.si/images/apple-touch-icon.png"
