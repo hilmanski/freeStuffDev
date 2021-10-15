@@ -6,4 +6,4 @@ thumbnail = "https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cu
 snippet="HackerRank is the market-leading technical assessment and remote interview solution for hiring developers."
 tags = ["learning-resources"," preparation"," recruitment"]
 +++
-Free competitive programming challenges for Java, C++, PHP, Python, SQL, JavaScript
+Sign up for free and get better at your Problem-Solving skills. There are Free competitive programming challenges in  Java, C++, PHP, Python, SQL, JavaScript, Algos, Data Structures and AI.
