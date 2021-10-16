@@ -1,0 +1,8 @@
++++
+date = 2021-10-16T14:08:33.865Z
+title = "Cuttly | Free Custom URL Shortener, Branded URLs, Link Management, API"
+link = "https://cutt.ly"
+thumbnail = "https://cutt.ly/img/icon152x152.png"
+snippet="Free custom URL Shortener and branded URLs with advanced links tracking and Link Management Platform & API. Shorten and replace long URL to short link. Track your links. Use it to affiliate programs, ads, social websites, emails, text messages, flyers with QR code."
+tags = ["api"," shortener", " url"]
++++
