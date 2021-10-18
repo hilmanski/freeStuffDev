@@ -1,5 +1,5 @@
 +++
-date = 2021-10-15T06:30:00
+date = 2021-10-20T06:30:00
 title = "css.gg"
 link = "https://css.gg"
 thumbnail = "https://css.gg/fav/apple-icon-180x180.png"
