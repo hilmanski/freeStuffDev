@@ -7,7 +7,7 @@ snippet="Thunder Client is a Http Client Extension for Visual Studio Code for Te
 tags = ["API"," API-Testing"," API-Client"]
 +++
 Extension Design Goals : 
--Lightweight API Client
+- Lightweight API Client
 - Simple, Clean & Easy to use UI
 - Handle Large Responses & View in Full Screen
 - Support VS Code Themes
