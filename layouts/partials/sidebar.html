@@ -20,9 +20,9 @@
         <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} service for developer to use. Some services are free forever or have a free tier at least for 1 year</em>
         </p>
 
-        <div class="on-mobile-only my-20 sponsor">
+        <!-- <div class="on-mobile-only my-20 sponsor">
             {{ partial "sponsor.html" . }}
-        </div> 
+        </div>  -->
 
         <section id="filter-tag" class="on-mobile-only my-20">
             <details>
@@ -45,6 +45,14 @@
         {{ end }}
         </ul>
         <button id="moreTagsBtn">Show All Categories</button>
+        </div>
+
+        <div>
+            <b style="color:#237BFF;">Referral Link:</b>
+            <li><a class='underlined' href="https://m.do.co/c/add83b15b18d" target="_blank">Free <b>100$ credit</b> for Cloud Hosting by DigitalOcean</a></li>
+            
+            <li> <a class='underlined' href="https://namecheap.pxf.io/onebitedev" target="_blank"> Find your next domain name with namecheap (Discount)</a></li>
+            <br>
         </div>
 
 </sidebar>     
