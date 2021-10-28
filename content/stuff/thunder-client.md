@@ -1,6 +1,6 @@
 +++
-date = 2021-10-28T09:11:00
-title = "Thunder Client - Http Client Extension for VS Code, lightweight Rest Client"
+date = 2021-11-03T09:11:00
+title = "Thunder Client"
 link = "https://www.thunderclient.io/"
 thumbnail = "https://www.thunderclient.io/images/thunder-1024.png"
 snippet="Thunder Client is a Http Client Extension for Visual Studio Code for Testing APIs. Supports Graphql query. Rest Client lightweight alternative to Postman"
