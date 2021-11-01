@@ -1,5 +1,5 @@
 +++
-date = 2021-10-31T23:13:50.081Z
+date = 2021-11-05T23:13:50.081Z
 title = "Tatum"
 link = "https://tatum.io"
 thumbnail = "https://tatum.io/images/fav/apple-icon-180x180.png"
