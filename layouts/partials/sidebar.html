@@ -9,10 +9,9 @@
     </div>
 
     <nav class="flex-on-mobile my-20 is-space-around">
-        <a class="button" href="/new-stuff">✏️ Submit+</a>
+        <a href="/new-stuff">✏️ Submit+</a>
+        <a href="/codeofconduct">📋 Code Of Conduct</a>
         <a href="https://onebite.dev/" target="_blank">📒 Blog</a>
-        <a href="https://twitter.com/fullofdev" target="_blank">🐥 Twitter</a>
-        <span id="darkModeBtn" class="darkModeBtn"> 🌚 Dark</span>
     </nav> 
     
 
@@ -38,21 +37,33 @@
         </section> 
 
         <div class="on-desktop-only my-20">
-        <p class="mb-10">Top 25 Categories: </p> 
+        <p class="mb-10">Top 20 Categories: </p> 
         <ul class="tags mb-10">
-        {{ range (first 25 $.Site.Taxonomies.tags.ByCount) }}
+        {{ range (first 20 $.Site.Taxonomies.tags.ByCount) }}
             <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a></li>
         {{ end }}
         </ul>
         <button id="moreTagsBtn">Show All Categories</button>
         </div>
-
+        
         <div>
             <b style="color:#237BFF;">Referral Link:</b>
             <li><a class='underlined' href="https://m.do.co/c/add83b15b18d" target="_blank">Free <b>100$ credit</b> for Cloud Hosting by DigitalOcean</a></li>
             
-            <li> <a class='underlined' href="https://namecheap.pxf.io/onebitedev" target="_blank"> Find your next domain name with namecheap (Discount)</a></li>
+            <li> <a class='underlined' href="https://namecheap.pxf.io/onebitedev" target="_blank"> Find your domain name with namecheap (Discount)</a></li>
             <br>
         </div>
+
+        <div>
+            <b style="color:#237BFF;">Other:</b>
+            <p> <a href="https://twitter.com/fullofdev" target="_blank">🐥 Twitter</a> /
+                 <a href="#" id="darkModeBtn" class="darkModeBtn"> 🌚 Dark </a></p>
+        </div>
+        <br>
+        <p>
+            <a href="https://www.netlify.com">
+              <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+            </a>
+        </p>
 
 </sidebar>     
