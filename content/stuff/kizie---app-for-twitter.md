@@ -6,6 +6,6 @@ thumbnail = "https://kizie.co/touch-icons/apple-touch-icon-ipad-retina-152x152.p
 snippet="Create beautiful and customizable Tweet screenshots for Instagram Story, Posts and more"
 tags = ["twitter","image"]
 +++
-- Totally free to use
-- Customise colours and tweak image
-- Export in different sizes
+Totally free to use
+Customise colours and tweak image
+Export in different sizes
