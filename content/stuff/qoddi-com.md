@@ -1,5 +1,5 @@
 +++ 
-date = 2021-11-30T01:30:18.677Z 
+date = 2021-12-14T00:30:18.677Z 
 title = "Qoddi.com" 
 link = "https://qoddi.com" 
 thumbnail = "https://qoddi.com/assets/images/favicon.ico" 
