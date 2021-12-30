@@ -1,5 +1,5 @@
 +++
-date = 2021-12-22T12:13:23.060Z
+date = 2021-12-30T12:13:23.060Z
 title = "Dedicated Container Registry as a Service - Container Registry"
 link = "https://container-registry.com/"
 thumbnail = "https://container-registry.com//favicon/apple-touch-icon.png"
