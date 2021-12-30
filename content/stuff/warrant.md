@@ -1,5 +1,5 @@
 +++
-date = 2021-12-23T18:10:33.497Z
+date = 2021-12-31T18:10:33.497Z
 title = "Warrant - APIs for authorization and access control"
 link = "https://warrant.dev/"
 thumbnail = "https://warrant.dev/apple-touch-icon.png"
