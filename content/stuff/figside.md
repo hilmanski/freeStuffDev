@@ -6,6 +6,6 @@ thumbnail = "https://figside.com/logo.svg"
 snippet="Ship Websites with Figma"
 tags = ["hosting-static"]
 +++
-3 websites
+3 websites with custom domain
 2 pages max per website
 One-click publishing
