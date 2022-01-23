@@ -1,5 +1,14 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Free Stuff Dev: Code of Conduct</title>
+	<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+	<meta name="description" content="This is code of conduct of free stuff.dev website, a list of free developer stuff.">
+</head>
 
+<body>
 <section class="is-three-fifths maincontent">
     <h1>Add New</h1>
     <p>
@@ -149,7 +158,7 @@ ${content}`
             display: block;
         }
 
-        #form input, button{
+        #form input{
             height: 30px;
             width: 250px;
             padding: 5px;
@@ -160,13 +169,22 @@ ${content}`
             border-radius: 5px;
             color:  white;
             border: none;
+            width: 100%;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 10px;
         }
         button:hover {
             cursor: pointer;
             background: #238BDD;
         }
+
+        pre{
+            background-color: white;
+        }
     </style>
 </section>
 </div>
 <br>
-{{ end }}
+</body>
+</html>
