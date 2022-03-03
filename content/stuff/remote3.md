@@ -6,4 +6,4 @@ thumbnail = "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.co
 snippet="Discover 294+ remote web3 Jobs around the world at companies working on blockchain, smart contract, DeFi, NFT, crypto and more."
 tags = ["web3"," job-listing"," remote"]
 +++
-Free to create profiles for devs to showcase their portfolio, get in front of companies and (Upcoming feature: get matched with the companies automatically when they post job)
+Create profiles to showcase portfolio
