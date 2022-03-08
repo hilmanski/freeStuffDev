@@ -4,7 +4,7 @@ title = "MojoAuth"
 link = "https://mojoauth.com/"
 thumbnail = "https://mojoauth.com/favicon.ico"
 snippet="Quickly integrate passwordless authentication for web and mobile applications to give users a smooth, secure login experience."
-tags = ["authentication"]
+tags = ["authentication","passwordless-authentication"]
 +++
 Unlimited Monthly Active Users
 Unlimited Total Users
