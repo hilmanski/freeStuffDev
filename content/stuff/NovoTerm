@@ -1,10 +1,11 @@
 +++
 date = "2022-04-19T00:00:00+00:00"
-tags = ["Serial Terminal,Serial Data,COM PORT Analyzer,firmware,embedded software"]
+tags = ["serial-terminal,serial-data,COM-PORT-Analyzer"]
 title="NovoTerm"
 link = "https://novoterm.io"
-thumbnail = "NovoTerm - Serial Terminal for Firmware Developers"
+thumbnail = "https://novoterm.io/wp-content/uploads/2021/10/cropped-novodes.png"
 snippet="NovoTerm is a desktop app that helps firmware developers view incoming/outgoing serial data in various formats and also send data easily. You can save data sequences and send them whenever needed. Data can be exported easily."
 +++
-No ads and no credit card required. All features are available in the free version.
-The only limitation is on the amount of data you can export to txt/cvs file and on the number of data sequences you can have in the app. 
+1 Macro Button
+Data save limit 2000 rows
+Community Support
