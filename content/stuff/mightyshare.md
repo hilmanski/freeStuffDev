@@ -4,6 +4,6 @@ title = "MightyShare"
 link = "https://mightyshare.io/"
 thumbnail = "https://mightyshare.io/wp-content/uploads/2022/05/cropped-mightyshare-icon-fun-180x180.png"
 snippet="AUTOMATE YOUR WORDPRESS SOCIAL SHARE IMAGES"
-tags = ["WordPress","Social-Images",Social-Media"]
+tags = ["WordPress","Social-Images","Social-Media"]
 +++
 Free 50 renders a month
