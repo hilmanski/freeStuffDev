@@ -1,12 +1,11 @@
 +++
 date = "YYYY-MM-DDT00:00:00+00:00"
-tags = ["productivity","cloud"]
+tags = ["productivity","cloud","other-list"]
 title="Visual Studio Dev Essentials"
-link = "https://my.visualstudio.com/Benefits"
-thumbnail = "https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/visual-studio-dev-essentials-subscription/Images/Visual%20Studio%20Dev%20Essentials%20Subscription3.jpg"
-snippet="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/visual-studio-dev-essentials-subscription/Images/Visual%20Studio%20Dev%20Essentials%20Subscription3.jpg"
+link = "https://visualstudio.microsoft.com/dev-essentials/"
+thumbnail = "https://pbs.twimg.com/profile_images/1278356990125719552/jNciLHjC_400x400.jpg"
+snippet="Get everything you need to build and deploy your app on any platform. With state-of-the-art tools, the power of the cloud, training, and support, it’s our most comprehensive free developer program ever."
 +++
-Detail what's free here..
 Pluralsight for 1 month,
 CODE Magazine for 1 year,
 LinkedIn Learning 1 month premium subscription,
