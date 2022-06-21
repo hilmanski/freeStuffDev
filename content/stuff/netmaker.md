@@ -1,9 +1,9 @@
 +++
 date = 2022-06-21T14:19:56.615Z
-title = "GitHub"
+title = "Netmaker"
 link = "http://github.com/gravitl/netmaker"
 thumbnail = "https://raw.githubusercontent.com/gravitl/netmaker-docs/master/images/N%20Teal.png"
-snippet="Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks. - GitHub - gravitl/netmaker: Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks."
+snippet="Connect your devices securely, wherever they are. Netmaker lets you create the fastest possible distributed mesh VPN. Powered by WireGuard."
 tags = ["vpn"," wireguard"," remote"," cybersecurity"," networking"]
 +++
 Manage WireGuard networks  
