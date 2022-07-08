@@ -3,7 +3,7 @@ date = 2022-07-08T08:44:36.179Z
 title = "YepCode"
 link = "https://yepcode.io"
 thumbnail = "https://yepcode.io/wp-content/uploads/2021/06/cropped-favicon-180x180.png"
-snippet="YepCode is an all-in-one SaaS platform that allows development teams to connect enterprise services and APIs in a smooth and agile way."
+snippet="All-in-one platform to connect APIs and services in a serverless environment. It brings all the agility and benefits of NoCode tools, but with all the power of use programming languages"
 tags = ["PaaS","serverless","API"]
 +++
 Credit: 1.000 yeps/month
