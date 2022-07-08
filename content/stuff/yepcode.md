@@ -4,7 +4,7 @@ title = "YepCode"
 link = "https://yepcode.io"
 thumbnail = "https://yepcode.io/wp-content/uploads/2021/06/cropped-favicon-180x180.png"
 snippet="All-in-one platform to connect APIs and services in a serverless environment. It brings all the agility and benefits of NoCode tools, but with all the power of use programming languages"
-tags = ["PaaS","serverless","API"]
+tags = ["Saas","PaaS","serverless","API","workflow","developer-tools","automation","code","productivity", "JavaScript"]
 +++
 Credit: 1.000 yeps/month
 Processes: up to 5 by team
