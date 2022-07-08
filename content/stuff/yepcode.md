@@ -7,6 +7,6 @@ snippet="YepCode is an all-in-one SaaS platform that allows development teams to
 tags = ["PaaS","serverless","API"]
 +++
 Credit: 1.000 yeps/month
-Create up to 5 processes
-Use up to 3 integrations
-Time by execution up to 5 minutes
+Processes: up to 5 by team
+Integrations: up to 3 by team
+Time by execution: 5 minutes
