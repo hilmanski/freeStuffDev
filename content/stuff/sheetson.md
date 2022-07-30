@@ -1,6 +1,6 @@
 +++
 date = 2022-07-30T00:33:59.661Z
-title = "Sheetson - Build Instant APIs from Google Sheets"
+title = "Sheetson"
 link = "https://sheetson.com"
 thumbnail = ""
 snippet="Build instant APIs from Google Sheets for free"
