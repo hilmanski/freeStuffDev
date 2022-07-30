@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Free Stuff Dev: Code of Conduct</title>
 	<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
 	<meta name="description" content="This is code of conduct of free stuff.dev website, a list of free developer stuff.">
+	<style>
+		body.darkmode {
+			background: #2d2d2d;
+			color: #e3e3e3
+		}
+
+		body.darkmode a {
+			color: #f7f7f7
+		}
+
+		body.darkmode a:hover {
+			background: #8e8e8e
+		}
+	</style>
 </head>
+
 <body>
 	<h1>Code of Conduct - FreeStuff.dev</h1>
 	<p>
@@ -21,5 +37,13 @@
 	</ul>
 
 	<p>If you have any questions, feel free to reach out at <a href="https://twitter.com/hilmanski">@hilmanski</a> </p>
+
+	<script>
+		// Check for darkmode
+		if (localStorage.getItem("preferredTheme") == "dark") {
+			document.body.classList.add("darkmode");
+		}
+	</script>
 </body>
+
 </html>
