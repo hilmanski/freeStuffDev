@@ -27,18 +27,18 @@
             <div>
                 <label for="tags"><b>2. Tags</b> </label>
                 <input id="input_tags" type="text" label="tags" required>
-                <pre>example: hosting,authentication ..</pre>
+                <small><pre>example: hosting,authentication ..</pre></small>
             </div>
 
             <div>
                 <label for="benefit"><b>3. What's free?</b></label>
                 <textarea name="benefits" id="input_benefits" cols="30" rows="5"></textarea>
                 <small>
-                    <pre>
-                        example:
-                        Free self-hosted
-                        Upload up to 30mb
-                    </pre>
+<pre>
+example:
+Free self-hosted
+Upload up to 30mb
+</pre>
                 </small>
             </div>
 
@@ -125,15 +125,15 @@
                 //8. FIlename
                 const filename = generateFileName(title) + ".md"
 
-                let fileText = `+++
-                date = ${date}
-                title = "${title}"
-                link = "${url}"
-                thumbnail = "${thumbnail}"
-                snippet="${snippet}"
-                tags = ${tags}
-                +++
-                ${content}`
+let fileText = `+++
+date = ${date}
+title = "${title}"
+link = "${url}"
+thumbnail = "${thumbnail}"
+snippet="${snippet}"
+tags = ${tags}
++++
+${content}`
 
                 fileText = encodeURIComponent(fileText)
 
@@ -233,6 +233,15 @@
 
             body.darkmode .modal-content {
                 background: #403e40
+            }
+            
+            body.darkmode #form input {
+                color: white;
+                border: 1px solid #474747;
+            }
+            
+            body.darkmode pre {
+                background: none;
             }
         </style>
         </style>
