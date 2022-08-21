@@ -1,7 +1,7 @@
 +++
 date = 2022-08-12T06:35:51.632Z
-title = "The Fastest Frontend for the Headless Web | Gatsby"
-link = "https://www.gatsbyjs.com/"
+title = "Gatsby Cloud"
+link = "https://www.gatsbyjs.com/products/cloud/"
 thumbnail = "https://www.gatsbyjs.com/icons/icon-512x512.png?v=3ad5294f3fa6c06e2d07ab07c76df2cf"
 snippet="Gatsby is a React-based open source framework with performance, scalability and security built-in. Collaborate, build and deploy 1000x faster with Gatsby Cloud."
 tags = ["hosting"," hosting-dynamic"," hosting-static"]
