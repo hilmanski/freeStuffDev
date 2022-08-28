@@ -1,9 +1,9 @@
 <div class="is-two-thirds maincontent">
     <main>
         <div class="v-distance">
-            <div class="on-desktop-only">
+            <!-- <div class="on-desktop-only">
                 {{ partial "sponsor.html" . }}
-            </div>
+            </div> -->
 
         {{ if eq .Kind "term" }}
             <h1>List of free {{ .Title }} tool/service for developer👇🏽 </h1>
@@ -45,4 +45,8 @@
     and free {{$tagTerm}} developer stuff.
     Are you looking for {{$tagTerm}} tools recommendation to use in your next project? Take a look 
     at the list above for you to get started on your MVP. You don't have to worry about the money, you can start your next project for free.
+    <br><br>
+    <b> More developer tools recommendation</b><br>
+    If you're looking for all developer tools around {{$tagTerm}} (not just free). 
+    Check this page <a style="text-decoration:underline;" href="https://finddev.tools/category/{{$tagTerm}}" target="_blank">🛠 All DevTools - category {{$tagTerm}}</a>
 </p>

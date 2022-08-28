@@ -7,6 +7,9 @@ Inspired by [other similar sites](https://freestuff.dev/tags/other-list/), supri
 
 Built with Hugo Static site generator and hosted at Netlify
 
+## License
+MIT License
+
 ## Rules
 Only accept free stuff or free trial at least 1 Year.
 

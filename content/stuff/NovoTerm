@@ -1,0 +1,11 @@
++++
+date = "2022-04-19T00:00:00+00:00"
+tags = ["serial-terminal,serial-data,COM-PORT-Analyzer"]
+title="NovoTerm"
+link = "https://novoterm.io"
+thumbnail = "https://novoterm.io/wp-content/uploads/2021/10/cropped-novodes.png"
+snippet="NovoTerm is a desktop app that helps firmware developers view incoming/outgoing serial data in various formats and also send data easily. You can save data sequences and send them whenever needed. Data can be exported easily."
++++
+1 Macro Button
+Data save limit 2000 rows
+Community Support

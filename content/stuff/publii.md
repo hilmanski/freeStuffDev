@@ -1,8 +1,8 @@
 +++
-date = 2021-10-27T14:19:46.916Z
+date = 2021-11-27T13:50:07.964Z
 title = "Publii"
 link = "https://getpublii.com/"
-thumbnail = "https://pbs.twimg.com/profile_images/1265549717678718977/98hlaWDl_400x400.png"
+thumbnail = "https://getpublii.com/favicon.ico"
 snippet="Static Sites Generator with User Interface, blogging tool for ultra-fast, SEO friendly and secure websites, supports publishing to AWS S3, Netlify, GitHub Pages, Gitlab Pages, FTP, Google Cloud."
-tags = ["cms"," ssg"]
+tags = ["cms"]
 +++
