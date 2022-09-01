@@ -1,0 +1,20 @@
+   {
+            {{ range $index, $e := .Data.Pages }}
+            
+            {{ $splitLinks := split .Permalink "/"}}
+            {{ $slug := index (last 2 $splitLinks) 0 }}
+
+            
+
+            {{ if $index }}, {{ end }} 
+                "{{ $slug }}" : {
+                    "title" : "{{ .Title }}",
+                    "link" : "{{ .Params.Link }}",
+                    "snippet": "{{ .Params.Snippet }}",
+                    "tags": "{{ .Params.Tags }}",
+                    "date": "{{ .Params.Date}}",
+                    "thumbnail": "{{ .Params.Thumbnail }}"
+                }
+            {{ end }}
+        
+    }

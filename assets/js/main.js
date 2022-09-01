@@ -43,3 +43,4 @@ const darkModeBtn = document.getElementById("darkModeBtn")
 
 // Add event to dark mode button
 darkModeBtn.onclick = () => setDarkMode();
+

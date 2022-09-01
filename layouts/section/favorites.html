@@ -1,0 +1,99 @@
+{{ define "main" }}
+<div class="is-two-thirds maincontent">
+  <main>
+
+    <div class="v-distance">
+        <h1> ❤️ Your Saved FreeStuffDev</h1>
+        <p>*We save it on localstorage. Means it's only valid for this (your) browser. 
+            You can't share it with others
+        </p>
+        <br>
+
+        <div id="card-list" class="v-distance">
+            <p> Load your saved items...</p>
+            <p>If you don't have one, you can click "save button" on items you want to save.
+                <a class="link" href="/">Explore items here</a>
+            </p>
+        </div>
+    
+
+    </div>
+
+    </main>
+</div>
+</div> <!-- end flex -->
+
+<script>
+    const savedItems = getObjectLS(FAV_KEY_NAME).reverse()
+    const cardList = document.getElementById('card-list')
+
+    fetch('/stuff/index.json')
+    .then(response => {
+    return response.json()
+    }).then(data => {
+        const allIitems = data
+
+        if (savedItems.length > 0) {
+            cardList.innerHTML = ''
+        }
+        
+        savedItems.forEach(function(slug){
+            if(allIitems[slug]) {
+                createCard(allIitems[slug], slug)
+            }
+        });
+    }).catch(err => {
+        console.log(err)
+    })
+
+    function createCard(data, slug) {
+       const tags = data.tags.replace('[', '').replace(']', '').replace(/\s\s/g, ' ,');
+
+       let card =  `<div class="cards">
+            <div class="flex is-space-between is-align-items">
+                <div class="flex flex-on-mobile is-two-thirds">
+                    <img src="${data.thumbnail}" loading="lazy" alt="Logo ${data.title}" width="80" height="auto">
+                    <div>
+                        <h3 class="title"> <a href="${data.link}?ref=freeStuffDev" target="_blank"> ${data.title} </a></h3>
+                        <p>${data.snippet}</p> 
+
+                <p class="mt-20"> <em>
+                Tag: ${tags}
+                </em></p>
+                    </div>
+                </div>
+                
+            </div>
+            <br>
+
+            <div style="text-align:right;"> 
+                <a class="link" href="#" class="save-link" onclick="unsave(event, '${slug}')">Remove From Saved</a> &nbsp;
+                <a class="link" href="/alternative/${slug}">Alternatives</a> &nbsp;
+                <a class="link" target="_blank" href="${data.link}?ref=freeStuffDev">Visit Link</a>
+            </div>
+        </div>`
+
+        
+        //insertADjacenHTML to card-list
+        cardList.insertAdjacentHTML('beforeend', card)
+        return
+    }
+
+    function unsave(event, slug) {
+        event.preventDefault()
+        event.stopPropagation()
+        const savedItems = getObjectLS(FAV_KEY_NAME)
+        const index = savedItems.indexOf(slug)
+        if (index > -1) {
+            savedItems.splice(index, 1)
+        }
+        setObjectLS(FAV_KEY_NAME, savedItems)
+        // window.location.reload()
+        
+        //remove card by detect closest .cards
+        const card = event.target.closest('.cards')
+        card.remove()
+    }
+</script>
+
+{{ end }}
