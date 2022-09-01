@@ -1,16 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+{{ define "main" }}
+<div class="is-two-thirds maincontent">
+  <main>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Stuff Dev: Code of Conduct</title>
-    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
-    <meta name="description" content="This is code of conduct of free stuff.dev website, a list of free developer stuff.">
-</head>
+    <style>
+        main {
+            font-size: 1.2rem;
+            line-height: 2rem;
+        }
+        ul, ol {
+            list-style-position: inside;
+        }
+    </style>
 
-<body>
-    <section class="is-three-fifths maincontent">
+    <div class="v-distance">
         <h1>Add New</h1>
         <p>
             We'll redirect you to <b>github PR's page</b> after submit. <br>
@@ -144,14 +146,10 @@ ${content}`
             function generateFileName(_title) {
                 return _title.replace(/\s/g, '-').replace(/\./g, '-').replace(/"/g, '\\"').toLowerCase();
             }
-
-            // Check for darkmode
-            if (localStorage.getItem("preferredTheme") == "dark") {
-                document.body.classList.add("darkmode");
-            }
         </script>
 
         <style>
+              <style>
             #form {
                 border: 1px solid grey;
                 padding: 10px;
@@ -191,64 +189,12 @@ ${content}`
                 background-color: white;
             }
 
-            body.darkmode {
-                background: #2d2d2d;
-                color: #e3e3e3
-            }
-
-            body.darkmode sidebar {
-                background: #403e40;
-                color: #e3e3e3
-            }
-
-            body.darkmode .cards {
-                background: #403e40;
-                color: #e3e3e3
-            }
-
-            body.darkmode .sponsor:hover {
-                background: #403e40
-            }
-
-            body.darkmode .sponsor a:hover {
-                background: #403e40;
-                border-radius: 20px
-            }
-
-            body.darkmode a {
-                color: #f7f7f7
-            }
-
-            body.darkmode a:hover {
-                background: #8e8e8e
-            }
-
-            body.darkmode .darkModeBtn:hover {
-                background: #8e8e8e
-            }
-
-            body.darkmode input[type=search] {
-                color: #e3e3e3
-            }
-
-            body.darkmode .modal-content {
-                background: #403e40
-            }
-            
-            body.darkmode #form input, body.darkmode #form textarea {
-                color: white;
-                border: 1px solid #474747;
-                background: black;
-            }
-            
             body.darkmode pre {
                 background: none;
             }
         </style>
-        </style>
-    </section>
     </div>
-    <br>
-</body>
-
-</html>
+</main>
+</div>
+</div>
+{{ end }}
