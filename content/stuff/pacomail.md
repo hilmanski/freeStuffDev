@@ -3,7 +3,7 @@ date = 2022-09-13T14:29:28.892Z
 title = "Pacomail"
 link = "https://pacomail.io/"
 thumbnail = "https://pacomail.io/wp-content/uploads/2022/08/icon-logo-22.svg"
-snippet="Découvrez Pacomail, le premier mailcatcher éco-conçu et conforme au RGPD qui va simplifier vos tests d'emails transactionnels."
+snippet="Discover the mailcatcher that will simplify your email tests"
 tags = ["email-testing"]
 +++
 100 emails/month
