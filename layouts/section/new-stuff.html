@@ -79,6 +79,8 @@ Upload up to 30mb
                         //redirect with all encoded data   
                         return false;
                     }).catch((error) => {
+                        console.log('error-> ')
+                        console.log(error)
                         status.innerHTML = "Sorry.. something went wrong. \n"
                             + "You can still contribute via<a class='link' href='https://github.com/hilmanski/freeStuffDev/new/main/content/stuff?value=%2B%2B%2B%0Adate%20%3D%20%22YYYY-MM-DDT00%3A00%3A00%2B00%3A00%22%0Atags%20%3D%20%5B%22tag%22%5D%0Atitle%3D%22Title%22%0Alink%20%3D%20%22https%3A%2F%2Flink%22%0Athumbnail%20%3D%20%22url_thumbnail%22%0Asnippet%3D%22Snippet%20of%20product%22%0A%2B%2B%2B%0ADetail%20what%27s%20free%20here..%0A'> this link </a>"
                     });
@@ -95,7 +97,6 @@ Upload up to 30mb
                 } else {
                     date = dayjs(new Date(document.getElementById('date').value)).format('YYYY-MM-DDThh:mm:ss')
                 }
-                console.log(date)
 
                 //2. Thumbnail
                 let thumbnail = ''
@@ -106,8 +107,8 @@ Upload up to 30mb
                 if (_info.maskIcon != null)
                     thumbnail = _info.maskIcon.href
 
-                if (_info.touchIcons.length != 0)
-                    thumbnail = _info.touchIcons[_info.touchIcons.length - 1].href
+                if (_info.touchIcons?.length != 0 && _info.touchIcons != undefined) 
+                    thumbnail = _info.touchIcons[_info.touchIcons?.length - 1].href
 
                 //3. Tags
                 const tags = '["' + _tags.replace(/,/g, '","') + '"]'
@@ -144,6 +145,7 @@ ${content}`
             }
 
             function generateFileName(_title) {
+                console.log(_title)
                 return _title.replace(/\s/g, '-').replace(/\./g, '-').replace(/"/g, '\\"').toLowerCase();
             }
         </script>
