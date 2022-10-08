@@ -2,7 +2,7 @@
 date = 2022-10-08T21:31:28.992Z
 title = "DenoLand"
 link = "https://deno.com/deploy"
-thumbnail = "https://deno.com/favicon.ico"
+thumbnail = "https://pbs.twimg.com/profile_images/1267819337026420739/GBuq7wjs_400x400.jpg"
 snippet="Run JavaScript, TypeScript, and WebAssembly at the edge, worldwide."
 tags = ["hosting"," hosting-dynamic"," hosting-static"," serverless"]
 +++
