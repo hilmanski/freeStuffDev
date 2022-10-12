@@ -4,5 +4,5 @@ title = "Sunrise and Sunset Times"
 link = "https://sunrisesunset.io/api/"
 thumbnail = "https://sunrisesunset.io/wp-content/uploads/2022/06/icon.jpg"
 snippet="Free API to get sunrise and sunset times for any location using coordinates."
-tags = ["Weather","API"," Science"]
+tags = ["weather-API","API"," Science"]
 +++
