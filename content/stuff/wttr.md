@@ -1,5 +1,5 @@
 +++
-date = 2022-10-10T219:130:16.895Z
+date = 2022-10-12T09:06:12.895+07:00
 title = "Wttr"
 link = "https://wttr.in/"
 thumbnail = "https://www.linkpicture.com/q/Wttr.in.png"
