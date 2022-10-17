@@ -4,7 +4,7 @@ title = "Sirv"
 link = "https://sirv.com/"
 thumbnail = "https://sirv.sirv.com/apple-touch-icon.png"
 snippet="Sirv helps you and your team manage, transform, optimize and deliver digital assets for faster websites and apps. Increase your conversions with Sirv today."
-tags = ["hosting"," optimisation"," CDN"," DAM"," 360 spin"," gallery"]
+tags = ["CDN","360-spin","image-gallery"]
 +++
 Media CDN
 File uploads
