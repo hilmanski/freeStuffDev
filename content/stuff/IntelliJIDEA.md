@@ -4,6 +4,6 @@ title = "IntelliJ IDEA"
 link = "https://www.jetbrains.com/idea/download"
 thumbnail = "https://www.jetbrains.com/apple-touch-icon.png?r=1234"
 snippet="IntelliJ IDEA is an intelligent, context-aware IDE for working with Java and other JVM languages like Kotlin, Scala and Groovy on all sorts of applications."
-tags = ["code","api","web-development","IDE"]
+tags = ["IDE"]
 +++
 Free community edition
