@@ -4,7 +4,7 @@ title = "Nhost"
 link = "https://nhost.io/"
 thumbnail = "https://nhost.io/favicon.png"
 snippet="Nhost is an open source Firebase alternative with GraphQL, built with the following things in mind: Open Source, GraphQL, SQL, Great Developer Experience"
-tags = ["hosting","storage","database","authentication","serverless-backend"]
+tags = ["hosting","storage","database","authentication","serverless-backend","graphql"]
 +++
 Postgres DB with 500 MB of storage
 GraphQL with Hasura
