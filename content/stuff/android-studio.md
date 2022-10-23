@@ -6,4 +6,3 @@ thumbnail = "https://img.icons8.com/color/344/android-studio--v3.png"
 snippet="Android Studio provides app builders with an integrated development environment (IDE) optimized for Android apps."
 tags = ["android","app-development","ide"]
 +++
- Windows, macOS, Linux
