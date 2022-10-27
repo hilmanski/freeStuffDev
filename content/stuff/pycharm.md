@@ -4,6 +4,6 @@ title = "JetBrains"
 link = "https://www.jetbrains.com/pycharm/download"
 thumbnail = "https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png"
 snippet="PyCharm is a Python IDE for data science and web development. It also provides support for various Python web development frameworks, specific template languages, JavaScript, CoffeeScript, TypeScript, HTML/CSS, AngularJS, Node.js, and more."
-tags = ["ide","python","development","api","data-science"]
+tags = ["IDE","python","data-science"]
 +++
 Free community edition
