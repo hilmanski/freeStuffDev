@@ -15,11 +15,11 @@ Only accept free stuff or free trial at least 1 Year.
 
 ## Contribute
 Want to add new stuff?   
-1a. Use this form
+1. Use this form
 [Form New Stuff+](https://freestuff.dev/new-stuff)  
-it will prefill some value for your github Pull Request
+, it will prefill some value for your github Pull Request
 
-1b. If you're going to create file manually (not via link above):
+2. If you're going to create file manually (not via link above):
 
 a. Fork repo  
 b. Inside your fork navigate to `content/stuff`  
