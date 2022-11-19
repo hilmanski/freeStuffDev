@@ -1,9 +1,9 @@
 +++
 date = 2022-11-18T22:22:45.102Z
-title = "Hugging Face – The AI community building the future."
+title = "Hugging Face"
 link = "https://huggingface.co/"
-thumbnail = ""
+thumbnail = "https://pbs.twimg.com/profile_images/1348748676282388482/nr8ZuLBE_400x400.jpg"
 snippet="We’re on a journey to advance and democratize artificial intelligence through open source and open science."
-tags = ["deploy"," ai"," machine-learning"]
+tags = ["community","AI"," machine-learning"]
 +++
-The AI community building the future.
+Free AI Community
