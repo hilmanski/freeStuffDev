@@ -4,5 +4,5 @@ title = "Distrochooser"
 link = "https://distrochooser.de/"
 thumbnail = "https://distrochooser.de/icon.svg"
 snippet="The Distrochooser helps you to find the suitable Linux distribution based on your needs!"
-tags = ["linux"," free"," distro"]
+tags = ["linux"]
 +++
