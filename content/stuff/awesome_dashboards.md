@@ -4,5 +4,5 @@ title = "Awesome Dashboards"
 link = "https://github.com/omarkdev/awesome-dashboards"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="List of dashboards free to use."
-tags = ["dashboards"," free"," open-source"]
+tags = ["dashboards","awesome-list"]
 +++
