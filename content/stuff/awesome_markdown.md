@@ -4,5 +4,5 @@ title = "Awesome Markdown"
 link = "https://github.com/mundimark/awesome-markdown"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)"
-tags = ["markdown"," awesome-markdown"]
+tags = ["markdown","awesome-list"]
 +++
