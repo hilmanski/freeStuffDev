@@ -3,7 +3,7 @@ date = 2022-11-27T17:40:56.897Z
 title = "Goorm"
 link = "https://goorm.io"
 thumbnail = "https://goorm.io/icons/icon-512x512.png?v=031f6d228c5347f59da8275131f62141"
-snippet="."
+snippet="goormIDE is a web-based cloud programming tool."
 tags = ["goorm"," ide"]
 +++
 
