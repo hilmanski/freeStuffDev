@@ -4,5 +4,5 @@ title = "NixOS"
 link = "https://discourse.nixos.org/"
 thumbnail = "https://discourse.nixos.org/uploads/default/optimized/1X/06a3745850c8afd669372d01ee3ac98ab5d9fdc9_2_180x180.png"
 snippet="Support and discussion about the NixOS (distro-linux)"
-tags = ["discourse"," nixos"]
+tags = ["nixos", "nixos-community", "linux"]
 +++
