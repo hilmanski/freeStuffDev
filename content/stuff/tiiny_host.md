@@ -1,6 +1,6 @@
 +++
 date = 2022-11-28T02:18:26.469Z
-title = "tiiny.host - The simplest way to share your web project"
+title = "tiiny.host"
 link = "https://tiiny.host"
 thumbnail = "https://tiiny.host/favicon.ico"
 snippet="Tiiny Host is the simplest way to share your web project."
