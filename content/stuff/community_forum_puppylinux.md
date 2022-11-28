@@ -4,5 +4,5 @@ title = "Puppy Linux Forum"
 link = "https://forum.puppylinux.com"
 thumbnail = "https://forum.puppylinux.com/styles/prosilver/template/puppy-linux-A-100.png"
 snippet="Support and discussion about the Manjaro (distro-linux)"
-tags = ["puppylinux"," puppylinux-community"," linux"]
+tags = ["linux-community"]
 +++
