@@ -5,7 +5,7 @@ List of free services for developer like database, hosting, authentication and o
 Check it at [freestuff.dev](https://freestuff.dev)  
 
 I listed many tools at my private note before, why not bring it to the public?
-Inspired by [other similar sites](https://freestuff.dev/tags/other-list/), suprisingly not many alternative out there, so I create my own dev-tool list to start prototyping or making a MVP.
+Inspired by [other similar sites](https://freestuff.dev/tags/awesome-list/), suprisingly not many alternative out there, so I create my own dev-tool list to start prototyping or making a MVP.
 
 Built with Hugo Static site generator and hosted at Netlify
 
