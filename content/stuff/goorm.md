@@ -4,7 +4,7 @@ title = "Goorm"
 link = "https://goorm.io"
 thumbnail = "https://goorm.io/icons/icon-512x512.png?v=031f6d228c5347f59da8275131f62141"
 snippet="goormIDE is a web-based cloud programming tool."
-tags = ["goorm"," ide"]
+tags = ["IDE"]
 +++
 
 Container slots: 5
