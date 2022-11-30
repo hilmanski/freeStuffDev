@@ -4,5 +4,5 @@ title = "Anoman"
 link = "https://github.com/golangid/anoman"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="Very simple README generator for your repository."
-tags = ["generator"," markdown"]
+tags = ["readme-generator"]
 +++
