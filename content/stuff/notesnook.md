@@ -3,7 +3,7 @@ date = 2022-11-30T00:17:10.631Z
 title = "Notesnook"
 link = "https://notesnook.com/"
 thumbnail = "https://notesnook.com/favicon.ico"
-snippet="Express yourself with freedom, no spying, no tracking — only private notes. Unlike Evernote and other note apps, your data is private — not open for everyone to see."
+snippet="Open source zero knowledge private note taking. Write notes with freedom, no spying, no tracking."
 tags = ["notesnook"," application"]
 +++
 Free self-hosted
