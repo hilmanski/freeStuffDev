@@ -6,4 +6,4 @@ thumbnail = "https://freshcode.club/img/changes.png"
 snippet="This is a non-commercial project, git-hosting."
 tags = ["git-hosting"]
 +++
-Submit software
+Submit a Software
