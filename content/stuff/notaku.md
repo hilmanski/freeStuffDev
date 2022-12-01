@@ -6,6 +6,7 @@ thumbnail = "https://notaku.so/logo@1x.png"
 snippet="Notaku turns your Notion workspace into beautiful websites. You will be able to use Notion as a CMS and easily update your knowledge base, blog, changelog and more."
 tags = ["blog", "documentation", "changelog"]
 +++
+Free account
 1k views / month
 20 Notion pages per site
 notaku.site subdomain
