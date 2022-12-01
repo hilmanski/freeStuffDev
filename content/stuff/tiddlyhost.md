@@ -9,4 +9,3 @@ tags = ["hosting"]
 Free self-hosted
 Your own wiki in seconds
 Powered by TiddlyWiki
-From the creator of Tiddlyspot
