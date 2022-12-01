@@ -4,7 +4,7 @@ title = "Qovery"
 link = "https://www.qovery.com/"
 thumbnail = "https://www.qovery.com/images/favicons/apple-touch-icon.png"
 snippet="Qovery is a Platform to easily duplicate your infrastructure and create production-like environments in your AWS account; Compatible with all your AWS services!"
-tags = ["deploy"," cloud-plataform"]
+tags = ["deploy"," cloud-platform", "paas"]
 +++
 Deploy on your AWS account
 Unlimited Developers
