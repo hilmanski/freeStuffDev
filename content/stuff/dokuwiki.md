@@ -7,4 +7,5 @@ snippet="DokuWiki is a simple to use and highly versatile Open Source wiki softw
 tags = ["note-taking", "documentation"]
 +++
 Free self-hosted
+Templates, themes, plugins, widgets
 Support Community & Help
