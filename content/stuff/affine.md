@@ -1,5 +1,5 @@
 +++
-date = 2022-11-28T01:57:27.087Z
+date = 2022-12-01T01:57:27.087Z
 title = "AFFiNE - All In One Workos"
 link = "https://affine.pro/"
 thumbnail = "https://affine.pro/favicon.ico"
