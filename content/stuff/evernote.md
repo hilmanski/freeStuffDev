@@ -1,6 +1,6 @@
 +++
 date = 2021-06-21T03:28:16.814Z
-title = "evernote"
+title = "Evernote"
 link = "https://evernote.com/"
 thumbnail = "https://evernote.com/img/logo/evernote/primary.svg"
 snippet="Accomplish more with better notes. Evernote helps you capture ideas and find them fast."
