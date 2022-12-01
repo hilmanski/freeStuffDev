@@ -8,4 +8,4 @@ tags = ["hosting-static"]
 +++
 1 live site live for 7 days
 Upload up to 3mb files
-checkTiiny Host branding
+Tiiny Host branding
