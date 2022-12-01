@@ -7,3 +7,8 @@ snippet="Find suitable software alternatives, reviews and comments on Alternativ
 tags = ["curation"," links"]
 +++
 Free account
+Submit a Software
+Suggest Alternatives
+Help & Support
+Report an Issue
+Contact Us
