@@ -4,5 +4,5 @@ title = "AFFiNE - All In One Workos"
 link = "https://affine.pro/"
 thumbnail = "https://affine.pro/favicon.ico"
 snippet="Affine is the next-generation collaborative knowledge base for professionals."
-tags = ["affine"," collaborative"," knowledge-base"]
+tags = ["productivity","note-taking", "knowledge-base"]
 +++
