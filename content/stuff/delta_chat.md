@@ -7,6 +7,6 @@ snippet="Delta Chat is a messaging app that works over e-mail 🗨️ Message an
 tags = ["chat"]
 +++
 App
-Support & Help
+Support Community & Help
 Contact us
 Free self-hosted
