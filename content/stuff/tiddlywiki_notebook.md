@@ -10,4 +10,4 @@ Free self-hosted
 Support Community & Help
 Contact us
 Unlimited notes and storage
-Plugins, widgets, templates
+Plugins, themes, widgets, templates
