@@ -1,5 +1,5 @@
 +++
-date = 2022-11-30T01:15:40.783Z
+date = 2022-12-02T01:15:40.783Z
 title = "ElephantSQL - PostgreSQL as a Service"
 link = "https://www.elephantsql.com/"
 thumbnail = "https://www.elephantsql.com/favicon.ico"
