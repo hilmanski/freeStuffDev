@@ -73,4 +73,4 @@ FreeStuffDev is open for contribution from all people around the world. Whoever 
 - Be patient
 - Accept constructive feedback
 
-If you have any questions, feel free to reach out at @hilmanski
+If you have any questions, feel free to open an issue or reach out at [twitter](https://twitter.com/hilmanski)
