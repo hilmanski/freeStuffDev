@@ -148,6 +148,9 @@ header
     margin-bottom: 20px
     font-size: 1.2rem
 
+.-mt-5
+    margin-top: -15px
+
 #branding
     a
         font-size: 1.5rem
@@ -195,6 +198,27 @@ header
         width: (2/3 * 100%)
     .is-one-third
         width: (1/3 * 100%)
+
+.flex-col
+    display: flex
+    flex-direction: column
+
+.header-on-main
+    h1, h2
+        margin-bottom: 5px
+    .button
+        width: 150px
+        padding: 5px
+        border-radius: 10px
+        border: #333
+        color: #333
+        background: white
+        text-align: center
+        transition: background ease-in 0.1s
+        &:hover
+            cursor: pointer
+            background: #333
+            color: white
 
 .pr-5
     padding-right: 5%
