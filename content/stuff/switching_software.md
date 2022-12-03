@@ -4,5 +4,5 @@ title = "Switching Software"
 link = "https://switching.software"
 thumbnail = ""
 snippet="Ethical, easy-to-use and privacy-conscious alternatives to well-known software"
-tags = ["curation", "links"]
+tags = ["awesome-list", "privacy"]
 +++
