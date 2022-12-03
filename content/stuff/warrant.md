@@ -6,4 +6,4 @@ thumbnail = "https://pbs.twimg.com/profile_images/1480630759870238720/KukucmqI_4
 snippet="Hosted enterprise-grade authorization and access control service for your apps."
 tags = ["authorization","api","developer-tools","security"]
 +++
-Free tier includes 5,000 API requests per month.
+Free tier includes 1 million API requests per month & 1,000 authz rules.

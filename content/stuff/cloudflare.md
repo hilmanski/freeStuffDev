@@ -2,7 +2,7 @@
 date = 2021-06-21T06:49:57.677Z
 title = "Cloudflare"
 link = "https://www.cloudflare.com/"
-thumbnail = "https://pbs.twimg.com/profile_images/1313131647315910666/opulcRqc_400x400.jpg"
+thumbnail = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cloudflare_Logo.png/480px-Cloudflare_Logo.png"
 snippet="Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site."
 tags = ["CDN","SSL","DNS","security"]
 +++

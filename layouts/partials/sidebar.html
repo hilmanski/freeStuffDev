@@ -1,64 +1,75 @@
 <sidebar class="is-one-third">
     <div class="flex flex-on-mobile is-align-items">
-        <img src="https://i.ibb.co/qRXK9gd/logo-freedevstuff.png" alt="logo freestuffdev" height="80" width="80">
-          <div id="branding">
-            <a class="github-button" href="https://github.com/hilmanski/freeStuffDev"  data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a> 
+        <img id="logo" src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" alt="logo freestuffdev" height="70" width="70">
+        <div id="branding">
+            <a class="github-button" href="https://github.com/hilmanski/freeStuffDev" data-icon="octicon-star"
+                data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
             <p> <a href='/'> {{ .Site.Title }} </a></p>
             <p>Free Stuff/Tool/Service for Developer</p>
         </div>
     </div>
 
     <nav class="flex-on-mobile my-20 is-space-around">
-        <a href="/new-stuff.html">✏️ Submit+</a>
-        <a href="https://twitter.com/fullofdev" target="_blank">🐥 Twitter</a>
+        <a href="/new-stuff">✏️ Submit+</a>
+        <a href="https://finddev.tools" target="_blank">🛠 All DevTools</a>
         <a href="https://onebite.dev/" target="_blank">📒 Blog</a>
-    </nav> 
-    
+        <a href="/favorites">❤️ Saved</a>
+    </nav>
 
-        <p>
-        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} service for developer to use. Some services are free forever or have a free tier at least for 1 year</em>
-        </p>
 
-        <!-- <div class="on-mobile-only my-20 sponsor">
+    <p>
+        <em>List of free {{ if eq .Kind "term" }} {{ .Title }} {{end}} service for developer to use. Some services are
+            free forever or have a free tier at least for 1 year</em>
+    </p>
+
+    <!-- <div class="on-mobile-only my-20 sponsor">
             {{ partial "sponsor.html" . }}
         </div>  -->
 
-        <section id="filter-tag" class="on-mobile-only my-20">
-            <details>
-                <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
-                <br>
-                <ul class="tags">
-                    <li><a href="/">All</a></li>
-                    {{ range .Site.Taxonomies.tags }}
-                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-                    {{ end }}
-                </ul>
-            </details>
-        </section> 
+    <section id="filter-tag" class="on-mobile-only my-20">
+        <details>
+            <summary class="marginless" style="font-size: 1.2rem;">Filter Category: </summary>
+            <br>
+            <ul class="tags">
+                <li><a href="/">All</a></li>
+                {{ range .Site.Taxonomies.tags }}
+                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                {{ end }}
+            </ul>
+        </details>
+    </section>
 
-        <div class="on-desktop-only my-20">
-        <p class="mb-10">Top 20 Categories: </p> 
+    <div class="on-desktop-only my-20">
+        <p class="mb-10">Top 20 Categories: </p>
         <ul class="tags mb-10">
-        {{ range (first 20 $.Site.Taxonomies.tags.ByCount) }}
+            {{ range (first 20 $.Site.Taxonomies.tags.ByCount) }}
             <li><a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a></li>
-        {{ end }}
+            {{ end }}
         </ul>
         <button id="moreTagsBtn">Show All Categories</button>
-        </div>
-        
-        <div>
-            <b style="color:#237BFF;">Referral Link:</b>
-            <li><a class='underlined' href="https://m.do.co/c/add83b15b18d" target="_blank">Free <b>100$ credit</b> for Cloud Hosting by DigitalOcean</a></li>
-            
-            <li> <a class='underlined' href="https://namecheap.pxf.io/onebitedev" target="_blank"> Find your domain name with namecheap (Discount)</a></li>
-            <br>
-        </div>
+    </div>
 
-        <div>
-            <b style="color:#237BFF;">Other:</b>
-            <p> <a href="/codeofconduct">📋 Code Of Conduct</a> /
-                 <a href="#" id="darkModeBtn" class="darkModeBtn"> 🌚 Dark </a></p>
-        </div>
+    <div>
+        <b style="color:#237BFF;">Try this 👇🏼:</b>
+        <li><a class='underlined' href="https://m.do.co/c/add83b15b18d" target="_blank">Free <b>100$ credit</b> for
+                Cloud Hosting by DigitalOcean</a></li>
+        <!-- <li> <a class='underlined' href="https://krisp.ai/?ref=hilr" target="_blank"> <b>Eliminate background noise
+                </b>for
+                your recording/meeting with Krisp.ai</a></li>
+        <li> <a class='underlined' href="https://namecheap.pxf.io/onebitedev" target="_blank"> Discount Domain name on
+                namecheap</a></li>
+        <li> <a class='underlined' href="https://www.scrapingbee.com/?fpr=hil54" target="_blank">1000 free API calls for
+                scraping by ScrapingBee</a></li> -->
         <br>
+    </div>
 
-</sidebar>     
+    <div>
+        <b style="color:#237BFF;">Other:</b>
+        <p> <a href="/codeofconduct">📋 Code Of Conduct</a> /
+            <a href="#" id="darkModeBtn" class="darkModeBtn"> 🌚 Dark </a> /
+            <a href="https://twitter.com/fullofdev" target="_blank">🐥 Twitter</a>
+        </p>
+    </div>
+    <br>
+
+</sidebar>

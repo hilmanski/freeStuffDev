@@ -1,9 +1,12 @@
+<img src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" width="120px"/>
+
 ## FreeStuffDev
 List of free services for developers like database, hosting, authentication and other stuff.  
 Check it out at [freestuff.dev](https://freestuff.dev). 
 
 I had many tools in my private repository and thought why not bring it to the public?
 Inspired by [other similar sites](https://freestuff.dev/tags/other-list/), surprisingly there are not many alternatives out there, so I created my own dev-tool list to start prototyping or making an MVP.
+
 
 Built with Hugo Static site generator and hosted at Netlify.
 
@@ -64,3 +67,11 @@ Serverless Functions: 125k per site /month
 Forms: 100 /site/month
 Identity: 1K /site/month
 ```
+
+## Code of Conduct
+FreeStuffDev is open for contribution from all people around the world. Whoever your are and whatever your background: nationality, gender, religion, we welcome you. Things to keep in mind:
+- Show empathy
+- Be patient
+- Accept constructive feedback
+
+If you have any questions, feel free to open an issue or reach out at [twitter](https://twitter.com/hilmanski)

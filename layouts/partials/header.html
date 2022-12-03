@@ -43,6 +43,9 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    {{ $favJs := resources.Get "/js/favorites.js" | minify  }}
+    <script src="{{ $favJs.Permalink }}"></script>
 </head>
     
 <body>

@@ -6,7 +6,7 @@
             </div> -->
 
         {{ if eq .Kind "term" }}
-            <h1>List of free {{ .Title }} tool/service for developer👇🏽 </h1>
+            <h1>List of free {{ .Title }} stuff for developer👇🏽 </h1>
             {{ partial "search.html" . }}
             <div id="card-list" class="v-distance">
             {{ range where .Pages "Type" "stuff" | shuffle}}
@@ -15,7 +15,14 @@
             </div>
 
         {{ else }}
-            <h1>Free Dev Tool/Services for developer👇🏽</h1>
+            <div class="header-on-main flex is-space-between is-items-center">
+                <div>
+                    <h1>Free stuff for developer👇🏽</h1>
+                </div>
+                <div>
+                    <a href="/random" class="button"> Show in random order</a>
+                </div>
+            </div>
             {{ partial "search.html" . }}
             <div id="card-list" class="v-distance">
                {{ range where .Site.RegularPages "Type" "stuff"}}
@@ -45,4 +52,8 @@
     and free {{$tagTerm}} developer stuff.
     Are you looking for {{$tagTerm}} tools recommendation to use in your next project? Take a look 
     at the list above for you to get started on your MVP. You don't have to worry about the money, you can start your next project for free.
+    <br><br>
+    <b> More developer tools recommendation</b><br>
+    If you're looking for all developer tools around {{$tagTerm}} (not just free). 
+    Check this page <a style="text-decoration:underline;" href="https://finddev.tools/category/{{$tagTerm}}" target="_blank">🛠 All DevTools - category {{$tagTerm}}</a>
 </p>

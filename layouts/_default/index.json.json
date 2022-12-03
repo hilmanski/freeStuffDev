@@ -1,0 +1,18 @@
+{
+    "data": [
+        {{ range $index, $e := where .Site.RegularPages "Type" "stuff"}}
+        
+        {{ $splitLinks := split .Permalink "/"}}
+        {{ $slug := index (last 2 $splitLinks) 0 }}
+
+        {{ if $index }}, {{ end }} {
+            "title" : "{{ .Title }}",
+            "link" : "{{ .Params.Link }}",
+            "snippet": "{{ .Params.Snippet }}",
+            "tags": "{{ .Params.Tags }}",
+            "date": "{{ .Params.Date}}",
+            "slug": "{{ $slug }}"
+        }
+        {{ end }}
+    ]
+}
