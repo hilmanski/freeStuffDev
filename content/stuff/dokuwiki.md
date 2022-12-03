@@ -8,4 +8,3 @@ tags = ["note-taking", "documentation"]
 +++
 Free self-hosted
 Templates, themes, plugins, widgets
-Support Community & Help
