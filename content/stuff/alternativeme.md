@@ -4,11 +4,8 @@ title = "Alternative.me"
 link = "https://alternative.me/"
 thumbnail = "https://alternative.me/apple-touch-icon.png"
 snippet="Find suitable software alternatives, reviews and comments on Alternative.me. Changing your software stack was never easier."
-tags = ["curation"," links"]
+tags = ["software-list"]
 +++
-Free account
 Submit a Software
 Suggest Alternatives
-Help & Support
 Report an Issue
-Contact Us
