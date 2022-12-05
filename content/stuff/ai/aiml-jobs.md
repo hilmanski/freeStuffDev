@@ -1,6 +1,6 @@
 +++
 date = 2022-12-04T13:12:11.358Z
-title = "AI/ML Jobs: AI and Machine Learning jobs for developers, data scientists, and engineers"
+title = "AI/ML Jobs"
 link = "https://aiml.careers"
 thumbnail = "https://aiml.careers/images/apple-icon.png"
 snippet="AI/ML Jobs is the #1 AI/ML Job Board and has thousands of jobs as a Senior Machine Learning Engineer, AI Programmer, AI Developer, Senior Data Engineer, Lead Data Scientist, Data Analyst and more! Find a job in AI/ML and join the future!"
