@@ -26,11 +26,11 @@
     <!-- Get slug from this format: url.com/nice/test/ -->
     {{ $splitLinks := split .Permalink "/"}}
     {{ $slug := index (last 2 $splitLinks) 0 }}
-
+    
     <div style="text-align:right;"> 
-        <a class="link" href="#" class="save-link" onclick="save(event, {{ $slug }})">Save</a> &nbsp;
-        <a class="link" href="{{ .Permalink }}">Alternatives</a> &nbsp;
-        <a class="link" href="https://github.com/hilmanski/freeStuffDev/edit/main/content/{{ .File.Path }}" target="_blank">Edit</a> &nbsp;
-        <a class="link" target="_blank" href="{{ .Params.Link }}?ref=freeStuffDev">Visit Link</a>
+        <a class="link" href="#" class="save-link" onclick="save(event, {{ $slug }})"> ♥ Save</a> &nbsp;
+        <a class="link" href="{{ .Permalink }}"> 👓 Alternatives</a> &nbsp;
+        <a class="link" href="https://github.com/hilmanski/freeStuffDev/edit/main/content/{{ .File.Path }}" target="_blank"> 📁 Edit</a> &nbsp;
+        <a class="link" target="_blank" href="{{ .Params.Link }}?ref=freeStuffDev"> 🔗 Visit Link</a>
     </div>
 </div>
