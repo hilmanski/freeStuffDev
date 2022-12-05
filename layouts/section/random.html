@@ -9,6 +9,18 @@
             <div>
                 <a href="/" class="button"> Sort by Newest</a>
             </div>
+            <div>
+                <a href="#hideMenu" class="button" onclick="document.getElementById('toggleMenu').style.display = 'none';" > hide-menu </a>
+            </div>
+            <div>
+                <a href="#showMenu" class="button" onclick="document.getElementById('toggleMenu').style.display = 'block';" > show-menu </a>
+            </div>
+             <div>
+                <a href="#hideSidebar" class="button" onclick="document.getElementById('hidden').className = '"> hide-sidebar </a>
+            </div>
+             <div>
+                <a href="#showSidebar" class="button"  onclick="document.getElementById('hidden').className = 'is-two-thirds maincontent';"> show-sidebar </a>
+            </div>
         </div>
 
         {{ partial "search.html" . }}
