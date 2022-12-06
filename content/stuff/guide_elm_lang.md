@@ -1,5 +1,5 @@
 +++
-date = "YYYY-MM-DDT00:00:00+00:00"
+date = 2022-12-06T18:30:03.089Z
 title="Guide Elm lang"
 link = "https://guide.elm-lang.org/webapps/"
 thumbnail = ""
