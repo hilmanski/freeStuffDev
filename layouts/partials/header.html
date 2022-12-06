@@ -46,6 +46,10 @@
 
     {{ $favJs := resources.Get "/js/favorites.js" | minify  }}
     <script src="{{ $favJs.Permalink }}"></script>
+    
+    {{ $toogleMenuJs := resources.Get "/js/toogleMenu.js" | minify  }}
+    <script src="{{ $toogleMenuJs.Permalink }}"></script>
+    
 </head>
     
 <body>
