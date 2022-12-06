@@ -1,5 +1,5 @@
 +++
-date = 2022-12-01T16:36:19.291Z
+date = 2022-12-06T16:36:19.291Z
 title = "InfinityFree"
 link = "https://www.infinityfree.net/"
 thumbnail = "https://www.infinityfree.net/assets/favicon-43c4d910328657634c2bd0b6840a6360c7341f0c36513ef67ef28546036b24dd.ico"
