@@ -15,7 +15,9 @@ Built with Hugo Static site generator and hosted at Netlify.
 MIT License
 
 ## Rules
-Only accept free stuff or free trial at least 1 Year.
+- Only accept free stuff or free trial at least 1 Year.
+- We're not accepting language/framework specific tools. For example: "themes for hugo" or "javascript library"
+
 
 ## Contribute
 Want to add new stuff?   
