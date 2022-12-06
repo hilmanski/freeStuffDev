@@ -6,3 +6,4 @@ thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="Light and fast GitHub/GitLab alternative written in V"
 tags = ["github","vlang","git"]
 +++
+Free self-hosted
