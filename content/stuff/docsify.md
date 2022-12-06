@@ -6,3 +6,4 @@ thumbnail = "https://docsify.js.org/_media/favicon.ico"
 snippet="A magical documentation generator."
 tags = ["documentation-generator"]
 +++
+Free self-hosted
