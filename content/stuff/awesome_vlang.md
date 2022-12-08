@@ -4,5 +4,5 @@ title = "Awesome vlang"
 link = "https://github.com/vlang/awesome-v"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="A curated list of awesome V frameworks, libraries, software and resources."
-tags = ["awesome-link"," vlang"]
+tags = ["awesome-list"]
 +++
