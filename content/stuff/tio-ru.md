@@ -1,8 +1,8 @@
 +++
-date = "YYYY-MM-DDT00:00:00+00:00"
+date = 2022-12-08T22:36:19.994Z
 title="tio.ru"
 link = "https://tio.ru/"
 thumbnail = "url_thumbnail"
-snippet="Snippet of product"
+snippet="Ide online"
 tags = ["ide", "playground"]
 +++
