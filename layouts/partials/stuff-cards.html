@@ -22,7 +22,7 @@
         {{ if ne .Content "" }}<div class="offerlist"><small><b>Free Offer:</b> {{.Content}} </small></div>{{end}}
     </div>
     <br>
-
+    <iframe class="utterances-frame" title="Comments" scrolling="yes" src="https://utteranc.es/utterances.html?src=https%3A%2F%2Futteranc.es%2Fclient.js&amp;repo=utterance%2Futterances&amp;issue-term=homepage&amp;crossorigin=&amp;theme=github-light&amp;async=&amp;url=https%3A%2F%2Futteranc.es%2F&amp;origin=https%3A%2F%2Futteranc.es&amp;pathname=index&amp;title=utterances&amp;description=A+lightweight+commenting+system+using+GitHub+issues.&amp;og%3Atitle=utterances&amp;session=" loading="lazy" style="width:100%; border:none;"></iframe>
     <!-- Get slug from this format: url.com/nice/test/ -->
     {{ $splitLinks := split .Permalink "/"}}
     {{ $slug := index (last 2 $splitLinks) 0 }}
