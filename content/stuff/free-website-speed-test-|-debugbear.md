@@ -1,5 +1,5 @@
 +++
-date = 2022-12-12T15:21:52.189Z
+date = 2022-12-15T15:21:52.189Z
 title = "DebugBear Speed Test"
 link = "https://www.debugbear.com/test/website-speed"
 thumbnail = "https://www.debugbear.com/public/favicon-2022-200x200.png"
