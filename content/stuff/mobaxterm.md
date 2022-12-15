@@ -1,10 +1,10 @@
 +++
-date = 2022-12-04T04:03:58.031Z
-title = "MobaXterm free Xserver and tabbed SSH client for Windows"
+date = 2022-12-15T04:03:58.031Z
+title = "MobaXterm"
 link = "https://mobaxterm.mobatek.net/"
 thumbnail = "https://mobaxterm.mobatek.net/favicon.ico"
 snippet="Free X server for Windows with tabbed SSH terminal, telnet, RDP, VNC, Xdmcp, Mosh and X11-forwarding. Portable or installer version."
-tags = ["remote","awesome-list"]
+tags = ["terminal", "windows"]
 +++
 Full X server and SSH support
 Remote desktop (RDP, VNC, Xdmcp)
