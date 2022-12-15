@@ -4,6 +4,5 @@ title = "Lice"
 link = "https://github.com/superkhau/lice"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="An open source license generator and license viewer."
-tags = ["generator-license"]
+tags = ["open-source"]
 +++
-Free self-hosted
