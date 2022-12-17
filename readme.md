@@ -15,14 +15,12 @@ Built with Hugo Static site generator and hosted at Netlify.
 MIT License
 
 ## Rules
-- Only accept free stuff or free trial at least 1 Year.
-
-What is not suitable on this site:   
-- We're not accepting language/framework specific tools. 
-- Link to "part of specific tools" for example "themes for hugo"
-- Library for a certain framework/language, any Javascript library is not acceptable. There's a better place for it
-- Link to Documentation or Forum of a certain tool
-
+1. Only accept free stuff or free trial at least 1 Year.
+2. What is not suitable on this site:   
+   - We're not accepting language/framework specific tools. 
+   - Link to "part of specific tools" for example "themes for hugo"
+   - Library for a certain framework/language, any Javascript library is not acceptable. There's a better place for it
+   - Link to Documentation or Forum of a certain tool
 
 ## Contribute
 Want to add new stuff?   
