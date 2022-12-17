@@ -4,6 +4,6 @@ title = "Loophole"
 link = "https://loophole.cloud/"
 thumbnail = "https://loophole.cloud/img/icon.png"
 snippet="Instant hosting, right from your local machine. It's totally free and excellent alternative to ngrok "
-tags = ["proxy"," local"," server","tunnel","ngrok"]
+tags = ["proxy","local-server","tunnel"]
 +++
 
