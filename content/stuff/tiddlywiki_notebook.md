@@ -6,6 +6,8 @@ thumbnail = "https://tiddlywiki.com/favicon.ico"
 snippet="a non-linear personal web notebook"
 tags = ["note-taking"]
 +++
-
-
-
+Free self-hosted
+Support Community & Help
+Contact us
+Unlimited notes and storage
+Plugins, themes, widgets, templates
