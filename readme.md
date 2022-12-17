@@ -16,7 +16,12 @@ MIT License
 
 ## Rules
 - Only accept free stuff or free trial at least 1 Year.
-- We're not accepting language/framework specific tools. For example: "themes for hugo" or "javascript library"
+
+What is not suitable on this site:   
+- We're not accepting language/framework specific tools. 
+- Link to "part of specific tools" for example "themes for hugo"
+- Library for a certain framework/language, any Javascript library is not acceptable. There's a better place for it
+- Link to Documentation of a certain tool
 
 
 ## Contribute
