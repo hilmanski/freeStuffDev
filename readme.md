@@ -19,8 +19,10 @@ MIT License
 2. What is not suitable on this site:   
    - We're not accepting language/framework specific tools. 
    - Link to "part of specific tools" for example "themes for hugo"
-   - Library for a certain framework/language, any Javascript library is not acceptable. There's a better place for it
+   - Library for a certain framework/language, (e.g. Javascript library). 
    - Link to Documentation or Forum of a certain tool
+
+They're great but there are more suitable place for those tools. 
 
 ## Contribute
 Want to add new stuff?   
