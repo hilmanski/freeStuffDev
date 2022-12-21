@@ -1,5 +1,5 @@
 +++
-date = 2022-12-06T18:14:41.242Z
+date = 2022-12-25T18:14:41.242Z
 title = "Awesome Engineering Management"
 link = "https://github.com/engineering-management/awesome-engineering-management"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
