@@ -4,5 +4,5 @@ title = "taskcafe"
 link = "https://github.com/JordanKnott/taskcafe"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="An open source project management tool with Kanban boards."
-tags = ["project-manager"]
+tags = ["project-management"]
 +++
