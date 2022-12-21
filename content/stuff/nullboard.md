@@ -4,5 +4,5 @@ title = "nullboard"
 link = "https://github.com/apankrat/nullboard"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="Nullboard is a minimalist kanban board, focused on compactness and readability."
-tags = ["kanban-app"]
+tags = ["project-management"]
 +++
