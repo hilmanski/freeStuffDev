@@ -1,9 +1,8 @@
 +++
 date = 2022-12-23T03:05:32.034Z
-title = "Gcore"
-link = "https://gcore.com/pricing/edge-network"
-thumbnail = "https://gcore.com/pricing/assets/favicon/apple-icon-180x180.webp"
-snippet="We provide powerful solutions that will help your business grow globally. Try our superior performance for free"
+title = "jare-io"
+link = "https://www.jare.io/"
+thumbnail = "https://www.jare.io/images/logo.svg"
+snippet="If you know what CDN (Content Delivery Network) is, but don't want to spend time and money to employ a full-scale solution like Akamai or CloudFront, this system is the right choice for you."
 tags = ["cdn"]
 +++
-€0/mo for personal websites and blogs.
