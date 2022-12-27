@@ -4,7 +4,7 @@ title = "DirectDL - Download from torrent with direct link"
 link = "https://directdl.cc"
 thumbnail = "https://directdl.cc/favicon180x180.png"
 snippet="DirectDL.cc | convert torrent to direct link. with DirectDL online torrent client, create direct link and download torrents easily!"
-tags = [""]
+tags = ["torrent-cloud-download"]
 +++
 
 2GB plan is free
