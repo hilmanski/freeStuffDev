@@ -6,3 +6,4 @@ thumbnail = "https://d2hp0ptr16qg89.cloudfront.net/assets/127302a/touch-icon-ipa
 snippet="Are.na is a platform for connecting ideas and building knowledge."
 tags = ["plataform"]
 +++
+limited to 200 total blocks
