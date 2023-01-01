@@ -1,5 +1,5 @@
 +++
-date = 2022-12-22T14:57:17-03:00
+date = 2023-01-01T01:49:02.519Z
 title = "Color Mind"
 link = "http://colormind.io/bootstrap"
 thumbnail = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJXWA65s66ju8wuICPBbY4GYwazKqunBKI_kTSUI0mg&s"
