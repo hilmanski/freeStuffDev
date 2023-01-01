@@ -1,6 +1,6 @@
 +++
 date = 2022-12-30T13:09:08.180Z
-title = "EarlyBird: Landing Page Builder for Startups"
+title = "EarlyBird"
 link = "https://earlybird.im/"
 thumbnail = "https://earlybird.im/static/favicon-32x32.png"
 snippet="EarlyBird is the brand-new landing page builder for startups. Start pitching and validating business ideas in minutes."
