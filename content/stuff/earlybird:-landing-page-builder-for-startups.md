@@ -4,7 +4,7 @@ title = "EarlyBird: Landing Page Builder for Startups"
 link = "https://earlybird.im/"
 thumbnail = "https://earlybird.im/static/favicon-32x32.png"
 snippet="EarlyBird is the brand-new landing page builder for startups. Start pitching and validating business ideas in minutes."
-tags = ["Design and UI"]
+tags = ["landingpage", "website-builder"]
 +++
 1 landing page 
 1,000 visits/mo
