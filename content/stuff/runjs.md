@@ -1,5 +1,5 @@
 +++
-date = 2022-12-15T22:49:02.519Z
+date = 2023-01-01T22:49:02.519Z
 title = "RunJS"
 link = "https://runjs.app/"
 thumbnail = "https://runjs.app/static/icon.png"
