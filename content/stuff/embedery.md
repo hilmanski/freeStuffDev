@@ -6,6 +6,6 @@ thumbnail = "https://embedery.com/favicon.png"
 snippet="Show first order coupons, limited time offers and cart abandonment popups to your potential customers to maximize sales and drive revenue."
 tags = ["popups","analytics","emails"]
 +++
-- Popups
-- Templates
-- Analytics
+- 3 Popups
+- 1 Goal
+- Analytics with 500 events per month
