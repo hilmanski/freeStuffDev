@@ -4,5 +4,5 @@ title = "unhosted web apps"
 link = "https://unhosted.org/"
 thumbnail = ""
 snippet="weekly handbook about unhosted web apps"
-tags = ["documentation"," unhosted"]
+tags = ["serverless","learning-resource"]
 +++
