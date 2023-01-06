@@ -4,5 +4,5 @@ title = "Goodwork"
 link = "https://github.com/Hasnayeen/goodwork"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="Self hosted project management and collaboration tool built with Laravel & VueJS"
-tags = ["kanban-app", "self-hosted"]
+tags = ["project-management"]
 +++
