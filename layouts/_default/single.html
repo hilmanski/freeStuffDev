@@ -6,6 +6,10 @@
       Find other service for {{ delimit .Params.tags ", "}} other than {{.Title}}. 
       You can also find out what is {{.Title}} rival or {{.Title}} competitor in here.</p>
 
+    <p style="margin-top: 5px; text-decoration: underline;"> 
+      <a style="color:rgb(245, 177, 51);" href="https://finddev.tools/alternative-to/{{ .Title | urlize }}" target="_blank">Find complete alternative for {{.Title}} at finddev.tools</a>
+    </p> 
+
     <section>
       <br>
       {{ $titleHolder := .Title}}
