@@ -4,7 +4,7 @@ title="Responsively"
 link = "https://responsively.app/"
 thumbnail = "https://responsively.app/assets/img/logo.svg"
 snippet= "A must-have DevTool for all Front-End developers that will make your job easier."
-tags = ["developer-tools","web-development","productivity","responsive","browser"]
+tags = ["devtool","web-development","productivity","responsive","browser"]
 +++
 Mirrored User-interactions across all devices.
 Customizable preview layout to suit all your needs.
