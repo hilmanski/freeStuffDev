@@ -4,5 +4,5 @@ title = "Free PO editor"
 link = "https://pofile.net/free-po-editor"
 thumbnail = "https://pofile.net/images/free-po-file-editor-logo-1200x1200.png"
 snippet="Free PO editor is a free online tool for translating Gettext PO files"
-tags = ["text-editor","developer-tools","cloud-text-editor","i18n","localization"]
+tags = ["text-editor","devtool","cloud-text-editor","i18n","localization"]
 +++
