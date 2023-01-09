@@ -4,6 +4,6 @@ title = "Isso"
 link = "https://isso-comments.de/"
 thumbnail = "https://isso-comments.de/_static/isso.svg"
 snippet="A commenting server similar to Disqus"
-tags = ["comment-system"]
+tags = ["comment"]
 +++
 Free self-hosted
