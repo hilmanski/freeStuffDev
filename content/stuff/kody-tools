@@ -4,6 +4,6 @@ title = "Kody Tools"
 link = "https://www.kodytools.com/"
 thumbnail = "https://www.kodytools.com/favicon.ico"
 snippet="All kinds of online tools such as converters, calculators, hash generators, text generators, encoders, decoders, etc."
-tags = ["dev tools"," calculators"," converters"]
+tags = ["devtool"," calculators"," converters"]
 +++
 All tools
