@@ -4,5 +4,5 @@ title = "Hashover"
 link = "https://www.barkdull.org/software/hashover"
 thumbnail = "https://www.barkdull.org/favicon.ico"
 snippet="A free and open source PHP comment system designed to allow completely anonymous comments and easy theming"
-tags = ["comment-system"]
+tags = ["comment"]
 +++
