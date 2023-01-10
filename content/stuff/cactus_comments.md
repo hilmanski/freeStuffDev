@@ -4,5 +4,5 @@ title = "Cactus Comments"
 link = "https://cactus.chat"
 thumbnail = "https://cactus.chat/apple-touch-icon.png"
 snippet="Cactus Comments is a federated comment system for the web, based on the Matrix protocol."
-tags = ["comment-system"]
+tags = ["comment"]
 +++
