@@ -30,10 +30,9 @@
     {{ $mainJs := resources.Get "/js/main.js" | js.Build "main.js" | minify }}
     <script src="{{ $mainJs.Permalink }}"></script>
 
-    <!-- 100% privacy friendly analytics -->
-    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
-    
-    
+
+<script async defer src="https://sa-api.hilman.space/latest.js"></script>
+<noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
 </body>
 </html>
