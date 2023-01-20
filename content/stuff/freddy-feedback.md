@@ -1,6 +1,6 @@
 +++
 date = 2023-01-20T09:09:22.376Z
-title = "Turn feedback into better products • Freddy Feedback"
+title = "Freddy Feedback"
 link = "https://freddyfeedback.com/"
 thumbnail = "https://freddyfeedback.com/apple-touch-icon.png"
 snippet="A simple and powerful tool to get feedback from your customers. Get feedback on your product features, onboarding, pricing, marketing content, FAQs and more."
