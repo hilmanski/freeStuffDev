@@ -12,6 +12,6 @@ tags:
 ---
 Server: Python 3.7 or Node.js 12.x
 Unlimited Micros (MicroServer)
-128 MB of RAM for *each* execution
+512 MB of RAM for *each* execution
 An execution times out after 10s
 Unlimited NoSQL database
