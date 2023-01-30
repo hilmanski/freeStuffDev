@@ -6,7 +6,7 @@ thumbnail = "https://capacities.io/apple-touch-icon.png"
 snippet=" A studio for your mind. A powerful note-taking tool. All your ideas – typed and connected."
 tags = ["note-taking"]
 +++
-$0 /mo
+Capacities Basic: $0 /mo with this features:
 For everybody
 Unlimited spaces, collections, objects, and blocks		
 Custom content types: Books, meetings, people, ...		
