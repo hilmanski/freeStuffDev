@@ -6,3 +6,5 @@ thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="Free subdomains for personal sites, open-source projects, and more"
 tags = ["domain-name"]
 +++
+
+Free subdomains as `is-local.org`, `is-not-a.dev`, `localplayer.dev`
