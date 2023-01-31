@@ -1,8 +1,8 @@
 +++
-date = 2022-12-22T02:13:21.468Z
-title = "GitHub"
-link = "https://github.com/vuejs/vuepress"
-thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
+date = 2023-01-30T02:13:21.468Z
+title = "Vuepress"
+link = "https://vuepress.vuejs.org/"
+thumbnail = "https://vuepress.vuejs.org/hero.png"
 snippet="📝 Minimalistic Vue-powered static site generator. "
-tags = ["static-site-builder"]
+tags = ["SSG"]
 +++
