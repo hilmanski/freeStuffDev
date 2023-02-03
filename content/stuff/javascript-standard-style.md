@@ -4,5 +4,5 @@ title = "JavaScript Standard Style"
 link = "https://standardjs.com/"
 thumbnail = "https://standardjs.com/apple-touch-icon-180x180.png"
 snippet="JavaScript Standard Style"
-tags = ["JavaScript"]
+tags = ["javascript"]
 +++
