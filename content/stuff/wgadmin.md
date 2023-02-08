@@ -6,4 +6,3 @@ thumbnail = "https://2ho.ca/images/2ho-16.png?230205.1305"
 snippet="WGAdmin turns a Raspberry Pi into a simple WireGuard VPN Appliance."
 tags = ["wireguard","vpn","raspberry pi","cybersecurity","remote access"]
 +++
-WGAdmin is a free tool that converts a Raspberry Pi single-board computer (or other Linux host) into an easy-to-use WireGuard VPN Appliance.
