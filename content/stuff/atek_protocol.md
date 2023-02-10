@@ -4,5 +4,5 @@ title = "Atek Protocol"
 link = "https://github.com/atek-cloud/network"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="Atek's networking protocol (uses Hyperswarm)."
-tags = ["protocol-networking"]
+tags = ["network-protocol"]
 +++
