@@ -4,6 +4,6 @@ title = "remoteStorage"
 link = "https://remotestorage.io/"
 thumbnail = "https://remotestorage.io/favicon.ico"
 snippet="Open protocol for per-user storage on the Web"
-tags = ["open-protocol", "protocol-networking", "communication"]
+tags = ["network-protocol", "communication", "storage"]
 +++
 Free self-hosted
