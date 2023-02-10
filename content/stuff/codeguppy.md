@@ -4,5 +4,5 @@ title = "CodeGuppy"
 link = "https://codeguppy.com/"
 thumbnail = ""
 snippet="JavaScript for kids and teens"
-tags = ["learn"]
+tags = ["learning-resource","learn-javascript"]
 +++
