@@ -4,5 +4,5 @@ title = "Hypercore Protocol"
 link = "https://hypercore-protocol.org/"
 thumbnail = "https://hypercore-protocol.org/images/hypercore-protocol.svg"
 snippet="Hypercore Protocol is a peer-to-peer data network built on the Hypercore logs. Hypercores are signed, append-only logs"
-tags = ["protocol-networking"]
+tags = ["network-protocol"]
 +++
