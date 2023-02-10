@@ -4,5 +4,5 @@ title = "Dat Protocol Foundation"
 link = "https://dat.foundation/"
 thumbnail = "https://dat.foundation/favicon-32x32.png"
 snippet="A distributed ledger & peer-to-peer data sharing toolkit."
-tags = ["protocol-networking"]
+tags = ["network-protocol"]
 +++
