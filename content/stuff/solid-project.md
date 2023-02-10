@@ -4,5 +4,5 @@ title = "Solid Project"
 link = "https://solidproject.org/"
 thumbnail = "https://solidproject.org/favicon.ico?"
 snippet="Solid: Your data, your choice. Advancing Web standards to empower people."
-tags = ["protocol-networking"]
+tags = ["network-protocol"]
 +++
