@@ -4,5 +4,5 @@ title = "Programmr"
 link = "https://www.programmr.com/"
 thumbnail = "https://www.programmr.com/sites/default/files/programr_theme2013_favicon_0.png"
 snippet="Your Online Code Lab"
-tags = ["learn"]
+tags = ["learning-resource", "code-practice"]
 +++
