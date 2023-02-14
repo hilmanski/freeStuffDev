@@ -4,5 +4,5 @@ title = "RubyMonk"
 link = "https://rubymonk.com/"
 thumbnail = "http://rubymonk.com/favicon.png"
 snippet="Free, interactive tutorials to help you discover Ruby idioms, in your browser!"
-tags = ["learn"]
+tags = ["learning-resource", "learn-ruby"]
 +++
