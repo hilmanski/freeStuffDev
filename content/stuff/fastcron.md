@@ -1,6 +1,6 @@
 +++
-date = 2023-02-08T14:01:13.249Z
-title = "FastCron - online cron job service"
+date = 2023-02-14T14:01:13.249Z
+title = "FastCron"
 link = "https://www.fastcron.com/"
 thumbnail = "https://www.fastcron.com/favicon.ico"
 snippet="Set cron jobs easily, know when your cron jobs are executed, get email notifications, Slack messages, or webhooks."
