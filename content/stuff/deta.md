@@ -1,6 +1,6 @@
 ---
 title: Deta
-link: https://www.deta.sh/
+link: https://deta.space/limits
 snippet: A Cloud for the Next Billion Ideas. Build your apps in hours, deploy
   them in seconds.
 date: 2021-06-17T02:46:41.097Z
