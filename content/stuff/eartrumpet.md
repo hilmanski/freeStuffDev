@@ -4,5 +4,5 @@ title = "EarTrumpet"
 link = "https://eartrumpet.app/"
 thumbnail = ""
 snippet="Volume control for Windows"
-tags = ["tool"]
+tags = ["windows"]
 +++
