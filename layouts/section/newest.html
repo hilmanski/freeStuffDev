@@ -4,16 +4,16 @@
         <div class="header-on-main flex is-space-between is-items-center">
             <div>
                 <h1>Free stuff for developer👇🏽</h1>
-                <h2 class="-mt-5">Listed in random order</h2>
+                <h2 class="-mt-5">Listed by recent entry</h2>
             </div>
             <div>
-                <a href="/" class="button btn-mode"> Sort by Newest</a>
+                <a href="/" class="button btn-mode"> See in Random order</a>
             </div>
         </div>
 
         {{ partial "search.html" . }}
         <div id="card-list" class="v-distance">
-        {{ range where .Site.RegularPages "Type" "stuff" | shuffle}}
+        {{ range where .Site.RegularPages "Type" "stuff"}}
                 {{ if le .Params.Date.Unix now.Unix }}
                     {{ partial "stuff-cards.html" . }}
                 {{ end }}

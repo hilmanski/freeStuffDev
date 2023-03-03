@@ -31,14 +31,15 @@
             <div class="header-on-main flex is-space-between is-items-center">
                 <div>
                     <h1>Free stuff for developer👇🏽</h1>
+                    <h2 class="-mt-5">Listed in random order</h2>
                 </div>
                 <div>
-                    <a href="/random" class="button btn-mode"> Show in random order</a>
+                    <a href="/newest" class="button btn-mode"> Sort by newest</a>
                 </div>
             </div>
             {{ partial "search.html" . }}
             <div id="card-list" class="v-distance">
-               {{ range where .Site.RegularPages "Type" "stuff"}}
+               {{ range where .Site.RegularPages "Type" "stuff" | shuffle}}
                     {{ if le .Params.Date.Unix now.Unix }}
                         {{ partial "stuff-cards.html" . }}
                     {{ end }}
