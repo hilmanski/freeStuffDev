@@ -1,10 +1,10 @@
 +++
-date = 2023-02-26T14:50:37.055Z
+date = 2023-03-04T14:50:37.055Z
 title = "Gitgud"
 link = "https://gitgud.io/users/sign_in"
 thumbnail = "https://gitgud.io/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png"
 snippet="Fast and Free Git Hosting, GitGud.io is a free Git hosting site powered by GitLab, hosted by Sapphire."
-tags = ["free-hosting"]
+tags = ["git-hosting"]
 +++
 ✔ Free - Yes, totally free for any user or group
 ✔ Sign up for FREE, via Sapphire Accounts
