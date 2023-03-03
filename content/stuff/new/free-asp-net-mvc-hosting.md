@@ -1,5 +1,5 @@
 +++
-date = 2023-02-25T22:40:07.544Z
+date = 2023-03-04T07:40:07.544Z
 title = "Free ASP.Net MVC hosting"
 link = "https://somee.com/FreeAspNetHosting.aspx"
 thumbnail = ""
@@ -7,9 +7,7 @@ snippet="Somee.com Offers Free web hosting for ASP.Net 4.8 4.7 4.6 4.5 4.0 3.5 2
 tags = ["hosting-dynamic","database","paas"]
 +++
 You can host .NET Core / Framework website, with MSSQL.
-
 These are the details:
-
 Forced advertising
 Storage capacity:150MB
 Monthly transfer:5GB/Month
