@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="is-two-thirds maincontent">
+    <main class="v-distance"> 
+        <div class="header-on-main flex is-space-between is-items-center">
+            <div>
+                <h1>Free stuff for developer👇🏽</h1>
+                <h2 class="-mt-5">Listed by recent entry</h2>
+            </div>
+            <div>
+                <a href="/" class="button btn-mode"> See in Random order</a>
+            </div>
+        </div>
+
+        {{ partial "search.html" . }}
+        <div id="card-list" class="v-distance">
+        {{ range where .Site.RegularPages "Type" "stuff"}}
+                {{ if le .Params.Date.Unix now.Unix }}
+                    {{ partial "stuff-cards.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </main>
+</div>
+</div> <!-- end flex -->
+
+<script>
+    // Count contents
+    const CONTENT_COUNT = 'content_count'
+    const contents =  document.querySelectorAll('#card-list .cards');
+    
+    const cachedContentCount = localStorage.getItem(CONTENT_COUNT)
+    if(cachedContentCount == null) {
+        //New User
+        localStorage.setItem(CONTENT_COUNT, contents.length);
+    } else {
+        //If new content added
+        const diffCount = contents.length - cachedContentCount 
+        if(diffCount > 0) {
+            for (let i=0; i<diffCount; i++) {
+               console.log(contents[i].querySelector('.title'))
+               const newLabel = "<div class='label pin-left label-new'>New</div>"
+               contents[i].insertAdjacentHTML('afterbegin', newLabel);
+            }
+
+            //update in localstorage
+            localStorage.setItem(CONTENT_COUNT, contents.length);
+        }
+    }
+
+
+   //Netlify CMS stuff
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+{{ end }}
+
+
