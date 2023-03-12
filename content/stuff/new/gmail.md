@@ -18,3 +18,5 @@ This message may appear if you send an email to more than 500 recipients in a si
 Google partner ads in your email
 automatically forwarded messages 
 messages automatically forwarded to another account, not included in the 10,000 daily send limit
+Unable to import or link non-gmail email accounts
+no access to source code either in the visual interface or backend
