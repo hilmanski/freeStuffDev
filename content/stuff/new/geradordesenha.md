@@ -4,5 +4,5 @@ title = "Gerador de Senha"
 link = "https://www.geradordesenha.com.br/"
 thumbnail = ""
 snippet="Crie senhas seguras e aleatórias para proteger suas contas e informações pessoais com o Gerador de Senhas. Simples, fácil e eficiente. Experimente agora mesmo!"
-tags = ["generator-password"]
+tags = ["password-generator"]
 +++
