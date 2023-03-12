@@ -8,15 +8,16 @@ tags = ["provider-mail"]
 +++
 
 free account mobile, desktop or web
-Sending limits may change without notice. 
-Daily limits are applied over a 24-hour period, not during a particular time of day.
-Maximum messages per day: 
-Daily upload limit per user account: 2,000
+you can create as many gmail accounts as you want but you must add a password for each account
+sending limits may change without notice. 
+daily limits are applied over a 24-hour period, not during a particular time of day.
+maximum messages per day: 
+daily upload limit per user account: 2,000
 1,500 for multiple submission
 500 for test accounts
-This message may appear if you send an email to more than 500 recipients in a single email or more than 500 emails in a day.
-Google partner ads in your email
+this message may appear if you send an email to more than 500 recipients in a single email or more than 500 emails in a day.
+google partner ads in your email
 automatically forwarded messages 
 messages automatically forwarded to another account, not included in the 10,000 daily send limit
-Unable to import or link non-gmail email accounts
+unable to import or link non-gmail email accounts
 no access to source code either in the visual interface or backend
