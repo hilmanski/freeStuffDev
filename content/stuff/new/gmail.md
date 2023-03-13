@@ -10,8 +10,10 @@ tags = ["provider-mail"]
 free account mobile, desktop or web
 15GB
 Send a chat message in Gmail
+Supports use of own domain: Yes
 Start or join a video call from Gmail
 Create a task in Gmail
+No. of Supported languages: 71
 you can create as many gmail accounts as you want but you must add a password for each account
 sending limits may change without notice. 
 daily limits are applied over a 24-hour period, not during a particular time of day.
