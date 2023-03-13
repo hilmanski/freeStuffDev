@@ -7,6 +7,8 @@ snippet="Automate your work on any website"
 tags = ["web-crawler"]
 +++
 
+Free $0 /mo
+free forever
 Unlimited runs
 1 minute per run
 CLOUD AUTOMATION: 30 minutes / month
