@@ -4,5 +4,5 @@ title = "gtoolkit.com"
 link = "https://gtoolkit.com/"
 thumbnail = ""
 snippet="Glamorous Toolkit is the moldable development environment"
-tags = ["toolkit"]
+tags = ["devtools"]
 +++
