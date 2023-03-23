@@ -4,5 +4,5 @@ title = "JSON-RPC"
 link = "https://www.jsonrpc.org/"
 thumbnail = "https://www.jsonrpc.org/assets/ico/favicon.ico"
 snippet="A light weight remote procedure call protocol."
-tags = ["networking-protocol"]
+tags = ["network-protocol"]
 +++
