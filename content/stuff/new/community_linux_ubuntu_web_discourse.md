@@ -6,3 +6,5 @@ thumbnail = "https://ubuntu-web.org/images/favicon_hub70a51641ed94ef865310374680
 snippet="Ubuntu Web is a remix of Ubuntu featuring the Unity7 desktop environment (the default desktop environment used by Ubuntu from 2010-2017)."
 tags = ["linux-community"]
 +++
+
+Support and discussion about the Ubuntu Web (distro-linux).
