@@ -7,3 +7,6 @@ snippet="Use your browser to hash files with IPFS and export them as a verifiabl
 tags = ["app-ipfs"]
 +++
 
+It's all local: No data leaves your browser. Nothing is tracked.
+
+It's all IPFS: Just enough code to chunk & hash your files to produce an IPFS compatible content-addressed archive.
