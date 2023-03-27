@@ -4,5 +4,5 @@ title = "xsf"
 link = "https://github.com/xsf"
 thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="XSF is the foundation in charge of the standardization of the protocol extensions of XMPP, the open standard of instant messaging and presence of the IETF."
-tags = ["networking-protocol"]
+tags = ["network-protocol"]
 +++
