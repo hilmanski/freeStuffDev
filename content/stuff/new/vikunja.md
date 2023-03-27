@@ -6,3 +6,4 @@ thumbnail = "https://github.githubassets.com/pinned-octocat.svg"
 snippet="The to-do app to organize your life."
 tags = ["task-manager"]
 +++
+Free self-hosted
