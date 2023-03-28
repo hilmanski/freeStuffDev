@@ -4,5 +4,5 @@ title = "Flathub"
 link = "https://beta.flathub.org/"
 thumbnail = "https://beta.flathub.org/apple-touch-icon.png"
 snippet="Find and install hundreds of apps and games for Linux. Enjoy GIMP, GNU Octave, Spotify, Steam and many more!"
-tags = [""]
+tags = ["free-ware"]
 +++
