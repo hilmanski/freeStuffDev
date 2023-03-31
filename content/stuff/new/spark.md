@@ -12,3 +12,18 @@ Sync between devices
 Smart Inbox
 Smart notifications
 Smart search
+Mark as Done
+Set Aside
+Snooze
+Send Later
+Reminders
+Command Center for Desktop
+Labels* (Android / iOS
+Create Team and Comments
+Shared Threads
+Email sharing with a secure link
+Support
+Dark Mode
+Quick Replies* (iOS only)
+Calendars* (iOS only)
+Print emails
