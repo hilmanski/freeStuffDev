@@ -12,3 +12,11 @@ Free Tier
 1,000 units a month, 10 concurrent browsers
 No overages
 No support
+No Credit Card Required
+Run up to 1,000 browsers at once
+Puppeteer, Playwright, Selenium and more
+REST APIs like PDF, Scrape and more
+Live Debugger and dashboards
+Email support
+Plans to match any size workload
+Hosted Plan
