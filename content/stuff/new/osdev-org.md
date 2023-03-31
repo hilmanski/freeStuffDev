@@ -1,8 +1,8 @@
 +++
 date = 2023-03-31T18:54:45.508Z
-title = "OSDev.org • Information"
-link = "https://forum.osdev.org/viewtopic.php?f=2&p=166259"
+title = "OSDev.org"
+link = "https://forum.osdev.org/index.php"
 thumbnail = ""
-snippet="null"
-tags = ["awesome-os"]
+snippet="The Place to Start for Operating System Developers"
+tags = ["os-community"]
 +++
