@@ -6,3 +6,5 @@ thumbnail = "https://rustdesk.com/images/favicon.png"
 snippet="Discover RustDesk, open source remote desktop software, open source TeamViewer alternative, control your desktop remotely. You have full control of your data, no concerns about security."
 tags = ["remote-desktop"," infrastructure "]
 +++
+
+web, desktop, self-hosted, free account
