@@ -6,3 +6,9 @@ thumbnail = "https://cdn-rdstaticassets.readdle.com/assets/spark/spark3/common/f
 snippet="Spark helps you take your inbox under control. Instantly see what’s important and quickly clean up the rest."
 tags = ["mail-client"]
 +++
+
+Unified Inbox
+Sync between devices
+Smart Inbox
+Smart notifications
+Smart search
