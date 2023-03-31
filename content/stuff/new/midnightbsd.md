@@ -1,8 +1,8 @@
 +++
 date = 2023-03-31T21:25:37.308Z
-title = "www.midnightbsd.org Mailing Lists"
+title = "midnightbsd"
 link = "https://www.midnightbsd.org/mailman/listinfo/"
 thumbnail = ""
-snippet="null"
+snippet="Support and discussion about the Midnight BSD (distro-bsd)."
 tags = ["unix-community"]
 +++
