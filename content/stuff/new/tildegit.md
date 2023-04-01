@@ -4,5 +4,5 @@ title = "tildegit"
 link = "https://tildegit.org/"
 thumbnail = "https://tildegit.org/_/static/assets/img/favicon.svg"
 snippet="git hosting for the tildeverse"
-tags = [""]
+tags = ["git-hosting"]
 +++
