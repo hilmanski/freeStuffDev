@@ -4,7 +4,7 @@ title = "Neocities"
 link = "https://neocities.org/"
 thumbnail = "https://neocities.org/favicon.ico?v=4"
 snippet="Free web hosting and tools that allow anyone to create a website"
-tags = ["website-plataform"]
+tags = ["website-builder", "hosting-static"]
 +++
 Zero ads
 Free web hosting
