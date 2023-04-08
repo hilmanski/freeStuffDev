@@ -6,8 +6,8 @@ thumbnail = "https://raw.githubusercontent.com/cyclic-software/brand/main/icon/i
 snippet="Fullstack Javascript Apps: Front-end, Backend, Database, Scheduled tasks. All running with zero-config."
 tags = ["api"," database"," serverless"," hosting"," storage"," aws"," hosting-dynamic"," paas"]
 +++
-3 apps
-100,000 API reqs/month
+1 app
+10,000 API reqs/month
 1GB memory/req
 1GB Object Storage (AWS S3)
 1GB Database Storage (AWS DynamoDB)
