@@ -4,5 +4,5 @@ title = "tylr"
 link = "https://tylr.fun/"
 thumbnail = ""
 snippet="a tiny tile-based editor"
-tags = ["editor-text"]
+tags = ["text-editor"]
 +++
