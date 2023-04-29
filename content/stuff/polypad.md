@@ -4,7 +4,7 @@ title = "Polypad"
 link = "https://polypad.io"
 thumbnail = "https://mattebot.s3.us-east-2.amazonaws.com/polypad/pp-clip.jpg"
 snippet="Polypad is scriptable textpad for macOS & Windows. Quickly transform, parse, or generate text using the textpad."
-tags = ["textpad","devtool"]
+tags = ["textpad","devtools"]
 +++
 Custom Scripts
 Cross-Platform
