@@ -34,7 +34,7 @@ it will prefill some value for your github Pull Request
 
 a. Fork repo  
 b. Inside your fork navigate to `content/stuff`  
-c. Create here new file about service you want to add. File must have `.md` extension, i.e. `myservice.md`  
+c. Create a new file for service you want to add. File must have `.md` extension, i.e. `myservice.md`  
 d. Use next template for content
 
 ```
