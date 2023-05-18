@@ -7,21 +7,11 @@ snippet="Get great copy that sells. Copy.ai is an AI-powered copywriter that gen
 tags = ["awesome-list"," jobs"]
 +++
 
-Free
-$
-0
-
-2,000 words
-per month
-
+Free $0
+2,000 words per month
 No credit card required
-
 Only 1 user seat
-
 Chat by Copy.ai
-
 90+ copywriting tools
-
 Unlimited projects
-
 Blog Wizard tool
