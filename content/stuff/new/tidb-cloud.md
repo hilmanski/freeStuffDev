@@ -6,4 +6,4 @@ thumbnail = "https://static.pingcap.com/files/2022/05/cropped-faviconpng-new-180
 snippet="TiDB delivered as an on-demand, fully-managed DBaaS, requiring a fraction of the operational overhead needed with traditional data solutions."
 tags = ["database","serverless"]
 +++
-TiDB is an open source MySQL compatible distributed HTAP RDBMS. TiDB Serverless provides 5GB of row storage, and 5GB of column storage, and 50 million Request Units (RUs) available for free each month. no credit card required
+TiDB is an open source MySQL compatible distributed HTAP RDBMS. TiDB Serverless provides 5GB of row storage, and 5GB of column storage, and 50 million Request Units (RUs) available for free each month. No credit card required.
