@@ -6,7 +6,7 @@ snippet: Auth0 is an easy to implement, adaptable authentication and
 date: 2021-06-17T03:07:15.856Z
 thumbnail: https://avatars.githubusercontent.com/u/2824157?s=200&v=4
 tags:
-  - auth
   - user-management
+  - authentication
 ---
 Up to 7,000 active users and unlimited logins
