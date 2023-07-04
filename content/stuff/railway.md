@@ -6,5 +6,4 @@ thumbnail = "https://railway.app/apple-touch-icon.png"
 snippet="Railway is an infrastructure platform where you can provision infrastructure, develop with that infrastructure locally, and then deploy to the cloud."
 tags = ["Infrastructure"," database"," hosting"]
 +++
-Hobby Plan: 5$ / month
-No more developer Plan
+Free trial 5$ credit
