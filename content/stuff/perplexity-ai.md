@@ -4,5 +4,5 @@ title = "Perplexity AI"
 link = "https://www.perplexity.ai/"
 thumbnail = "https://www.perplexity.ai/apple-icon-180x180.png"
 snippet="Ask Anything"
-tags = ["search-engine"]
+tags = ["topic"]
 +++
