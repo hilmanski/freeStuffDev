@@ -1,15 +1,17 @@
 +++
-date = 2022-09-18T17:54:29.286Z
+date = 2023-08-06T15:22:00.286Z
 title = "Ctfreak"
 link = "https://ctfreak.com"
 thumbnail = "https://ctfreak.com/static/image/logo-512.webp"
-snippet="A centralized task scheduler. Say goodbye to cron and maintain, schedule and run all your shell scripts from one place."
-tags = ["cron","scheduling","automation","task","ssh","webhook"]
+snippet="An on-premise task scheduler. Say goodbye to cron and maintain, schedule and run all your tasks from one place."
+tags = ["cron","scheduling","automation","task","ssh","shell script","webhook","chart report", "sql"]
 +++
 Single Sign-On
 Unlimited nodes
-Unlimited tasks
+Unlimited databases
+Unlimited webhooks
 Unlimited notifiers
 Unlimited executions
 Up to 3 users
+Up to 15 tasks (incl. 2 SQL reports)
 Sequential task executions
