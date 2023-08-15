@@ -4,6 +4,6 @@ title = "Coolify"
 link = "https://coolify.io/"
 thumbnail = "https://coolify.io/favicon.png"
 snippet="An open-source & self-hostable Heroku / Netlify alternative."
-tags = ["database"," hosting-dynamic"," paas"," hosting-static"," serverless"]
+tags = ["control-panel", "server", "paas"]
 +++
 self hosted
