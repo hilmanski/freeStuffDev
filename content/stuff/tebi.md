@@ -1,6 +1,6 @@
 +++
 date = 2023-08-18T18:58:46.632Z
-title = "Tebi | S3-compatible object storage"
+title = "Tebi"
 link = "https://tebi.io"
 thumbnail = ""
 snippet="Tebi.io is a progressive s3-compatible geographically distributed object storage."
