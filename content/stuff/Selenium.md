@@ -1,6 +1,6 @@
 +++
 date = "2021-06-23T00:00:00+00:00"
-tags = ["testing", "quality-assurance", "browser-automation"]
+tags = ["testing", "quality-assurance", "browser-automation", "browser-test"]
 title="Selenium"
 link = "https://www.selenium.dev/"
 thumbnail = "https://res.cloudinary.com/pastorcoder/image/upload/v1624469931/open-source/selecnium_walnmv.png"
