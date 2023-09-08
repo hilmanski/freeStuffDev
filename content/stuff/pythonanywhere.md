@@ -4,5 +4,5 @@ title = "PythonAnywhere"
 link = "https://www.pythonanywhere.com/"
 thumbnail = "https://www.pythonanywhere.com/static/anywhere/images/PA-logo.svg"
 snippet="Host, run, and code Python in the cloud."
-tags = ["ide"," playground"]
+tags = ["ide"," playground","hosting"]
 +++
