@@ -4,7 +4,7 @@ tags = ["dev", "seo", "image", "tag", "converter", "tools"]
 title="Buff.tools"
 link = "https://buff.tools/"
 thumbnail = "https://buff.tools/storage/uploads/bufftools.png"
-snippet="Discover a diverse range of everyday tools, from SEO and image optimization to developer utilities and website management aids, offering comprehensive solutions for your digital needs for Free"
+snippet="An all-in-one digital toolbox featuring Web, SEO, AI, Domain Management, unit conversion, calculators, and Image Manipulation Tools."
 +++
 Text Analysis Tools
 Online Calculators
