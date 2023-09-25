@@ -4,7 +4,7 @@ title = "HeroTofu"
 link = "https://herotofu.com/"
 thumbnail = "https://herotofu.com/images/logo.svg"
 snippet="Forms backend with bot detection, submissions forwarding, and encrypted archive. Compatible with any frontend framework."
-tags = ["forms", "html-forms", "forms-backend"]
+tags = ["form", "html-forms", "forms-backend"]
 +++
 Unlimited forms
 100 submissions per month
