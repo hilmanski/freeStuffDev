@@ -7,7 +7,7 @@ snippet="Eliminate application bottlenecks by bringing the performance and data 
 tags = ["database","sqlite"]
 +++
 9 GB of total storage
-Up to 3 databases
+Up to 500 databases
 Up to 3 locations
 1 billion row reads per month
 25 million row writes per month
