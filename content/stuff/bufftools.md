@@ -1,6 +1,6 @@
 +++
 date = "2023-09-20T00:00:00+00:00"
-tags = ["dev", "seo", "image", "tag", "converter", "tools"]
+tags = ["devtools"]
 title="Buff.tools"
 link = "https://buff.tools/"
 thumbnail = "https://buff.tools/storage/uploads/bufftools.png"
