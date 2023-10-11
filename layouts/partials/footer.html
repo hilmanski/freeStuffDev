@@ -12,7 +12,7 @@
            <li><a class="twitter-follow-button" target="_blank" href="https://twitter.com/fullofdev" data-size="large"> Follow Twitter</a> </li> 
         </div>
     </footer>
-
+    <button id="scroll-to-top"  title="Go to top">&uArr;</button>
     <!-- The Modal -->
     <div id="modalwrapper" class="modal">
       <div class="modal-content">
@@ -33,6 +33,25 @@
 
 <script async defer src="https://sa-api.hilman.space/latest.js"></script>
 <noscript><img src="https://sa-api.hilman.space/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+<script>
+   
+    var scrollToTopButton = document.getElementById('scroll-to-top');
 
+   
+    window.addEventListener('scroll', function () {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopButton.style.display = 'block';
+    } else {
+        scrollToTopButton.style.display = 'none';
+    }
+    });
+
+    
+    scrollToTopButton.addEventListener('click', function () {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+});
+
+</script>
 </body>
 </html>
