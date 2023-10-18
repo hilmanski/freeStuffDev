@@ -23,7 +23,7 @@ window.onclick = (e) => {
 // =====================
 function setDarkMode() {
   let status = "";
-  const isDark = document.body.classList.toggle("darkmode");
+  const isDark = document.body.dataset.preferredTheme == "dark";
 
   if (isDark) {
     status = "🌝 Light";
@@ -62,4 +62,19 @@ window.addEventListener('scroll', function () {
 scrollToTopButton.addEventListener('click', function () {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+});
+
+const darkThemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+darkThemeMq.addListener(e => {
+  let status = "";
+  let preferredTheme = "";
+  if (e.matches) {
+    status = "🌝 Light";
+    preferredTheme = "dark";
+  } else {
+    status = "🌚 Dark";
+    preferredTheme = "light";
+  }
+  document.body.dataset.preferredTheme = preferredTheme;
+  document.getElementById("darkModeBtn").innerHTML = status;
 });
