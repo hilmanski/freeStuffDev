@@ -25,11 +25,15 @@ function setDarkMode() {
   let status = "";
   const isDark = document.body.dataset.preferredTheme == "dark";
 
-  if (isDark) {
+  if (!isDark) {
+    // If the page is not currently in dark theme set it to dark
     status = "🌝 Light";
+    document.body.dataset.preferredTheme = "dark";
     localStorage.setItem("preferredTheme", "dark");
   } else {
+    // If the page is not currently in dark theme set it to dark
     status = "🌚 Dark";
+    document.body.dataset.preferredTheme = "light";
     localStorage.removeItem("preferredTheme");
   }
   document.getElementById("darkModeBtn").innerHTML = status;
