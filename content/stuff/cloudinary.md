@@ -6,7 +6,7 @@ snippet: Developers and marketers use Cloudinary to quickly and easily create,
   bandwidth.
 date: 2021-06-17T01:51:24.525Z
 image: null
-thumbnail: https://pbs.twimg.com/profile_images/1414743035074670610/TEGu0j4L_400x400.png
+thumbnail: https://cloudinary-res.cloudinary.com/image/upload/f_auto,q_auto/c_scale,w_128/v1597183771/website/cloudinary_web_favicon.png
 tags:
   - storage
 ---
