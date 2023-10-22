@@ -1,5 +1,5 @@
 +++
-date = 2023-06-01T12:00:00
+date = 2023-10-22T12:00:00
 title = "ILLA Cloud | Accelerate your internal tools development"
 link = "https://www.illacloud.com/"
 thumbnail = "https://www.illacloud.com/favicons/apple-touch-icon.png?v=3"
