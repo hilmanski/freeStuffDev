@@ -6,5 +6,6 @@ thumbnail = "https://developer.accuweather.com/sites/all/themes/accuweather/favi
 snippet="Accuweather API is a free service where you can get data about weather from any location and any timestamp"
 tags = ["api","authentication","weather"]
 +++
-Free API for weather data
+50 calls/day
+Limit 1 key/developer
 24 Hours Historical Current Conditions
