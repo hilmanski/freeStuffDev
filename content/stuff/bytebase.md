@@ -2,7 +2,7 @@
 date = 2022-10-11T05:43:00
 title = "Bytebase"
 link = "https://www.bytebase.com/"
-thumbnail = "https://www.bytebase.com/favicon.ico"
+thumbnail = "https://www.bytebase.com/favicon/favicon.png"
 snippet="Safer and faster database change and version control for DBAs and Developers"
 tags = ["database"," devops"]
 +++
