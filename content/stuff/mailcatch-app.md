@@ -6,4 +6,4 @@ thumbnail = "https://mailcatch.app/apple-touch-icon.png"
 snippet="Test application emails without any extra effort with fake smtp server!"
 tags = ["email testing"," smtp testing"," smtp email testing"]
 +++
-Free forever, 1 inbox, 200 test emails.
+An email sandbox to inspect and debug emails in dev, staging, and QA environments before sending them to recipients in production.
