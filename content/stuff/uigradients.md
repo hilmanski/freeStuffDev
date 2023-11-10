@@ -4,6 +4,5 @@ title = "uiGradients"
 link = "https://uigradients.com"
 thumbnail = "https://uigradients.com/static/images/favicon-32x32.png"
 snippet="A handpicked collection of beautiful color gradients for designers and developers"
-tags = ["design"]
+tags = ["color-picker"]
 +++
-Free Gradients for designers to use.
