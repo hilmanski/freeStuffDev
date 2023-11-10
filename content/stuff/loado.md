@@ -1,5 +1,5 @@
 +++
-date = 2023-1-16T12:43:30.574Z
+date = 2023-01-07T13:34:16.899Z
 title = "Loado — Performance Monitoring for Websites"
 link = "https://loado.dev/"
 thumbnail = ""
