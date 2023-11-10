@@ -6,4 +6,7 @@ thumbnail = ""
 snippet="AI-enhanced visual editor and builder that helps developers edit, customize, and build Tailwind CSS websites/UIs 10x faster."
 tags = ["design","tailwindcss","productivity","visual-editor"]
 +++
-Free forever plan 
+20 free code exports
+Free blocks
+Save 2 websites or prototypes
+10 AI Requests
