@@ -10,10 +10,3 @@ Projects: 2
 Services" 2
 Jobs: 2
 Addons: 1
-Secret groups: infinity
-Pipelines: infinity
-CI/CD
-Dockerfile
-Supports Buildpacks of Heroku
-GitHub, GitLab & Bitbucket integration
-Volumes
