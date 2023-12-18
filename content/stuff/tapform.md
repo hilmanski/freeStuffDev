@@ -4,7 +4,7 @@ title = "Tapform"
 link = "https://tapform.com"
 thumbnail = "https://tapform.com/icons/icon-512x512.png"
 snippet="Beautiful forms wuth free and unlimited submissions"
-tags = ["forms nocode data"]
+tags = ["form","forms-backend"]
 +++
 Free and unlimited forms
 Unlimited fields
