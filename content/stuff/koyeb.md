@@ -7,9 +7,9 @@ thumbnail = "https://www.koyeb.com/static/favicon/favicon-32x32.png"
 snippet="The fastest way to deploy applications globally"
 +++
 CPU 0.1
-RAM 256MB
+RAM 512MB
 DISK 2GB SSD
 PRICE Free
-Up to 16 applications
-Run web apps, APIs, and workers
+Run web apps, APIs, workers, and databases
 Git push to deploy
+Free Instance available in Washington, D.C. (US) and Frankfurt (Germany). No credit card required to get started.
