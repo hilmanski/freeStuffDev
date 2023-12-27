@@ -6,3 +6,10 @@ thumbnail = "https://www.nocodb.com/favicon.ico"
 snippet="Free & Open Source Airtable alternative. Turns any SQL database into a smart spreadsheet. Supports MySQL, Postgres, SQL server, MariaDB & SQLite."
 tags = ["nocode"," database"]
 +++
+
+5 USERS
+10k rows/workspace
+1 GB storage
+APIs - 5 Requests/second
+All user roles
+Community Support
