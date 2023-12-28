@@ -1,0 +1,9 @@
++++
+date = 2023-12-28T04:33:39.268Z
+title = "html.earth: Markdown to HTML Converter & Site Generator"
+link = "https://html.earth/"
+thumbnail = "https://html.earth/apple-touch-icon.png"
+snippet="html.earth is a free site generator that converts Markdown to HTML. It comes with a front matter editor, custom styling field, and import & export options."
+tags = ["writing"," markdown"]
++++
+html.earth is a tiny site generator that converts Markdown input to HTML pages. It comes with a front matter editor, custom styling field, and import & export options. It previews content as you type. The tool also saves content directly in the browser (localStorage). It is useful for devs, technical writers, and those who prefer writing in Markdown format but need HTML for publishing.
