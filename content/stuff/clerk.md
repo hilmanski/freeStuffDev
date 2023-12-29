@@ -1,10 +1,10 @@
 +++
 date = 2021-08-30T04:44:00
 title = "Clerk"
-link = "https://clerk.dev/"
-thumbnail = "https://clerk.dev/favicon/apple-touch-icon.png"
-snippet="Authentication and user management for developers that's simple, secure, and scalable with any platform or language. Try it free!"
-tags = ["authentication"," user-management"]
+link = "https://clerk.com"
+thumbnail = "https://clerk.com/favicon/apple-touch-icon.png"
+snippet="The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, and the modern web."
+tags = ["authentication","user-management", "components", "nextjs", "react"]
 +++
 No credit card required
 10,000 monthly active users
