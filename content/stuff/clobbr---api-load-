@@ -1,9 +1,0 @@
-+++
-date = 2023-12-30T17:22:52.998Z
-title = "Clobbr - API load & speed test"
-link = "https://clobbr.app"
-thumbnail = "https://clobbr.app/apple-touch-icon.png"
-snippet="Clobbr is a developer tool that allows you to load & speed test your API endpoints to see how well they perform under load from multiple requests (clobber your APIs!), in sequence or parallel. Regardless if you're testing a REST, GraphQL or cloud function Clobbr has got you covered!"
-tags = ["cli","load-test","test","performance"]
-+++
-The CLI is completely free to use and open source.
