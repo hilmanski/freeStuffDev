@@ -3,7 +3,7 @@ date = "2024-01-19T00:00:00+00:00"
 tags = ["email", "chrome", "chrome-extension", "temp mail"]
 title="Inboxes App"
 link = "https://inboxesapp.com"
-thumbnail = "view-source:https://inboxesapp.com/wp-content/themes/inboxes-wp2/images/favicon.png"
+thumbnail = "https://inboxesapp.com/wp-content/themes/inboxes-wp2/images/favicon.png"
 snippet="The Inboxes App Chrome extension gives you multiple long lasting disposable emails a day - great for testing email flows without overfilling your own email address and for trying out new services"
 +++
 Create up to three email addresses a day.
