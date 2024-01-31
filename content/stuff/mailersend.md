@@ -6,7 +6,7 @@ thumbnail = "https://pbs.twimg.com/profile_images/1276473870187446273/bVOuSZDb_4
 snippet="Cloud-based transactional email system designed for everyone. Integrate with your own API, use advanced email analytics and work with dynamic email templates."
 tags = ["mail"]
 +++
-12.000 emails/month
+3.000 emails/month
 Email API, SMTP relay, webhooks
 Suppression management
 Email tracking & analytics
