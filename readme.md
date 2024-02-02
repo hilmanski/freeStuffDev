@@ -1,3 +1,18 @@
+## Important!
+
+Right now people might search "ANY-PAID-SERVICE altanrive"
+It's important to have this SEO wise.
+
+Think a way, to submit "paid item", but marked as "paid". And only for SEO "this paid" altearntive.
+
+- Don't list in a normal 'index page'
+- Don't list as "alternative"
+- Maybe a dedicated page for "paid tools alternative"
+
+
+---
+
+
 <img src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" width="120px"/>
 
 
