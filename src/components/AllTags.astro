@@ -16,15 +16,15 @@ const tagCounts = allTags.reduce((acc, tag) => {
     return acc;
 }, {});
 
-// Step 3: Sort and get top 22
+// Step 3: Sort and get top 24
 const tags = Object.entries(tagCounts)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 22)
+    .slice(0, 24)
     .map(item => item[0]);
 
 ---
 
-<p class="mb-3">Top 22 Tags</p>
+<p class="mb-3">Top 24 Tags</p>
 <div class="flex flex-wrap gap-2 mb-5">
     {
         [...tags].map((tag) => (

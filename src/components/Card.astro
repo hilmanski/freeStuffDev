@@ -11,7 +11,7 @@ const { tool } = Astro.props;
     }
 </script>
 
-<div class="mb-10 text-sm">
+<div class="mb-10 text-sm border-b bborder-b-slate-50 pb-5">
     <div class="flex justify-between">
         <div class="flex">
             <img src={tool.data.thumbnail} 
@@ -45,7 +45,10 @@ const { tool } = Astro.props;
     </div>
 
 
-    <div class="text-right">
-        <p>URL: <a href={`${tool.data.link}?utm_source=freestuffdev`}>{tool.data.link}</a></p>
+    <div class="mt-2 flex space-x-5 justify-end">
+        <a href="">Save</a>
+        <a target="_blank" rel="noopener nofollow" href={`https://github.com/hilmanski/freeStuffDev/edit/main/content/stuff/${tool.slug}.md`}>Edit</a>
+        <a href={`/alternative-to/${tool.slug}`}>Alternatives</a>
+        <a href={`${tool.data.link}?utm_source=freestuffdev`}>Visit</a>
     </div>
 </div>
