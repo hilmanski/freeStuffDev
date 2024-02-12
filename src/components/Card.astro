@@ -1,0 +1,51 @@
+---
+
+const { tool } = Astro.props;
+---
+
+<script is:inline>
+    function removeMe(el) {
+        const div = document.createElement('div');
+        div.style.width = '100px';
+        el.replaceWith(div);
+    }
+</script>
+
+<div class="mb-10 text-sm">
+    <div class="flex justify-between">
+        <div class="flex">
+            <img src={tool.data.thumbnail} 
+                alt={`Logo thumbnail for ${tool.data.title}`}
+                width="80"
+                height="auto"
+                class="mr-5 min-w-[80px] max-h-[80px] max-w-[80px]"
+                onerror="removeMe(this)"
+                loading="lazy"
+                />
+
+            <div>
+                <p class="text-2xl mb-2">{tool.data.title}</p>
+                <p class="max-w-[500px]">{tool.data.snippet}</p>
+
+                <p class="mt-5">Tags: {tool.data.tags.join(', ')}</p>
+            </div>
+        </div>
+
+        {
+            tool.body && (
+                <div class="whitespace-pre-line text-right">
+                    <p>Free Offer:</p>
+
+                    <div>
+                        {tool.body}
+                    </div>
+                </div>
+            )
+        }
+    </div>
+
+
+    <div class="text-right">
+        <p>URL: <a href={`${tool.data.link}?utm_source=freestuffdev`}>{tool.data.link}</a></p>
+    </div>
+</div>

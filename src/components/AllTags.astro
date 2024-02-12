@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content'
+
+// Get all tools collection, not isPaid
+const tools = await getCollection('tools', ({data}) => {
+	return data.isPaid !== true
+})
+
+// Step 1: Extract all tags
+const allTags = tools.flatMap(obj => obj.data.tags);
+const uniqueTags = new Set(allTags);
+
+// Step 2: Count tags
+const tagCounts = allTags.reduce((acc, tag) => {
+    acc[tag] = (acc[tag] || 0) + 1;
+    return acc;
+}, {});
+
+// Step 3: Sort and get top 22
+const tags = Object.entries(tagCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 22)
+    .map(item => item[0]);
+
+---
+
+<p class="mb-3">Top 22 Tags</p>
+<div class="flex flex-wrap gap-2 mb-5">
+    {
+        [...tags].map((tag) => (
+            <a href={`/tags/${tag.toLowerCase()}`}
+                class="bg-gray-200 text-gray-800 px-1 py-1 rounded-md text-xs"
+                >
+                {tag}
+            </a>
+        ))
+    }
+</div>
+
+<script is:inline>
+    function showAllTags() {
+        console.log('show all tags');
+        document.getElementById('modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+        document.getElementById('modal').classList.add('hidden');
+    }
+
+    window.showAllTags = showAllTags;
+    window.closeModal = closeModal;
+</script>
+
+<div>
+    <button 
+        class="w-full bg-gray-400 hover:bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm"
+        onclick="showAllTags()">
+        Show all tags
+    </button>
+</div>
+
+<!-- Modal to show all tags -->
+<div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
+    <div class="bg-white w-2/3 mx-auto mt-10 p-5 rounded-md">
+        <div class="flex justify-between">
+            <h2 class="text-lg font-bold">All Tags</h2>
+            <button class="text-red-500" onclick="closeModal()">Close</button>
+        </div>
+        <div class="flex flex-wrap gap-2 mt-3 overflow-y">
+            {
+                [...uniqueTags].map((tag) => (
+                    <a href={`/tags/${tag.toLowerCase()}`}
+                        class="bg-gray-200 text-gray-800 px-1 py-1 rounded-md text-xs"
+                        >
+                        {tag}
+                    </a>
+                ))
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+---
+import '../styles/main.sass'
+import { ViewTransitions } from 'astro:transitions';
+import Header from './Header.astro';
+import Sidebar from './Sidebar.astro';
+
+export interface Props {
+    title: string;
+    description: string;
+}
+
+const {
+	title,
+	description
+} = Astro.props;
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		
+        <title>{title}</title>
+		<meta name="description" content={description} property="og:description">
+		<ViewTransitions />
+    </head>
+
+<body class="bg-slate-800">
+	
+	<div class="">
+		<Sidebar />
+
+		<main class="ml-[400px] w-4/5 max-w-[900px]
+					pt-10 pl-5">
+			<slot />
+		</main>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content'
+import Layout from '../Layouts/Layout.astro'
+import Card from '../components/Card.astro'
+
+// Get all tools collection, not isPaid
+const tools = await getCollection('tools', ({data}) => {
+	return data.isPaid !== true
+})
+
+// randomize tools
+tools.sort(() => Math.random() - 0.5)
+
+
+const title="Free tools and services for Developer"
+const description="List of free stuff for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea."
+
+---
+
+<Layout
+	title={title}
+	description={description}
+	>
+
+	<h1>Free tools and services for Developer</h1>
+
+	<p class="text-xl mb-5">
+		Here is a list of free tools and services for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea.
+	</p>
+
+	<div>
+		{
+			tools.map((tool) => (
+				<Card tool={tool} />
+			))
+		}
+	</div>
+
+</Layout>

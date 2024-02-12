@@ -1,0 +1,10 @@
+---
+title: Mitosis
+link: https://github.com/builderio/mitosis
+thumbnail: https://mitosis.builder.io/favicon.ico
+snippet: >-
+  Write components once, run everywhere. Compiles to Vue, React, Solid, Angular,
+  Svelte, and more.
+tags: ["ui-component", "template"]
+createdAt: 2022-11-27T00:00:00.000Z
+---
