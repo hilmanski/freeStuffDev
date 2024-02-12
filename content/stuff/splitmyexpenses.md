@@ -1,5 +1,5 @@
 +++
-date = "2021-06-21T09:43:57+00:00"
+date = "2024-02-14T09:43:57+00:00"
 tags = ["finance", "productivity", "ai"]
 title = "SplitMyExpenses"
 link = "https://splitmyexpenses.com"
