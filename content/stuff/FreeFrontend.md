@@ -6,4 +6,7 @@ thumbnail = "https://freefrontend.com/apple-touch-icon.png"
 snippet="Free hand-picked HTML, CSS and JavaScript (jQuery, React, Vue) code examples, tutorials and articles."
 tags = ["guide"," templates"," books "," learning-resource"]
 +++
-Free learning-resource
+Learning Resource
+Books which are completely free
+Templates to get you started
+Various guides
