@@ -1,18 +1,20 @@
 ---
 import { getCollection } from 'astro:content'
-import Layout from '../Layouts/Layout.astro'
-import Card from '../components/Card.astro'
+import Layout from '../../Layouts/Layout.astro'
+import Card from '../../components/Card.astro'
 
 // Get all tools collection, not isPaid
 const tools = await getCollection('tools', ({data}) => {
 	return data.isPaid !== true
 })
 
-// Randomize the list
-tools.sort(() => Math.random() - 0.5)
+// Sort by newest
+tools.sort((a, b) => {
+    return new Date(b.data.createdAt) - new Date(a.data.createdAt)
+})
 
-const title="Free tools and services for Developer"
-const description="List of free stuff for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea."
+const title="New Free tools and services for Developer"
+const description="New List of free stuff for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea."
 
 ---
 
@@ -31,15 +33,15 @@ const description="List of free stuff for developer by developer to use. This is
 		<label for="sort" class="text-sm">Sort by:</label>
 		<select id="sort" 
 			class="bg-gray-800 text-white text-sm rounded-md ml-2 border border-white p-2">
-			<option value="random">Random</option>
 			<option value="newest">Newest</option>
+			<option value="random" >Random</option>
 		</select>
 
 		<script>
 			document.getElementById('sort').addEventListener('change', (e) => {
 				const sort = e.target.value
 				if (sort === 'newest') {
-					location.href = '/recent'
+					location.href = '?sort=newest'
 				} else {
 					location.href = '/'
 				}

@@ -1,17 +1,19 @@
 ---
 import '../styles/main.sass'
 import { ViewTransitions } from 'astro:transitions';
-import Header from './Header.astro';
 import Sidebar from './Sidebar.astro';
+import { FAV_KEY_NAME } from '../utils/constants';
 
 export interface Props {
     title: string;
     description: string;
+	noIndex?: boolean;
 }
 
 const {
 	title,
-	description
+	description,
+	noIndex = false
 } = Astro.props;
 
 ---
@@ -26,11 +28,59 @@ const {
 		
         <title>{title}</title>
 		<meta name="description" content={description} property="og:description">
+
+		{
+			noIndex && (
+				<meta name="robots" content="noindex" />
+			)
+		}
+
 		<ViewTransitions />
     </head>
 
 <body class="bg-slate-800">
 	
+	<script is:inline>
+		// =====================
+		// Save features
+		// =====================
+		const FAV_KEY_NAME = "favoritedItems";
+
+		function getObjectLS(key) {
+			return JSON.parse(localStorage.getItem(key))
+		}
+
+		function setObjectLS(key, val) {
+			localStorage.setItem(key, JSON.stringify(val));
+		}
+
+		function save(event, link) {
+			event.preventDefault();
+
+			const favorites = getObjectLS(FAV_KEY_NAME) ? getObjectLS(FAV_KEY_NAME) : [];
+			favorites.push(link);
+			const uniqueFav = [...new Set(favorites)];
+			setObjectLS(FAV_KEY_NAME, uniqueFav);
+
+			// change text to red
+			event.target.innerText = "Saved!";
+			event.target.style.color = "#FE4032";
+		}
+
+		function unsave(event, link){
+			event.preventDefault();
+
+			const favorites = getObjectLS(FAV_KEY_NAME);
+			const newFav = favorites.filter(fav => fav !== link);
+			setObjectLS(FAV_KEY_NAME, newFav);
+
+			// Find parent .tools-list add hidden class
+			const parent = event.target.closest('.tools-list');
+			parent.classList.add('hidden');
+		}
+
+	</script>
+
 	<div class="">
 		<Sidebar />
 
@@ -39,6 +89,7 @@ const {
 			<slot />
 		</main>
 	</div>
+
 
 </body>
 </html>

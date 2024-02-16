@@ -1,6 +1,6 @@
 ---
 
-const { tool } = Astro.props;
+const { tool, isHidden = false } = Astro.props;
 ---
 
 <script is:inline>
@@ -11,7 +11,10 @@ const { tool } = Astro.props;
     }
 </script>
 
-<div class="mb-10 text-sm border-b bborder-b-slate-50 pb-5">
+<div class=`${isHidden ? 'hidden' : ''}
+    tools-list mb-10 text-sm border-b border-b-slate-600 pb-5 `>
+    <input type="hidden" name="tool-slug" value={tool.slug}>
+
     <div class="flex justify-between">
         <div class="flex">
             <img src={tool.data.thumbnail} 
@@ -46,9 +49,12 @@ const { tool } = Astro.props;
 
 
     <div class="mt-2 flex space-x-5 justify-end">
-        <a href="">Save</a>
+        <a class="unsave-button hidden"
+           href="#" onclick=`unsave(event, "${tool.slug}")`> Remove from Favorites </a>
+        <a class="save-button"
+           href="#" onclick=`save(event, "${tool.slug}")`>Save</a>
         <a target="_blank" rel="noopener nofollow" href={`https://github.com/hilmanski/freeStuffDev/edit/main/content/stuff/${tool.slug}.md`}>Edit</a>
-        <a href={`/alternative-to/${tool.slug}`}>Alternatives</a>
+        <a href={`/alternative/${tool.slug}`}>Alternatives</a>
         <a href={`${tool.data.link}?utm_source=freestuffdev`}>Visit</a>
     </div>
 </div>

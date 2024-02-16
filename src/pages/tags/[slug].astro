@@ -10,8 +10,6 @@ export async function getStaticPaths() {
     const tags = tools.map((post) => post.data.tags).flat()
     const uniqueTags = [...new Set(tags)]
 
-    console.log(uniqueTags)
-
     return uniqueTags.map((tag) => ({
         params: {
             slug: tag.toLowerCase()
@@ -41,7 +39,7 @@ const description = `A collection of free ${tag} tools or service for developers
     <h1>{title}</h1>
     <p>{description}</p>
 
-    <div class="">
+    <div class="mt-10">
         {tools.map((tool) => (
             <Card tool={tool} />
         ))}

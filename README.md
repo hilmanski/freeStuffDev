@@ -3,17 +3,16 @@ New freestuffdev
 
 ## Todo
 
-- pages
-random/newest
+- pages [DONE]
+random/newest [DONE]
 
-- redirect
-
-/alternative -> /alternative-to/
-
-- features
+- features [DONE]
 save tools on localstorage
+
+- Responsive
 
 - add static pages:
 codeofconduct
 submission page
 about/contact
+social media link
