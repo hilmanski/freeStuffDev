@@ -11,10 +11,10 @@ const allTags = tools.flatMap(obj => obj.data.tags);
 const uniqueTags = new Set(allTags);
 
 // Step 2: Count tags
-const tagCounts = allTags.reduce((acc, tag) => {
-    acc[tag] = (acc[tag] || 0) + 1;
-    return acc;
-}, {});
+const tagCounts = allTags.reduce((item: any, tag) => {
+    item[tag] = (item[tag] || 0) + 1;
+    return item;
+}, {}) as Record<string, number>;
 
 // Step 3: Sort and get top 
 const maxTags = 20;

@@ -1,8 +1,8 @@
 ---
 import '../styles/main.sass'
 import { ViewTransitions } from 'astro:transitions';
-import Sidebar from './Sidebar.astro';
-import { FAV_KEY_NAME } from '../utils/constants';
+import Sidebar from './Sidebar.astro'
+
 
 export interface Props {
     title: string;
@@ -41,7 +41,7 @@ const {
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={} /> 
+		<meta property="og:image" content="/freestuffdev-logo.webp"  /> 
 
 		<ViewTransitions />
     </head>
