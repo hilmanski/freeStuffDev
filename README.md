@@ -115,11 +115,11 @@ codeofconduct
 about/contact
 social media link
 
-- add simple analytics
 
 ## Publish
+- [X] add simple analytics
+- [ ] Search feature (Client side)
 - [ ] Update twitter image, be consistent
 - [ ] Tidy up readme
-- [ ] Add notes (big update) on readme
-- [ ] Test submission (update github link)
-- [ ] Update github link on edit
+- [X] Test submission (update github link)
+- [X] Update github link on edit
