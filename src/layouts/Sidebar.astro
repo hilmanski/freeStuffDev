@@ -23,10 +23,19 @@ import AllTags from '../components/AllTags.astro'
         </div>
     </div>
 
-    <nav class="flex space-x-3 my-5 text-sm">
-        <a class="hover:bg-rose-400 hover:text-white py-1 px-3 rounded-xl" href="/submit">Submit+</a>
-        <a class="hover:bg-rose-400 hover:text-white py-1 px-3 rounded-xl" href="/favorites">Saved</a>
+    <nav class="flex space-x-3 my-5">
+        <a class="border border-rose-300 hover:bg-rose-400 hover:text-white py-1 px-3 rounded-lg" href="/submit">Submit+</a>
+        <a class="border border-rose-300 hover:bg-rose-400 hover:text-white py-1 px-3 rounded-lg" href="/favorites">Saved</a>
     </nav>
 
     <AllTags />
+
+    <div class="mt-10">
+        <p class="mb-2">Sponsors</p>
+
+        <a href="https://htmlrev.com"
+            rel="sponsored">
+            <img src="/banner/htmlrev.jpg" alt="HTMLRev banner">
+        </a>
+    </div>
 </header>

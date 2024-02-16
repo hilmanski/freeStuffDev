@@ -10,10 +10,8 @@ const allTags = tools.flatMap(obj => obj.data.tags);
 allTags.forEach((tag, index) => {
     allTags[index] = tag.trim().toLowerCase();
 });
-
 const uniqueTags = new Set(allTags);
 
-console.log(uniqueTags);
 
 // Step 2: Count tags
 const tagCounts = allTags.reduce((item: any, tag) => {
