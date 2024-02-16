@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content'
-import Layout from '../layouts/BaseLayout.astro'
+import Layout from '../Layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import Header from '../components/Header.astro'
 
@@ -37,8 +37,10 @@ const description="List of free stuff for developer by developer to use. This is
 		</select>
 
 		<script>
-			document.getElementById('sort').addEventListener('change', (e) => {
-				const sort = e.target.value
+			document.getElementById('sort')?.addEventListener('change', (e) => {
+				if(!e.target) return
+
+				const sort = (e.target as any).value
 				if (sort === 'newest') {
 					location.href = '/recent'
 				} else {

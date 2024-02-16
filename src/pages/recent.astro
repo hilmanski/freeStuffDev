@@ -1,17 +1,19 @@
 ---
 import { getCollection } from 'astro:content'
-import Layout from '../Layouts/BaseLayout.astro'
 import Card from '../components/Card.astro'
 import Header from '../components/Header.astro'
+import Layout from '../Layouts/Layout.astro'
 
 // Get all tools collection, not isPaid
 const tools = await getCollection('tools', ({data}) => {
 	return data.isPaid !== true
 })
 
-// Sort by newest
+// Sort by newest with typescript
 tools.sort((a, b) => {
-    return new Date(b.data.createdAt) - new Date(a.data.createdAt)
+	const dateA = new Date(a.data.createdAt) as any
+	const dateB = new Date(b.data.createdAt) as any
+	return dateB - dateA
 })
 
 const title="New Free tools and services for Developer"
@@ -39,8 +41,10 @@ const description="New List of free stuff for developer by developer to use. Thi
 		</select>
 
 		<script>
-			document.getElementById('sort').addEventListener('change', (e) => {
-				const sort = e.target.value
+			document.getElementById('sort')?.addEventListener('change', (e) => {
+				if (!e.target) return
+
+				const sort = (e.target as any).value
 				if (sort === 'newest') {
 					location.href = '?sort=newest'
 				} else {

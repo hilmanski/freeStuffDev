@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content'
-import Layout from '../../layouts/BaseLayout.astro'
+import Layout from '../../layouts/Layout.astro'
 import Header from '../../components/Header.astro'
 import Card from '../../components/Card.astro'
 
@@ -25,7 +25,7 @@ const relatedTags = tool.data.tags.map((tag) => {
     return tag
 })
 
-let groupedTools = {}
+let groupedTools = {} as any
 for(let i = 0; i < relatedTags.length; i++) {
     const tag = relatedTags[i].toLowerCase()
     const tools = await getCollection('tools', ({ data }) => {
@@ -69,7 +69,7 @@ const description = `List of free alternative to ${toolTitle} for developers. Fi
             <div>
                 <h3 class="text-xl mb-5 text-sky-200">👉 Alternative to {toolTitle} as {tag} tools/services</h3>
                 <div class="grid grid-cols-1 gap-4">
-                    {groupedTools[tag].map((tool) => {
+                    {groupedTools[tag].map((tool: any) => {
                         return (
                             <Card tool={tool} />
                         )
