@@ -1,1 +1,12 @@
-<p> Header Astro </p>
+---
+const {
+	title,
+	description,
+} = Astro.props;
+
+---
+
+<div class="text-center mb-20">
+    <h1 class="text-2xl">{title}</h1>
+    <h2 class="max-w-2xl mx-auto">{description}</h2>
+</div>

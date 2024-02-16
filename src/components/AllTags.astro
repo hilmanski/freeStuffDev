@@ -16,20 +16,22 @@ const tagCounts = allTags.reduce((acc, tag) => {
     return acc;
 }, {});
 
-// Step 3: Sort and get top 24
+// Step 3: Sort and get top 
+const maxTags = 20;
 const tags = Object.entries(tagCounts)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 24)
+    .slice(0, maxTags)
     .map(item => item[0]);
 
 ---
 
-<p class="mb-3">Top 24 Tags</p>
+<p class="mb-3">Top {maxTags} Tags</p>
 <div class="flex flex-wrap gap-2 mb-5">
     {
         [...tags].map((tag) => (
-            <a href={`/tags/${tag.toLowerCase()}`}
-                class="bg-gray-200 text-gray-800 px-1 py-1 rounded-md text-xs"
+            <a href={`/tags/${tag.trim().toLowerCase()}`}
+                class="bg-slate-700 text-white hover:text-white hover:bg-slate-900 
+                    px-1 py-1 rounded-md text-xs"
                 >
                 {tag}
             </a>
@@ -68,7 +70,7 @@ const tags = Object.entries(tagCounts)
         <div class="flex flex-wrap gap-2 mt-3 overflow-y">
             {
                 [...uniqueTags].map((tag) => (
-                    <a href={`/tags/${tag.toLowerCase()}`}
+                    <a href={`/tags/${tag.trim().toLowerCase()}`}
                         class="bg-gray-200 text-gray-800 px-1 py-1 rounded-md text-xs"
                         >
                         {tag}

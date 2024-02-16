@@ -34,11 +34,19 @@ const {
 				<meta name="robots" content="noindex" />
 			)
 		}
+		
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@fullofdev" />
+		<meta name="twitter:creator" content="@fullofdev" />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={} /> 
 
 		<ViewTransitions />
     </head>
 
-<body class="bg-slate-800">
+<body>
 	
 	<script is:inline>
 		// =====================
@@ -84,8 +92,7 @@ const {
 	<div class="">
 		<Sidebar />
 
-		<main class="ml-[400px] w-4/5 max-w-[900px]
-					pt-10 pl-5">
+		<main>
 			<slot />
 		</main>
 	</div>

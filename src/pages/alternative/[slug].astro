@@ -1,7 +1,7 @@
 ---
-import type { GetStaticPaths } from "astro";
 import { getCollection } from 'astro:content'
 import Layout from '../../Layouts/Layout.astro'
+import Header from '../../Layouts/Header.astro'
 import Card from '../../components/Card.astro'
 
 export async function getStaticPaths() {
@@ -29,7 +29,7 @@ let groupedTools = {}
 for(let i = 0; i < relatedTags.length; i++) {
     const tag = relatedTags[i].toLowerCase()
     const tools = await getCollection('tools', ({ data }) => {
-        return data.tags.includes(tag.toLowerCase())
+        return data.tags.includes(tag.trim().toLowerCase())
     })
 
     // remove the current tool from the list
@@ -58,8 +58,10 @@ const description = `List of free alternative to ${toolTitle} for developers. Fi
 	description={description}
 	>
 
-    <h1>{title}</h1>
-    <p>{description}</p>
+    <Header
+        title={title}
+        description={description}
+        />
 
     <div class="mt-10">
     {Object.keys(groupedTools).map((tag) => {

@@ -9,10 +9,19 @@ random/newest [DONE]
 - features [DONE]
 save tools on localstorage
 
-- Responsive
+- Responsive [DONE]
+
+- Featured section
 
 - add static pages:
+submission page [DONE]
 codeofconduct
-submission page
 about/contact
 social media link
+
+## Publish
+- [ ] Update twitter image, be consistent
+- [ ] Tidy up readme
+- [ ] Add notes (big update) on readme
+- [ ] Test submission (update github link)
+- [ ] Update github link on edit

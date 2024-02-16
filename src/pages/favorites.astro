@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content'
+import Layout from '../Layouts/Layout.astro'
+import Header from '../Layouts/Header.astro'
+import Card from '../components/Card.astro'
+import {FAV_KEY_NAME} from '../../utils/constant'
+
+// Get all tools collection, not isPaid
+const tools = await getCollection('tools', ({data}) => {
+	return data.isPaid !== true
+})
+
+const title="Free tools and services for Developer"
+const description="List of free stuff for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea."
+
+---
+
+<Layout
+	title={title}
+	description={description}
+	noIndex={true}
+	>
+
+	<Header
+		title="❤️ Your Saved FreeStuffDev"
+		description="*We save it on localstorage. It means that you can only see this from your browser. You can't share it with others"
+		/>
+
+	<div class="empty-message hidden">
+		<p class="text-lg">You haven't saved any tools yet</p>
+	</div>
+
+	<div class="mt-10">
+		{
+			tools.map((tool) => (
+				<Card tool={tool} isHidden={true} />
+			))
+		}
+	</div>
+
+    <script is:inline>
+        // Retreive item from local storage (saved/favourite items)
+		console.log('FAV_KEY_NAME', FAV_KEY_NAME)
+		if (getObjectLS(FAV_KEY_NAME) !== null) {
+			var savedItems = getObjectLS(FAV_KEY_NAME).reverse()
+			
+			savedItems.forEach((itemSlug) => {
+				const toolCard = document.querySelector(`input[value="${itemSlug}"]`).parentNode
+				toolCard.classList.remove('hidden')
+
+				toolCard.querySelector('.save-button').classList.add('hidden')
+				toolCard.querySelector('.unsave-button').classList.remove('hidden')
+			})
+
+
+			if (savedItems.length === 0) {
+				document.querySelector('.empty-message').classList.remove('hidden')
+			}
+		}
+
+    </script>
+
+</Layout>

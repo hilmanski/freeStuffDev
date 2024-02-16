@@ -2,33 +2,33 @@
 import AllTags from '../components/AllTags.astro'
 ---
 
-<aside class="min-w-[400px] w-1/5 px-10 pt-10 
-            fixed bg-slate-900 min-h-[100%]">
-    
-    <a href="/">
-    <img 
-        class="rounded-xl mb-5"
-        src="/freestuffdev-logo.webp" 
-        alt="Free Stuff for developer illustration"
-        title="Free Stuff for developer illustration" />
-    </a>
+<header id="sidebar">
 
-    <div class="my-5">
-        <p class="text-2xl">
-            <a href="/">
-                Free Stuff for Developer
-            </a>
-        </p>
-        <p class="italic">Find any tools or services that free for developer to use</p>
+    <div class="flex md:block items-start">
+        <a href="/">
+        <img 
+            class="rounded-xl mb-5 w-[100px] md:w-[250px]"
+            src="/freestuffdev-logo.webp" 
+            alt="Free Stuff for developer illustration"
+            title="Free Stuff for developer illustration" />
+        </a>
+
+        <div class="ml-5 md:ml-0">
+            <p class="text-2xl">
+                <a href="/">
+                    Free Stuff for Developer
+                </a>
+            </p>
+            <p class="italic">Find any tools or services that free for developer to use</p>
+        </div>
     </div>
 
-    <nav class="flex justify-between my-5">
-        <a href="">Submit+</a>
-        <a href="/favorites">Saved</a>
-        <a href="https://github.com/hilmanski/freeStuffDev/">GitHub</a>
-        <a href="https://twitter.com/fullofdev">Twitter</a>
+    <nav class="flex justify-between my-5 text-sm">
+        <a class="hover:bg-rose-400 hover:text-white py-1 px-3 rounded-xl" href="/submit">Submit+</a>
+        <a class="hover:bg-rose-400 hover:text-white py-1 px-3 rounded-xl" href="/favorites">Saved</a>
+        <a class="hover:bg-rose-400 hover:text-white py-1 px-3 rounded-xl" href="https://github.com/hilmanski/freeStuffDev/">GitHub</a>
+        <a class="hover:bg-rose-400 hover:text-white py-1 px-3 rounded-xl" href="https://twitter.com/fullofdev">Twitter</a>
     </nav>
 
-
     <AllTags />
-</aside>
+</header>

@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getCollection } from 'astro:content'
 import Layout from '../../Layouts/Layout.astro'
+import Header from '../../Layouts/Header.astro'
 import Card from '../../components/Card.astro'
 
 export async function getStaticPaths() {
@@ -24,20 +25,22 @@ const tag = Astro.props.tag
 
 // Get all tools that has that tag
 const tools = await getCollection('tools', ({ data }) => {
-    return data.tags.includes(tag.toLowerCase())
+    return data.tags.includes(tag.trim().toLowerCase())
 })
 
 const title = `Free ${tag} tools or service for developers`
-const description = `A collection of free ${tag} tools or service for developers`
+const description = `A collection of free ${tag} app, tools or service for developers`
 ---
 
 <Layout
 	title={title}
 	description={description}
 	>
-
-    <h1>{title}</h1>
-    <p>{description}</p>
+    
+    <Header
+        title={title}
+        description={description}
+        />
 
     <div class="mt-10">
         {tools.map((tool) => (

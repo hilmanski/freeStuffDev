@@ -55,6 +55,6 @@ const { tool, isHidden = false } = Astro.props;
            href="#" onclick=`save(event, "${tool.slug}")`>Save</a>
         <a target="_blank" rel="noopener nofollow" href={`https://github.com/hilmanski/freeStuffDev/edit/main/content/stuff/${tool.slug}.md`}>Edit</a>
         <a href={`/alternative/${tool.slug}`}>Alternatives</a>
-        <a href={`${tool.data.link}?utm_source=freestuffdev`}>Visit</a>
+        <a target="_blank" rel="noopener nofollow" href={`${tool.data.link}?utm_source=freestuffdev`}>Visit</a>
     </div>
 </div>

@@ -1,0 +1,144 @@
+---
+import Layout from '../Layouts/Layout.astro'
+import Header from '../Layouts/Header.astro'
+
+const title="Add new stuff"
+const description="Any tools to add? We'll redirect you to github PR's page after submit"
+---
+
+<Layout
+	title={title}
+	description={description}
+	noIndex={true}
+	>
+
+    <Header
+        title={title}
+        description={description}
+        />
+
+    <div class="flex-row space-y-5 max-w-3xl mx-auto">
+            <div>
+                <label class="block mb-2" for="input_url"><b>1. Link (use http:// or https://)</b></label>
+                <input class="bg-slate-600 p-3 w-full rounded-lg" id="input_url" type="url" required>
+            </div>
+
+            <div>
+                <label class="block mb-2" for="input_tags"><b>2. Tags</b> </label>
+                <input class="bg-slate-600 p-3 w-full rounded-lg" id="input_tags" type="text" required>
+                <small><pre class="mt-2">example: hosting,authentication ..</pre></small>
+            </div>
+
+            <div>
+                <label class="block mb-2" for="input_benefits"><b>3. What's free?</b></label>
+                <textarea 
+                    class="bg-slate-600 p-3 w-full rounded-lg"
+                    name="benefits" id="input_benefits" cols="30" rows="5"></textarea>
+                <small>
+<pre class="mt-2">
+example:
+Free self-hosted
+Upload up to 30mb
+</pre>
+                </small>
+            </div>
+
+            <!-- <div>
+                <label class="block mb-2" for="date"><b>4. (Optional) Schedule post</b></label>
+                <input class="bg-slate-600 p-3 w-full rounded-lg" class="input" type="datetime-local" id="date">
+            </div> -->
+
+            <button 
+                class="bg-sky-400 hover:bg-sky-500 p-3 rounded-lg text-white w-full"
+                onclick="return validateSubmission();">Submit</button>
+            <p id="status"></p>
+            <p>Thanks for your contribution!</p>
+    </div>
+
+        <script is:inline>
+            function validateSubmission() {
+                let status = document.getElementById('status')
+                let url = document.getElementById('input_url').value 
+                let tags = document.getElementById('input_tags').value
+                let benefits = document.getElementById('input_benefits').value
+                // let date = document.getElementById('date').value
+
+                let METAFETCH_URL = "https://web-meta-scrapper.vercel.app/api?url=" + url
+
+                status.innerText = 'Loading...'
+                fetch(METAFETCH_URL)
+                    .then(response => response.json())
+                    .then(function (data) {
+                        status.innerText = 'Redirect..'
+
+                        let preFilledlink = generateUrl(data.body, url, tags, benefits)
+                        console.log(preFilledlink)
+                        window.open(preFilledlink)
+
+                        //redirect with all encoded data   
+                        return false;
+                    }).catch((error) => {
+                        console.log('error-> ')
+                        console.log(error)
+                        status.innerHTML = "Sorry.. something went wrong. \n"
+                            + "You can still contribute via<a class='link' href='https://github.com/hilmanski/freeStuffDev/new/main/src/content/tools?value=%2B%2B%2B%0Adate%20%3D%20%22YYYY-MM-DDT00%3A00%3A00%2B00%3A00%22%0Atags%20%3D%20%5B%22tag%22%5D%0Atitle%3D%22Title%22%0Alink%20%3D%20%22https%3A%2F%2Flink%22%0Athumbnail%20%3D%20%22url_thumbnail%22%0Asnippet%3D%22Snippet%20of%20product%22%0A%2B%2B%2B%0ADetail%20what%27s%20free%20here..%0A'> this link </a>"
+                    });
+
+                return false;
+            }
+
+            function generateUrl(_info, _URL, _tags, _benefits) {
+                //2. Thumbnail
+                let thumbnail = ''
+
+                if (_info.icon != null)
+                    thumbnail = _info.icon.href
+
+                if (_info.maskIcon != null)
+                    thumbnail = _info.maskIcon.href
+
+                if (_info.touchIcons?.length != 0 && _info.touchIcons != undefined) 
+                    thumbnail = _info.touchIcons[_info.touchIcons?.length - 1].href
+
+                //3. Tags
+                const tags = '["' + _tags.replace(/,/g, '","') + '"]'
+
+                //4. Title
+                const title = _info.name || _info.title
+
+                //5. link
+                const url = _URL
+
+                //6. Snippet
+                const snippet = _info.description
+
+                //7. Content
+                const content = _benefits
+
+                //8. FIlename
+                const filename = generateFileName(title) + ".md"
+
+let fileText = `---
+title: "${title}"
+link: "${url}"
+thumbnail: "${thumbnail}"
+snippet: "${snippet}"
+tags: ${tags}
+createdAt: ${new Date().toISOString()}
+---
+${content}`
+
+                fileText = encodeURIComponent(fileText)
+
+                return "https://github.com/hilmanski/freeStuffDev/new/main/src/content/tools?value=" + fileText
+                    + "&filename=" + filename
+            }
+
+            function generateFileName(_title) {
+                console.log(_title)
+                return _title.replace(/\s/g, '-').replace(/\./g, '-').replace(/"/g, '\\"').toLowerCase();
+            }
+        </script>
+
+</Layout>
+---
