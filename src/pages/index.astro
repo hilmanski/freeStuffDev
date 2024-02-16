@@ -50,6 +50,14 @@ const description="List of free stuff for developer by developer to use. This is
 		</script>
 	</div>
 
+	<div>
+		<input 
+			class="bg-gray-700 text-white text-sm rounded-md w-full border border-white p-2 mt-10"
+			type="text"
+			placeholder="search anything here..."
+			id="searchbox">
+	</div>
+
 	<div class="mt-10">
 		{
 			tools.map((tool) => (
@@ -57,5 +65,31 @@ const description="List of free stuff for developer by developer to use. This is
 			))
 		}
 	</div>
+
+	<!-- Important: position is after cards -->
+	<script is:inline>
+		const cards = document.querySelectorAll('.cards')
+		// A little delay
+		let typingTimer;        
+		let typeInterval = 500; // Half a second
+		let searchInput = document.getElementById('searchbox');
+
+		searchInput.addEventListener('keyup', () => {
+			clearTimeout(typingTimer);
+			typingTimer = setTimeout(liveSearch, typeInterval);
+		});
+		
+		function liveSearch() {
+			const searchQ = searchInput.value
+			for (var i = 0; i < cards.length; i++) {
+				if(cards[i].textContent.toLowerCase()
+						.includes(searchQ.toLowerCase())) {
+					cards[i].classList.remove("hidden");
+				} else {
+					cards[i].classList.add("hidden");
+				}
+			}
+		}
+	</script>
 
 </Layout>

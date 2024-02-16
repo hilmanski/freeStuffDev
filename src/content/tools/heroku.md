@@ -9,5 +9,5 @@ snippet: >-
   their apps to market.
 tags: ["database", "hosting-dynamic", "paas"]
 createdAt: 2021-06-17T00:00:00.000Z
+isPaid: true
 ---
-No longer valid as starting Nov. 28, 2022, the company will stop offering free product plans.

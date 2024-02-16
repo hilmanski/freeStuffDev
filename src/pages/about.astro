@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Header from '../components/Header.astro'
+import Card from '../components/Card.astro'
+
+const title="About FreeStuffDev"
+const description="Information about Free Stuff for Developer"
+
+---
+
+<Layout
+	title={title}
+	description={description}
+	noIndex={true}
+	>
+
+	<Header
+		title={title}
+		description={description}
+		/>
+
+	<div>
+
+		<p class="mb-3">
+			FreeStuffDev is an open-source collection of free stuff for developer. It's a curated list of free resources for developer. 
+			We aim to help developer to find free resources easily.
+		</p>
+
+		<p class="mb-3">
+			We are open for contribution. If you have any free resources that you want to share, feel free to open a pull request.
+		</p>
+
+		<blockquote class="mb-5">
+			> Don't forget to <a href="https://github.com/hilmanski/freeStuffDev/">star us on GitHub</a>
+		</blockquote>	
+
+
+
+		<h3 class="font-bold mb-3"> About Maintainer</h3>
+		<p>
+			Hi! My name is <a href="https://about.hilman.space/">Hilman</a> from Indonesia. I have a huge interest in dev / programming and teaching it. 
+			I love exploring  blogs, documentations, courses or video around dev and learn from it.
+		</p>
+
+		<p class="mt-2">
+			As someone who loves building things, I often find myself looking for free resources to help me learn and build things.
+			That's why I created FreeStuffDev. I hope it can help you as much as it helps me.
+		</p>
+
+
+
+		<h3 class="font-bold mb-3 mt-5"> Code of Conduct</h3>
+		<p>
+FreeStuffDev is open for contribution from all people around the world. Whoever your are and whatever your background: nationality, gender, religion, we welcome you. Things to keep in mind:
+</p>
+
+<ul>
+<li>- Show empathy</li>
+<li>- Be patient</li>
+<li>- Accept constructive feedback</li>
+</ul>
+
+<p class="mt-5">
+If you have any questions, feel free to open an issue or reach out at [twitter](https://twitter.com/hilmanski)
+</p>
+</Layout>

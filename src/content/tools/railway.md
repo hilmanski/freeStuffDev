@@ -8,4 +8,4 @@ snippet: >-
   develop with that infrastructure locally, and then deploy to the cloud.
 tags: ["Infrastructure", " database", " hosting"]
 ---
-~~Free trial 5$ credit~~ Now paid at minimum 5$/m
+Free trial 5$ credit

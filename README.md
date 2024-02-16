@@ -5,21 +5,6 @@ We've just migrated the Hugo repository to Astro. More updates coming soon
 
 # Old Readme
 
-## Important!
-
-Right now people might search "ANY-PAID-SERVICE altanrive"
-It's important to have this SEO wise.
-
-Think a way, to submit "paid item", but marked as "paid". And only for SEO "this paid" altearntive.
-
-- Don't list in a normal 'index page'
-- Don't list as "alternative"
-- Maybe a dedicated page for "paid tools alternative"
-
-
----
-
-
 <img src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" width="120px"/>
 
 
@@ -31,7 +16,7 @@ I had many tools in my private repository and thought why not bring it to the pu
 Surprisingly there are not many alternatives out there that focusing on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
 
 
-Built with Hugo Static site generator and hosted at Netlify.
+Built with Hugo Static site generator and hosted at Netlify. (Now Astro on Vercel!)
 
 ## License
 MIT License
@@ -60,7 +45,7 @@ c. Create a new file for service you want to add. File must have `.md` extension
 d. Use next template for content
 
 ```
-+++
+---
 title: "Your service name"
 link: "https://link.to.service"
 thumbnail: "https://any.logo.of/service"
@@ -118,8 +103,12 @@ social media link
 
 ## Publish
 - [X] add simple analytics
-- [ ] Search feature (Client side)
-- [ ] Update twitter image, be consistent
+- [X] Search feature (Client side)
+- [X] Update twitter image, be consistent
 - [ ] Tidy up readme
+- [ ] Check old submission (PR)
 - [X] Test submission (update github link)
 - [X] Update github link on edit
+- [ ] Add page "isPaid" to list paid product
+- [X] Don't list isPaid on homepage
+- [X] Don't list isPaid as alternative

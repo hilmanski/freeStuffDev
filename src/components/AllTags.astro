@@ -1,14 +1,19 @@
 ---
 import { getCollection } from 'astro:content'
 
-// Get all tools collection, not isPaid
-const tools = await getCollection('tools', ({data}) => {
-	return data.isPaid !== true
-})
+const tools = await getCollection('tools')
 
 // Step 1: Extract all tags
 const allTags = tools.flatMap(obj => obj.data.tags);
+
+// trim and lowercase tags
+allTags.forEach((tag, index) => {
+    allTags[index] = tag.trim().toLowerCase();
+});
+
 const uniqueTags = new Set(allTags);
+
+console.log(uniqueTags);
 
 // Step 2: Count tags
 const tagCounts = allTags.reduce((item: any, tag) => {

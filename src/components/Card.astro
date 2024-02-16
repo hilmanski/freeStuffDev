@@ -12,7 +12,7 @@ const { tool, isHidden = false } = Astro.props;
 </script>
 
 <div class=`${isHidden ? 'hidden' : ''}
-    tools-list mb-10 text-sm border-b border-b-slate-600 pb-5 `>
+    cards mb-10 text-sm border-b border-b-slate-600 pb-5 relative`>
     <input type="hidden" name="tool-slug" value={tool.slug}>
 
     <div class="flex justify-between">
@@ -32,6 +32,15 @@ const { tool, isHidden = false } = Astro.props;
 
                 <p class="mt-5">Tags: {tool.data.tags.join(', ')}</p>
             </div>
+            
+            {
+                tool.data.isPaid && (
+                    <div class="bg-rose-500 text-white px-2 py-1 ml-5 rounded-md 
+                        absolute right-0">
+                        Paid Tool
+                    </div>
+                )
+            }
         </div>
 
         {

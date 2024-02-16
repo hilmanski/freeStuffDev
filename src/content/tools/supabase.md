@@ -6,7 +6,7 @@ snippet: >-
   Start your project with a Postgres Database, Authentication, instant APIs,
   realtime subscriptions and Storage.
 thumbnail: https://supabase.com/favicon/favicon-96x96.png
-tags: ["database", "storage", "authentication", "real-time"]
+tags: ["database", "storage", "authentication", "real-time", "postgres-service"]
 createdAt: 2021-06-17T02:56:44.222Z
 ---
 Get free database, authentication and storage
