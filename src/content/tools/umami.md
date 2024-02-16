@@ -6,5 +6,8 @@ snippet: Umami is an open source, privacy-focused alternative to Google Analytic
 tags: ["analytics"]
 createdAt: 2023-01-05T00:00:00.000Z
 ---
+Up to 10K monthly events
+Up to 3 websites
+1 year data retention
+Community support
 Free Self hosted
-Current cloud is in beta for free
