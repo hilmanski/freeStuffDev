@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content'
 import Card from '../components/Card.astro'
 import Header from '../components/Header.astro'
-import Layout from '../Layouts/Layout.astro'
+import Layout from '../layouts/Layout.astro'
 
 // Get all tools collection, not isPaid
 const tools = await getCollection('tools', ({data}) => {
