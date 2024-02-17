@@ -1,5 +1,5 @@
 ---
-title: AFFiNE - All In One Workos
+title: AFFiNE
 link: https://affine.pro/
 thumbnail: https://affine.pro/favicon.ico
 snippet: Affine is the next-generation collaborative knowledge base for professionals.

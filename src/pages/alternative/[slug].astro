@@ -21,15 +21,18 @@ export async function getStaticPaths() {
 const tool = Astro.props.tool
 const year = new Date().getFullYear()
 
-const relatedTags = tool.data.tags.map((tag) => {
+const relatedTags = tool.data.tags.map((tag: string) => {
     return tag
 })
 
+console.log(relatedTags)
+
 let groupedTools = {} as any
 for(let i = 0; i < relatedTags.length; i++) {
-    const tag = relatedTags[i].toLowerCase()
+    // WARNING: Don't lowercase the tag here
+    const tag = relatedTags[i].trim()
     const tools = await getCollection('tools', ({ data }) => {
-        return data.tags.includes(tag.trim().toLowerCase())
+        return data.tags.includes(tag)
     })
 
     // remove the current tool from the list
@@ -62,6 +65,8 @@ const description = `List of free alternative to ${toolTitle} for developers. Fi
         title={title}
         description={description}
         />
+
+    <Card tool={tool} />
 
     <div class="mt-10">
     {Object.keys(groupedTools).map((tag) => {
