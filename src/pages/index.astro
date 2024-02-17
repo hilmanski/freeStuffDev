@@ -68,28 +68,33 @@ const description="List of free stuff for developer by developer to use. This is
 
 	<!-- Important: position is after cards -->
 	<script is:inline>
-		const cards = document.querySelectorAll('.cards')
-		// A little delay
-		let typingTimer;        
-		let typeInterval = 500; // Half a second
-		let searchInput = document.getElementById('searchbox');
+		function initSearch() {
+			const cards = document.querySelectorAll('.cards')
+			// A little delay
+			let typingTimer;        
+			let typeInterval = 500; // Half a second
+			let searchInput = document.getElementById('searchbox');
 
-		searchInput.addEventListener('keyup', () => {
-			clearTimeout(typingTimer);
-			typingTimer = setTimeout(liveSearch, typeInterval);
-		});
-		
-		function liveSearch() {
-			const searchQ = searchInput.value
-			for (var i = 0; i < cards.length; i++) {
-				if(cards[i].textContent.toLowerCase()
-						.includes(searchQ.toLowerCase())) {
-					cards[i].classList.remove("hidden");
-				} else {
-					cards[i].classList.add("hidden");
+			searchInput.addEventListener('keyup', () => {
+				clearTimeout(typingTimer);
+				typingTimer = setTimeout(liveSearch, typeInterval);
+			});
+			
+			function liveSearch() {
+				const searchQ = searchInput.value
+				for (var i = 0; i < cards.length; i++) {
+					if(cards[i].textContent.toLowerCase()
+							.includes(searchQ.toLowerCase())) {
+						cards[i].classList.remove("hidden");
+					} else {
+						cards[i].classList.add("hidden");
+					}
 				}
 			}
 		}
+		
+		document.addEventListener('DOMContentLoaded', initSearch)
+		document.addEventListener('astro:after-swap', initSearch)
 	</script>
 
 </Layout>
