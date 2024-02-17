@@ -6,7 +6,7 @@ thumbnail: >-
 snippet: >-
   Rainforests QA platform combines no-code test automation and professional QA
   to help you release quality software.
-tags: ["test", " QA"]
+tags: ["testing", "QA"]
 createdAt: 2022-09-25T00:00:00.000Z
 ---
 5 hours free per month, No code automate testing
