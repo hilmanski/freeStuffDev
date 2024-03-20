@@ -84,12 +84,12 @@ const tags = Object.entries(tagCounts)
 
 <!-- Modal to show all tags -->
 <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
-    <div class="bg-white w-4/5 md:w-2/3 mx-auto mt-10 p-5 rounded-md">
+    <div class="bg-white w-4/5 md:w-2/3 mx-auto my-10 p-5 rounded-md max-h-[90%] overflow-y-scroll">
         <div class="flex justify-between">
-            <h2 class="text-lg font-bold">All Tags</h2>
+            <h2 class="text-lg font-bold text-gray-800">All Tags</h2>
             <button class="text-red-500" onclick="closeModal()">Close</button>
         </div>
-        <div class="flex flex-wrap gap-2 mt-3 overflow-y">
+        <div class="flex flex-wrap gap-2 mt-3">
             {
                 [...uniqueTags].map((tag) => (
                     <a href={`/tags/${tag.trim().toLowerCase()}`}
