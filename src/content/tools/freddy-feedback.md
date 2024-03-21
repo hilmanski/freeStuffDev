@@ -6,7 +6,7 @@ snippet: >-
   A simple and powerful tool to get feedback from your customers. Get feedback
   on your product features, onboarding, pricing, marketing content, FAQs and
   more.
-tags: ["site-reaction"]
+tags: ["feedback"]
 createdAt: 2023-01-20T00:00:00.000Z
 ---
 RESPONSES
