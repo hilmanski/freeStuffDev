@@ -2,8 +2,8 @@
 title: "Dashbase"
 link: "https://www.dashbase.ai/"
 thumbnail: "https://www.dashbase.ai/apple-icon.png?35827bb3b2ae4bce"
-snippet: "Dashbase | Instantly create analytics dashboards for your team, with the power of AI"
-tags: ["dashboard","sql","database","ai"]
+snippet: "Instantly create analytics dashboards for your team, with the power of AI"
+tags: ["dashboard","ai-database"]
 createdAt: 2024-03-07T23:45:53.003Z
 ---
 Free Version Forever:
