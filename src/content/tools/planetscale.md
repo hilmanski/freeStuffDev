@@ -6,9 +6,7 @@ snippet: >-
   platform you can start in seconds and scale indefinitely.
 thumbnail: https://pbs.twimg.com/profile_images/1354831201693917185/DwU2Fy9K_400x400.jpg
 tags: ["database"]
+isPaid: true
 createdAt: 2021-06-17T03:03:46.554Z
 ---
-3 free databases
-10GB storage*
-100 Million rows read/mo*
-10 Million rows written/mo*
+Free plan is deprecated on April 8th, 2024
