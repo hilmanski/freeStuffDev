@@ -26,8 +26,6 @@ const relatedTags = tool.data.tags.map((tag: string) => {
     return tag
 })
 
-console.log(relatedTags)
-
 let groupedTools = {} as any
 for(let i = 0; i < relatedTags.length; i++) {
     // WARNING: Don't lowercase the tag here
