@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
 import Header from '../../components/Header.astro'
 import Card from '../../components/Card.astro'
+import Sponsors from '../../components/Sponsors.astro'
 
 export async function getStaticPaths() {
     const tools = await getCollection('tools')
@@ -84,5 +85,7 @@ const description = `List of free alternative to ${toolTitle} for developers. Fi
         )
     })}
     </div>
+
+    <Sponsors />
 
 </Layout>

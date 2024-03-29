@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content'
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import Header from '../components/Header.astro'
+import Sponsors from '../components/Sponsors.astro'
 
 // Get all tools collection, not isPaid
 const tools = await getCollection('tools', ({data}) => {
@@ -27,27 +28,8 @@ const description="List of free stuff for developer by developer to use. This is
 		description={description}
 		/>
 
-	<!-- Sponsors -->
-	<section class="mb-10">
-		<p class="text-xl">SPONSORS</p>
-		<div class="grid grid-cols-3 gap-4 mt-4 text-center">
-			<a href="https://htmlrev.com" target="_blank" rel="sponsored">
-				<img src="/banner/htmlrev-banner.webp" alt="HTMLREV banner" class="w-full" />
-				<p class="mt-2 text-gray-200 text-sm">HTMLRev - 1200+ free HTML templates for web developers</p>
-			</a>
-			<a href="https://templated.io" target="_blank" rel="sponsored">
-				<img src="/banner/templated-banner.webp" alt="Templated banner" class="w-full" />
-				<p class="mt-2 text-gray-200 text-sm">Templated - Generate social media visuals, banners, PDFs and more with a simple API</p>
-			</a>
-			<a href="https://twitter.com/hilmanski" target="_blank">
-				<img src="/banner/banner-promotion.webp" alt="Cloudflare" class="w-full" />
-				<p class="mt-2 text-gray-200 text-sm">DM me at @hilmanski</p>
-			</a>
-		</div>
+	<Sponsors />
 	
-
-	</section>
-
 	<!-- checkbox sort by newest or random -->
 	<div class="flex justify-end items-center">
 		<label for="sort" class="text-sm">Sort by:</label>
