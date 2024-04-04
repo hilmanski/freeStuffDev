@@ -1,10 +1,10 @@
 +++
-date = "YYYY-MM-DDT00:00:00+00:00"
 tags = ["chat, uml, ai, chatuml, diagram"]
 title="chatuml"
 link = "https://chatuml.com/"
 thumbnail = "url_thumbnail"
 snippet="Access your diagrams anywhere, anytime"
+createdAt: 2024-04-04T07:22:57.865Z
 +++
 
 * Sign up for a free account today to use ChatUML
