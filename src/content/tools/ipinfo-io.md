@@ -7,6 +7,6 @@ snippet: >-
   Were the trusted source for IP address information, handling 40 billion IP
   geolocation API requests per month for over 1,000 businesses and 100,000+
   developers
-tags: ["ip-address"]
+tags: ["ip-address-api", "geolocaiton-api"]
 ---
 Geolocation 50k requests / month
