@@ -6,7 +6,7 @@ thumbnail: https://clerk.com/favicon/apple-touch-icon.png
 snippet: >-
   The easiest way to add authentication and user management to your application.
   Purpose-built for React, Next.js, and the modern web.
-tags: ["authentication", "user-management", "components", "nextjs", "react"]
+tags: ["authentication", "user-management"]
 ---
 No credit card required
 10,000 monthly active users
