@@ -1,5 +1,5 @@
 ---
-title: "StaticHost - Easiest Way To Host Your Static Website."
+title: "StaticHost"
 link: "https://statichost.host/"
 thumbnail: "https://statichost.host/images/icon-logo.png"
 snippet: "Do you have any Static webpage? You can use Statichost to host your static web pages within some minutes."
