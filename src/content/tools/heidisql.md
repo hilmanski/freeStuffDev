@@ -1,5 +1,5 @@
 ---
-title: HeidiSQL - MariaDB, MySQL, MSSQL, PostgreSQL and SQLite made easy
+title: HeidiSQL
 link: https://www.heidisql.com
 thumbnail: https://www.heidisql.com/favicon.ico
 snippet: >-
