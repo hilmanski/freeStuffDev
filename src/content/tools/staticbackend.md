@@ -8,7 +8,7 @@ snippet: >-
   Firebase alternative includes authentication, database, storage, real-time
   database and WebSocket, server-side functions, task scheduler, sending emails,
   and more.
-tags: ["API", "database", "storage", "authentication", "real-tie", "serverless"]
+tags: ["API", "database", "storage", "authentication", "real-time", "serverless"]
 createdAt: 2022-03-05T00:00:00.000Z
 ---
 Self-host a feature-rich backend API.
