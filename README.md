@@ -1,5 +1,5 @@
 # About
-We've just migrated the Hugo repository to Astro. More updates coming soon
+We've just migrated the Hugo repository to Astro. More updates coming soon.
 
 ---
 
@@ -13,7 +13,7 @@ List of free services for developers like database, hosting, authentication and 
 Check it out at [freestuff.dev](https://freestuff.dev). 
 
 I had many tools in my private repository and thought why not bring it to the public?
-Surprisingly there are not many alternatives out there that focusing on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
+Surprisingly there are not many alternatives out there that focus on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
 
 
 Built with Hugo Static site generator and hosted at Netlify. (Now Astro on Vercel!)
