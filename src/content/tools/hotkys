@@ -1,0 +1,12 @@
+---
+createdAt : 2024-06-26T00:00:00+00:00
+tags : ["productivity", "keyboard shortcuts"]
+title: "Hotkys"
+link : "https://hotkys.com"
+thumbnail : "https://hotkys.com/opengraph-image.jpg"
+snippet: "An open-source collection of shortcuts for popular Mac applications, featuring a Raycast extension for instant execution."
+---
+
+Hotkys is open-source and free for anyone to view and contribute shortcuts.
+
+Additoinal Raycast extension is available to automatically run shortcuts.
