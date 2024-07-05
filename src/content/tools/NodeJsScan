@@ -1,0 +1,9 @@
+---
+title: "NodeJsScan"
+link: "https://github.com/ajinabraham/nodejsscan"
+thumbnail: "https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg"
+snippet: "nodejsscan is a static security code scanner for Node.js applications. - ajinabraham/nodejsscan"
+tags: ["security"]
+createdAt: 2024-07-05T19:03:16.348Z
+---
+command-line interface for easy integration with DevSecOps CI/CD pipelines
