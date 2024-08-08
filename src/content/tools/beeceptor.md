@@ -1,7 +1,7 @@
 ---
 title: Beeceptor
 link: https://beeceptor.com/
-thumbnail: https://beeceptor.com/images/logo-beeceptor.png
+thumbnail: https://cdn.beeceptor.com/assets/images/beeceptor-large-bee.png
 snippet: >-
   Get an HTTP endpoint to build mock APIs. Beeceptor intercepts HTTP requests
   for you to mock in real-time. Create rules to simulate a slow API.
