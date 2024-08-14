@@ -1,6 +1,6 @@
 ---
 title: "Temp Mail Detector"
-link: "https://tempmaildetector.com.com"
+link: "https://tempmaildetector.com"
 thumbnail: "https://tempmaildetector.com/images/logo.svg"
 snippet: "Temp Mail Detector prevents disposable emails from signing up to your website by running validity checks and crawling the web for temporry email domains."
 tags: ["api","saas","json","security", "fraud prevention"]
