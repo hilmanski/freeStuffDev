@@ -1,5 +1,5 @@
 ---
-title: "MySQL Explain"
+title: "MySQL Visual Explain"
 link: "https://mysqlexplain.com"
 thumbnail: "https://mysqlexplain.com/storage/logo-freestuff.svg"
 snippet: "Visualize MySQL EXPLAIN plans for easier query optimization."
