@@ -6,7 +6,7 @@ thumbnail: https://developer.accuweather.com/sites/all/themes/accuweather/favico
 snippet: >-
   Accuweather API is a free service where you can get data about weather from
   any location and any timestamp
-tags: ["api", "authentication", "weather"]
+tags: ["api", "weather"]
 ---
 50 calls/day
 Limit 1 key/developer
