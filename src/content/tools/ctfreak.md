@@ -1,19 +1,20 @@
 ---
-title: Ctfreak
+title: CTFreak
 link: https://ctfreak.com
 thumbnail: https://ctfreak.com/static/image/logo-512.webp
 snippet: >-
-  An on-premise task scheduler. Say goodbye to cron and maintain, schedule and
-  run all your tasks from one place.
-tags: ["cron"]
+  IT task scheduler to centralize concurrent and remote execution of bash/powershell/sql scripts, http requests, workflows, ...
+tags: ["scheduling","workflow","cron","monitoring","ssh"]
 createdAt: 2023-08-06T00:00:00.000Z
 ---
 Single Sign-On
 Unlimited nodes
+Node file explorer
 Unlimited databases
 Unlimited webhooks
 Unlimited notifiers
 Unlimited executions
 Up to 3 users
-Up to 15 tasks (incl. 2 SQL reports)
+Up to 10 tasks
 Sequential task executions
+Basic Support
