@@ -9,11 +9,4 @@ snippet: >-
 tags: ["serverless", "paas"]
 createdAt: 2022-08-25T00:00:00.000Z
 ---
-1 app
-10,000 API reqs/month
-1GB memory/req
-1GB Object Storage (AWS S3)
-1GB Database Storage (AWS DynamoDB)
-Unlimited blazing fast builds
-3 Cron tasks/app
-Global deployment
+SHUT DOWN AT 31th May 2024
