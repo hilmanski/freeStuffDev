@@ -5,7 +5,7 @@ thumbnail: https://ik.imagekit.io/kodingclub/freestuffdev/stuff/sheety_L8Vlwj7ou
 snippet: >-
   Turn spreadsheets into powerful APIs to rapidly develop prototypes, websites,
   apps and more.
-tags: ["API", "database"]
+tags: ["API", "database", "google-sheets"]
 createdAt: 2021-06-17T00:00:00.000Z
 ---
 Unlimited Projects
