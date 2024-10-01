@@ -1,7 +1,7 @@
 ---
 title: DeepSource
-link: https://deepsource.io/
-thumbnail: https://pbs.twimg.com/profile_images/1477550326739832833/8wSCGwjk_400x400.jpg
+link: https://deepsource.com/
+thumbnail: https://cdn.prod.website-files.com/63c6aed7bad432404130dc12/64ae2580c3e873fd552aba73_favicon-light.png
 snippet: >-
   DeepSource helps you write clean code on every pull-request. Built for teams
   who move fast and don’t break things.
