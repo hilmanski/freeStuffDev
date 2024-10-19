@@ -1,7 +1,7 @@
 ---
 title: Evernote
 link: https://evernote.com/
-thumbnail: https://evernote.com/img/logo/evernote/primary.svg
+thumbnail: https://images.prismic.io/evernote/509c3ac6-646c-4873-910b-38864d186ee9_og-image.png
 snippet: >-
   Accomplish more with better notes. Evernote helps you capture ideas and find
   them fast.

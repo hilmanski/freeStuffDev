@@ -1,7 +1,7 @@
 ---
 title: Responsively
 link: https://responsively.app/
-thumbnail: https://responsively.app/assets/img/logo.svg
+thumbnail: https://responsively.app/favicon-32x32.png
 snippet: >-
   A must-have DevTool for all Front-End developers that will make your job
   easier.
