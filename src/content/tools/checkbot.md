@@ -6,4 +6,6 @@ link: "https://www.checkbot.io/"
 thumbnail : "https://www.checkbot.io/favicon.ico"
 snippet:"Checkbot finds SEO, speed & security problems before your website visitors do. Tests for broken links, duplicate content, invalid HTML/CSS/JavaScript, insecure pages &amp; more. Test 100s of pages at once including local sites to keep on top of problems &amp; stop critical issues going live."
 ---
-100 URLs per crawl, unlimited crawls, unlimited sites
+100 URLs per crawl
+Unlimited crawls
+Unlimited sites
