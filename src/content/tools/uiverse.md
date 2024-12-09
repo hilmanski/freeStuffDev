@@ -1,7 +1,7 @@
 ---
 title: Uiverse
 link: https://uiverse.io
-thumbnail: https://ibb.co/YfSNntZ
+thumbnail: https://uiverse.io/favicon-32x32.png
 snippet: >-
   Create, share, and use beautiful Open-Source UI elements made with HTML and
   CSS.

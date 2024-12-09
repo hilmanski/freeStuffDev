@@ -1,7 +1,7 @@
 ---
 title: Data Fetcher
 link: https://datafetcher.com
-thumbnail: https://datafetcher.com/data-fetcher-icon-small.png
+thumbnail: https://datafetcher.com/favicon.ico
 snippet: Connect Airtable to any application or API with no-code.
 tags: ["api", "nocode"]
 createdAt: 2022-10-21T00:00:00.000Z
