@@ -5,8 +5,9 @@ thumbnail: "https://static.app/apple-touch-icon-152x152.png"
 snippet: "All-in-one solution to host static websites online. Free, fast, and simple static website hosting. Publish your static webpage with just one click."
 tags: ["hosting", "hosting-dynamic", "hosting-static", "serverless"]
 createdAt: 2024-12-06T15:10:48.662Z
+is_paid: true
 ---
-Free plan (Trial)
+7 days Free plan (Trial)
 1 website
 50MB Storage
 Free Sub-Domain
