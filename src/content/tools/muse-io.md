@@ -1,5 +1,5 @@
 ---
-title: "Muse - Magically Simple Pages for Everything You Do"
+title: "Muse"
 link: "https://muse.io/"
 thumbnail: "https://assets-global.website-files.com/63fa148ccf1e2ac0c3cb6f4a/63fa148ccf1e2a060ccb6f68_icon-256.png"
 snippet: "Free. Beautiful. 10x Faster with AI. Create websites, portfolios, wikis, blogs, photo albums & more."
