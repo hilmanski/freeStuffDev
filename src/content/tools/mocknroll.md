@@ -7,7 +7,3 @@ snippet: >-
 tags: ["mock-api", "api"]
 createdAt: 2025-04-14T00:00:00.000Z
 ---
-No ads, no subscriptions or service limits,
-Unlimited projects,
-Unlimited endpoint,
-Custom endpoint
