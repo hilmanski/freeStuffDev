@@ -12,7 +12,7 @@ const { tool, isHidden = false } = Astro.props;
 </script>
 
 <div class=`${isHidden ? 'hidden' : ''}
-    cards mb-10 text-sm border-b border-b-slate-600 pb-5 relative`>
+    cards mb-10 text-sm border-b border-b-slate-600 pb-5 relative -z-10`>
     <input type="hidden" name="tool-slug" value={tool.slug}>
 
     {
