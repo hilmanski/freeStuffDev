@@ -6,7 +6,7 @@ thumbnail: >-
 snippet: >-
   Here at Cloudflare, we make the Internet work the way it should. Offering CDN,
   DNS, DDoS protection and security, find out how we can help your site.
-tags: ["CDN", "SSL", "DNS", "security"]
+tags: ["CDN", "SSL", "DNS", "security", "cdn"]
 createdAt: 2021-06-21T00:00:00.000Z
 ---
 Fast, easy-to-use DNS
