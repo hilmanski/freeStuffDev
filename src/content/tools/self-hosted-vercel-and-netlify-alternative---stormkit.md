@@ -6,6 +6,13 @@ snippet: "Stormkit is a self-hostable, full-featured alternative to Vercel and N
 tags: ["deployment","hosting","self-hosted"]
 createdAt: 2025-05-21T05:49:32.064Z
 ---
-The self-hosted version of Stormkit has a freemium model, with the first user having no limits. The free version is perfect for small scale applications or solopreneurs. 
-
-It's an alternative to Vercel / Netlify, with scalability and flexibility in mind. 
+Unlimited applications
+Unlimited domains
+Unlimited deployments
+Persistent File Storage (Volumes)
+Built-in Privacy-Friendly Analytics
+Snippet Injections
+Post-deployment status checks
+GitHub / GitLab / Bitbucket integration
+Support for additional runtimes such as Go and Rust
+Triggers (Cron jobs)
