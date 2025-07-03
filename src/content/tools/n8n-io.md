@@ -6,7 +6,7 @@ snippet: >-
   Free and open self hostable workflow automation tool. n8n (pronounced
   n-eight-n) helps you to interconnect every app with an API in the world with
   each other to share and manipulate its data without a single line of code
-tags: ["workflow"]
+tags: ["workflow", "nocode"]
 createdAt: 2021-08-12T00:00:00.000Z
 ---
 Free for self-hosted
