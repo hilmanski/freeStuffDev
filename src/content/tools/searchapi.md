@@ -1,7 +1,7 @@
 ---
 title: SearchApi
-link: https://www.searchapi.io/
-thumbnail: https://www.searchapi.io/press/searchapi-logo-symbol-screen.png
+link: https://www.serpapi.com/
+thumbnail: https://serpapi.com/apple-touch-icon.png
 snippet: >-
   SearchApi is a robust real-time SERP API delivering structured data from
   Google and other search engine results pages
