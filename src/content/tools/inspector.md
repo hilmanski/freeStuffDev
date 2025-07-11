@@ -6,7 +6,7 @@ thumbnail: >-
 snippet: >-
   Inspector: Simple Code Execution Monitoring, built for NodeJs, PHP, and
   Laravel developers: identify bugs and bottlenecks in your apps!
-tags: ["monitoring"]
+tags: ["logging"]
 createdAt: 2023-09-21T00:00:00.000Z
 ---
 30K monthly transactions
