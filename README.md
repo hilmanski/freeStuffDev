@@ -1,9 +1,4 @@
 # About
-We've just migrated the Hugo repository to Astro. More updates coming soon
-
----
-
-# Old Readme
 
 <img src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" width="120px"/>
 
@@ -12,26 +7,19 @@ We've just migrated the Hugo repository to Astro. More updates coming soon
 List of free services for developers like database, hosting, authentication and other stuff.  
 Check it out at [freestuff.dev](https://freestuff.dev). 
 
-I had many tools in my private repository and thought why not bring it to the public?
-Surprisingly there are not many alternatives out there that focusing on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
+I had many tools in my private repository and thought, *why not bring them to the public?* So, I created my own dev-tool list to help start prototyping or building an MVP. Built with Astro.
 
-
-Built with Hugo Static site generator and hosted at Netlify. (Now Astro on Vercel!)
-
-## License
-MIT License
 
 ## Rules
-1. Only accept free stuff or free trial at least 1 Year.
-2. What is not suitable on this site:   
+1. We accept free stuff or free trial at least 1 Year.
+2. If the tool only offers a 7-day trial or not having a free offer at all, let's mark it as `isPaid: true` on the `frontMatter`.
+3. What is not suitable on this site:   
    - We're not accepting language/framework specific tools. 
    - Link to "part of specific tools" for example "themes for hugo"
    - Library for a certain framework/language, (e.g. Javascript library). 
    - Link to Documentation or Forum of a certain tool
 
 They're great, but there are more suitable places for those tools.
-
-3. If the tool only offers a 7-day trial or not having a free offer at all, let's mark it as `isPaid: true` on the `frontMatter`.
 
 ## Contribute
 Want to add new stuff?   
@@ -66,6 +54,9 @@ P.S:
 - For existing tags visit https://freestuff.dev/ and open the "Filter"
 - At the end write the features as one feature per line
 
+## Sponsors
+- [Codehooks.io](https://codehooks.io?ref=freestuffedv) - Build and deploy flexible APIs with integrated database in minutes.
+
 ## Code of Conduct
 FreeStuffDev is open for contribution from all people around the world. Whoever your are and whatever your background: nationality, gender, religion, we welcome you. Things to keep in mind:
 - Show empathy
@@ -79,38 +70,5 @@ If you have any questions, feel free to open an issue or reach out at [twitter](
   <img src="https://contrib.rocks/image?repo=hilmanski/freeStuffDev" />
 </a>
 
-
---- 
-
-New notes
-
-## Todo
-
-- pages [DONE]
-random/newest [DONE]
-
-- features [DONE]
-save tools on localstorage
-
-- Responsive [DONE]
-
-- Featured section
-
-- add static pages:
-submission page [DONE]
-codeofconduct
-about/contact
-social media link
-
-
-## Publish
-- [X] add simple analytics
-- [X] Search feature (Client side)
-- [X] Update twitter image, be consistent
-- [ ] Tidy up readme
-- [ ] Check old submission (PR)
-- [X] Test submission (update github link)
-- [X] Update github link on edit
-- [ ] Add page "isPaid" to list paid product
-- [X] Don't list isPaid on homepage
-- [X] Don't list isPaid as alternative
+## License
+MIT License
