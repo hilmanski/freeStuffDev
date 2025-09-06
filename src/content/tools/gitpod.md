@@ -1,5 +1,5 @@
 ---
-title: Gitpod - Always ready to code
+title: Gitpod
 link: https://www.gitpod.io/
 thumbnail: https://www.gitpod.io/favicon192.png
 snippet: >-

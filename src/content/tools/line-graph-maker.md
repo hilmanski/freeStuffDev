@@ -1,5 +1,5 @@
 ---
-title: Line Graph Maker | Create a line chart for free
+title: Line Graph Maker
 link: https://linegraphmaker.co/
 thumbnail: https://linegraphmaker.co/icon.ico
 snippet: >-

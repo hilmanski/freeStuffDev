@@ -1,5 +1,5 @@
 ---
-title: "Servervana Free Uptime Monitoring"
+title: "Servervana"
 link: "https://servervana.com/free-uptime-monitoring"
 thumbnail: "https://servervana.com/images/icon.svg"
 snippet: "Advanced uptime monitoring with support for large projects and teams."

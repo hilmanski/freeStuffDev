@@ -1,5 +1,5 @@
 ---
-title: XCP-ng - XenServer Based, Community Powered
+title: XCP-ng
 link: https://xcp-ng.org/
 thumbnail: https://xcp-ng.org/favicon.png
 snippet: >-

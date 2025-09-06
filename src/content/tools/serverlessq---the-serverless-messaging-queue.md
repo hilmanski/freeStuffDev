@@ -1,5 +1,5 @@
 ---
-title: ServerlessQ - The serverless Messaging Queue
+title: ServerlessQ
 link: https://www.serverlessq.com/
 thumbnail: https://www.serverlessq.com/favicon.ico
 snippet: The Message Queue for the Serverless Era
