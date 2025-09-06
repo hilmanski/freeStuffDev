@@ -1,5 +1,5 @@
 ---
-title: REI3 - Business Software for Everyone
+title: REI3
 link: https://rei3.de/en/home
 thumbnail: https://rei3.de/images/favicon.ico
 snippet: >-
