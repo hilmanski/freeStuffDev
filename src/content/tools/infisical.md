@@ -1,5 +1,5 @@
 ---
-title: Infisical | Open Source SecretOps
+title: Infisical
 link: https://infisical.com/
 thumbnail: https://infisical.com/infisical.ico
 snippet: >-

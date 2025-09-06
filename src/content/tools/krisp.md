@@ -1,5 +1,5 @@
 ---
-title: Krisp - Noise Cancellation and Echo Removal
+title: Krisp
 link: https://krisp.ai/?ref=hilr
 thumbnail: https://krisp.ai/wp-content/uploads/2020/02/cropped-KLogo-1-180x180.png
 snippet: >-

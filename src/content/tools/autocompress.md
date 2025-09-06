@@ -1,5 +1,5 @@
 ---
-title: Autocompress - Image optimization for Bitbucket
+title: Autocompress
 link: https://a-compress.co
 thumbnail: >-
   https://a-compress.co/icons/icon-512x512.png?v=8f4a62f6f6f19202cba30f0d75bf66bc

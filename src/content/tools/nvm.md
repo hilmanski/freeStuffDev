@@ -1,5 +1,5 @@
 ---
-title: NVM (Node Version Manager) - for Linux and MacOS
+title: NVM
 link: https://github.com/nvm-sh/nvm
 thumbnail: >-
   https://raw.githubusercontent.com/nvm-sh/logos/bf1f9618e83e5098024b18c73ada1b0f542db5f8/nvm-logo-tag-color.svg

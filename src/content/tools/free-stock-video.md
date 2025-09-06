@@ -1,5 +1,5 @@
 ---
-title: Free Stock Video & Footage Clips.
+title: Free Stock Video
 link: https://free-stock.video
 thumbnail: https://free-stock.video/291713-32.png
 snippet: >-
