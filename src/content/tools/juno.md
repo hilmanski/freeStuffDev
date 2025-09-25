@@ -7,7 +7,7 @@ snippet: >-
 tags: ["hosting","database","storage","authentication","serverless","deployment","privacy","ownership"]
 createdAt: 2024-07-18T11:00:04.527Z
 ---
-Get two free containers running on the Internet Computer.
+Get two free containers running on the Internet Computer network.
 One for managing and controlling your apps.
 The other for your first app, preloaded with free resources to get started.
 Includes authentication, database, storage, serverless functions, and HTTPS-enabled custom domains.
