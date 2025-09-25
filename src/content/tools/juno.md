@@ -3,13 +3,13 @@ title: Juno
 link: https://juno.build
 thumbnail: https://juno.build/img/logo.svg
 snippet: >-
-  Juno is a zero-knowledge blockchain platform that equips developers with all the essential tools to create any Web3 application, making it as easy as developing serverless Web2.
-tags: ["web3","blockchain","hosting","database","storage","authentication"]
+  Juno is an open-source, next-gen serverless platform to build, deploy, and run modern apps with the privacy and control of self-hosting.
+tags: ["hosting","database","storage","authentication","serverless","deployment","privacy","ownership"]
 createdAt: 2024-07-18T11:00:04.527Z
 ---
-Get two free smart contracts.
-One to fully control your projects.
-The other for your first project, including 1 T Cycles resources.
+Get two free containers running on the Internet Computer.
+One for managing and controlling your apps.
+The other for your first app, preloaded with free resources to get started.
 Includes authentication, database, storage, serverless functions, and HTTPS-enabled custom domains.
 Continuous deployment with GitHub Actions.
-Local development using Docker.
+Local development using an emulator.
