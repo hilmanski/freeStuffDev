@@ -6,7 +6,7 @@ thumbnail: https://www.nocodb.com/favicon.ico
 snippet: >-
   Free & Open Source Airtable alternative. Turns any SQL database into a smart
   spreadsheet. Supports MySQL, Postgres, SQL server, MariaDB & SQLite.
-tags: ["nocode", " database"]
+tags: ["spreadsheet", "nocode", " database"]
 ---
 5 USERS
 10k rows/workspace
