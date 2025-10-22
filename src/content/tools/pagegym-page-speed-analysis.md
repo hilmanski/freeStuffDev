@@ -1,5 +1,5 @@
 ---
-title: "Page Gym"
+title: "PageGym"
 link: "https://pagegym.com"
 thumbnail: "https://pagegym.com/images/icon.svg"
 snippet: "Page speed and load behaviour analysis and optimization tool for advanced users."
