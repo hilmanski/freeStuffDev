@@ -1,5 +1,5 @@
 ---
-title: "Diploi – Magical Developer Experience"
+title: "Diploi"
 link: "https://diploi.com/"
 thumbnail: "https://raw.githubusercontent.com/diploi/media/refs/heads/main/logos/diploi/svg/diploi-logo-dark.svg"
 snippet: "Single SaaS service for developing, hosting and managing your full applications fast, launch new apps with one click, and all without configuring servers or setting up deployments pipelines."
