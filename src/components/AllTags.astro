@@ -39,10 +39,12 @@ const tags = Object.entries(tagCounts)
     // Toggle modal tags
     function showAllTags() {
         document.getElementById('modal').classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
     }
 
     function closeModal() {
         document.getElementById('modal').classList.add('hidden');
+        document.body.style.overflow = '';
     }
 
     window.showAllTags = showAllTags;
@@ -84,7 +86,7 @@ const tags = Object.entries(tagCounts)
 
 <!-- Modal to show all tags -->
 <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
-    <div class="bg-white w-4/5 md:w-2/3 mx-auto mt-10 p-5 rounded-md">
+    <div class="bg-white w-4/5 md:w-2/3 mx-auto mt-10 p-5 rounded-md max-h-[90vh] overflow-y-auto">
         <div class="flex justify-between">
             <h2 class="text-lg font-bold">All Tags</h2>
             <button class="text-red-500" onclick="closeModal()">Close</button>
