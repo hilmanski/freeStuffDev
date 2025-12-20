@@ -7,8 +7,8 @@ tags: ["hosting"]
 createdAt: 2025-01-17T09:40:29.996Z
 ---
 - First 12 months free Pro plan with coupon PRO-FREE-12M
-- Deploy 10 apps
-- Manage 10 servers
+- Deploy 20 apps
+- Manage 5 servers
 - Backups
 - Monitoring
 
