@@ -1,7 +1,7 @@
 ---
 title: GitKraken
 link: https://gitkraken.com
-thumbnail: https://pbs.twimg.com/profile_images/714866842419011584/LRrR48qp_400x400.jpg
+thumbnail: https://www.gitkraken.com/wp-content/uploads/2024/05/gk-logo.svg
 snippet: >-
   Unleash GitKraken, the free Git GUI for Windows, Mac & Linux! This intuitive
   Git GUI simplifies and streamlines Git processes.
