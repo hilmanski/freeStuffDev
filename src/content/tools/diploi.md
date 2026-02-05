@@ -6,4 +6,4 @@ snippet: "Single SaaS service for developing, hosting and managing your full app
 tags: ["server","hosting","hosting-static","hosting-dynamic"]
 createdAt: 2025-08-21T09:44:49.014Z
 ---
-€50 credits that never expire
+€50 credits that expire 14 days after registering.
