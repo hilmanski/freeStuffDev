@@ -1,24 +1,27 @@
 ---
-
 const { tool, isHidden = false } = Astro.props;
 ---
 
 <script is:inline>
     function removeMe(el) {
-        const div = document.createElement('div');
-        div.style.width = '100px';
+        const div = document.createElement("div");
+        div.style.width = "100px";
         el.replaceWith(div);
     }
 </script>
 
-<div class=`${isHidden ? 'hidden' : ''}
-    cards mb-10 text-sm border-b border-b-slate-600 pb-5 relative`>
-    <input type="hidden" name="tool-slug" value={tool.slug}>
+<div
+    class=`${isHidden ? 'hidden' : ''}
+    cards mb-10 text-sm border-b border-b-slate-600 pb-5`
+>
+    <input type="hidden" name="tool-slug" value={tool.slug} />
 
     {
         tool.data.isPaid && (
-            <div class="bg-rose-500 text-white px-2 py-1 ml-5 rounded-md 
-                absolute right-0">
+            <div
+                class="bg-rose-500 text-white px-2 py-1 ml-5 rounded-md
+                absolute right-0"
+            >
                 Paid Tool
             </div>
         )
@@ -26,45 +29,60 @@ const { tool, isHidden = false } = Astro.props;
 
     <div class="block md:flex justify-between">
         <div class="flex">
-            <img src={tool.data.thumbnail} 
+            <img
+                src={tool.data.thumbnail}
                 alt={`Logo thumbnail for ${tool.data.title}`}
                 width="80"
                 height="auto"
                 class="mr-5 min-w-[80px] max-h-[80px] max-w-[80px]"
                 onerror="removeMe(this)"
                 loading="lazy"
-                />
+            />
 
             <div>
                 <p class="text-2xl mb-2">{tool.data.title}</p>
                 <p class="max-w-[500px]">{tool.data.snippet}</p>
 
-                <p class="mt-5">Tags: {tool.data.tags.join(', ')}</p>
+                <p class="mt-5">Tags: {tool.data.tags.join(", ")}</p>
             </div>
         </div>
 
         {
             tool.body && (
-                <div class="whitespace-pre-line text-left md:text-right 
-                            mt-5 md:mt-0 mb-5 md:mb-0">
+                <div
+                    class="whitespace-pre-line text-left md:text-right
+                            mt-5 md:mt-0 mb-5 md:mb-0"
+                >
                     <p>Free Offer:</p>
 
-                    <div>
-                        {tool.body}
-                    </div>
+                    <div>{tool.body}</div>
                 </div>
             )
         }
     </div>
 
-
     <div class="mt-2 flex space-x-5 justify-end">
-        <a class="unsave-button hidden"
-           href="#" onclick=`unsave(event, "${tool.slug}")`> Remove from Favorites </a>
-        <a class="save-button"
-           href="#" onclick=`save(event, "${tool.slug}")`>Save</a>
-        <a target="_blank" rel="noopener nofollow" href={`https://github.com/hilmanski/freeStuffDev/edit/main/src/content/tools/${tool.slug}.md`}>Edit</a>
-        <a target="_blank" rel="noopener nofollow" href={`${tool.data.link}?utm_source=freestuffdev`}>Visit</a>
+        <a
+            class="unsave-button hidden"
+            href="#"
+            onclick=`unsave(event, "${tool.slug}")`
+        >
+            Remove from Favorites
+        </a>
+        <a class="save-button" href="#" onclick=`save(event, "${tool.slug}")`
+            >Save</a
+        >
+        <a
+            target="_blank"
+            rel="noopener nofollow"
+            href={`https://github.com/hilmanski/freeStuffDev/edit/main/src/content/tools/${tool.slug}.md`}
+            >Edit</a
+        >
+        <a
+            target="_blank"
+            rel="noopener nofollow"
+            href={`${tool.data.link}?utm_source=freestuffdev`}>Visit</a
+        >
         <a href={`/alternative/${tool.slug}`}>Alternatives</a>
     </div>
 </div>
