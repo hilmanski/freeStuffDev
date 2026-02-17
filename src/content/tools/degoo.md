@@ -8,4 +8,4 @@ snippet: >-
   iOS and web.
 tags: ["storage", " cloud-storage"]
 ---
-Free 100 GB cloud space
+Free 20 GB cloud space
