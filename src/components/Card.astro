@@ -30,7 +30,7 @@ const { tool, isHidden = false } = Astro.props;
                 alt={`Logo thumbnail for ${tool.data.title}`}
                 width="80"
                 height="auto"
-                class="mr-5 min-w-[80px] max-h-[80px] max-w-[80px]"
+                class="mr-5 min-w-[80px] max-h-[80px] max-w-[80px] object-contain"
                 onerror="removeMe(this)"
                 loading="lazy"
                 />
