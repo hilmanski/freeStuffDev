@@ -6,7 +6,4 @@ snippet: The friendly community where everyone builds the web
 tags: ["playground"]
 createdAt: 2021-06-17T00:00:00.000Z
 ---
-Projects and code are public by default
-Full-stack apps that sleep after 5 minutes
-Unlimited static sites that are always on
-Github import/export and Prettier support
+On July 8, 2025 Glitch project hosting and user profiles will be shut down
