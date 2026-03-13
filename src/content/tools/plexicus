@@ -1,0 +1,17 @@
+---
+title: "Plexicus"
+link: "https://plexicus.ai/"
+thumbnail: "https://www.plexicus.ai/images/icon-plexicus-color.svg"
+snippet: "AI-powered CNAPP and ASPM platform that detects, prioritizes, and automatically fixes cloud and application security vulnerabilities across the SDLC"
+tags: ["Security","DevSecOps","CNAPP","ASPM","Cloud Security","SAST"]
+createdAt: 2021-06-21T18:55:27+03:00
+---
+AI Remediation 3/month
+Open source dependency scanning (SCA)
+Secret Detection
+Static code analysis (SAST)
+Infrastructure as code scanning (IaC)
+Dynamic testing (DAST)
+API Scanning
+CI / CD Security
+Open-source Integrations
