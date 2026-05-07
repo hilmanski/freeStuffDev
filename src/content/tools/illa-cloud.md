@@ -1,6 +1,6 @@
 ---
 title: ILLA Cloud
-link: https://www.illacloud.com/
+link: https://docs.illacloud.com/
 thumbnail: https://www.illacloud.com/favicons/apple-touch-icon.png?v=3
 snippet: >-
   ILLA is an open-source low-code Platform for Developers. We want to accelerate
