@@ -1,7 +1,7 @@
 ---
 title: "AIVA - No-Code Web App Test Automation"
 link: "https://aiva.works"
-thumbnail: "https://www.ysoft.com/hubfs/00%20Logos/AIVA%20logo%20-%20Green.svg"
+thumbnail: "https://app.aiva.works/aiva-square.png"
 snippet: "No-code visual testing for web apps. Reads the screen like a person, not the DOM or selectors, so tests keep working when the code changes. Run your first test without signing up."
 tags: ["testing", "no-code", "quality-assurance"]
 createdAt: 2026-06-20T16:00:00+02:00
