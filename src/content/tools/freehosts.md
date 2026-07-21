@@ -1,9 +1,9 @@
 ---
 title: "FreeHosts"
 link: "https://freehosts.eu"
-thumbnail: "https://freehosts.eu/Src/Images/banner.png"
+thumbnail: "https://freehosts.eu/Src/icons/icon.png"
 snippet: "Community-curated directory of free hosting providers for websites, apps, bots, and databases"
-tags: ["hosting","hosting-static","hosting-dynamic"]
+tags: ["awesome-list","other-resources","hosting","hosting-static","hosting-dynamic"]
 createdAt: 2026-07-21T21:55:54+01:00
 ---
 Community reviews
