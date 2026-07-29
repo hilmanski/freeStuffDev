@@ -72,3 +72,4 @@ If you have any questions, feel free to open an issue or reach out at [twitter](
 
 ## License
 MIT License
+- [FreePNGConvert](https://freepngconvert.com) - Free WebP to PNG converter — browser-based, no upload, private
