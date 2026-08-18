@@ -11,3 +11,6 @@ createdAt: 2026-08-18T00:00:00.000Z
 1 free Reddit pain point scan
 Scan covers 1 subreddit over a 30-day window
 3 evidence quotes and 2 startup ideas per pain point found
+Plus 11 free tools with no signup or card
+MRR, churn, LTV, CAC, TAM SAM SOM and Reddit API cost calculators
+Subreddit finder, Reddit keyword generator, AI idea generators and idea evaluator
