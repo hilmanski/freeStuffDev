@@ -1,4 +1,4 @@
----
+--- -
 createdAt: 2022-04-09T01:50:00.000Z
 title: OpenAI
 link: https://openai.com/
