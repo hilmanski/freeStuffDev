@@ -6,6 +6,6 @@ thumbnail: >-
 snippet: >-
   A free CDN for developers. The fast and easy way to make your websites load
   faster
-tags: ["CDN"]
+tags: ["CDN", "cdn"]
 createdAt: 2021-07-28T00:00:00.000Z
 ---
