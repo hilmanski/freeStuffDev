@@ -1,10 +1,10 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection } from "astro:content";
 
-const tools = await getCollection('tools')
+const tools = await getCollection("tools");
 
 // Step 1: Extract all tags
-const allTags = tools.flatMap(obj => obj.data.tags);
+const allTags = tools.flatMap((obj) => obj.data.tags);
 
 // trim and lowercase tags
 allTags.forEach((tag, index) => {
@@ -12,78 +12,93 @@ allTags.forEach((tag, index) => {
 });
 const uniqueTags = new Set(allTags);
 
-
 // Step 2: Count tags
 const tagCounts = allTags.reduce((item: any, tag) => {
     item[tag] = (item[tag] || 0) + 1;
     return item;
 }, {}) as Record<string, number>;
 
-// Step 3: Sort and get top 
+// Step 3: Sort and get top
 const maxTags = 20;
 const tags = Object.entries(tagCounts)
     .sort((a, b) => b[1] - a[1])
     .slice(0, maxTags)
-    .map(item => item[0]);
-
+    .map((item) => item[0]);
 ---
-
-
 
 <script is:inline>
     function toggleBtnTags() {
-        const tagList = document.getElementById('tagList');
-        tagList.classList.toggle('hidden');
+        const tagList = document.getElementById("tagList");
+        tagList.classList.toggle("hidden");
     }
 
     // Toggle modal tags
     function showAllTags() {
-        document.getElementById('modal').classList.remove('hidden');
+        document.getElementById("modal").classList.remove("hidden");
     }
 
     function closeModal() {
-        document.getElementById('modal').classList.add('hidden');
+        document.getElementById("modal").classList.add("hidden");
     }
 
     window.showAllTags = showAllTags;
     window.closeModal = closeModal;
 </script>
 
-<div class="flex justify-between items-center lg:hidden mb-5
+<div
+    class="flex justify-between items-center lg:hidden mb-5
             py-2 boder border-y cursor-pointer"
-    onclick="toggleBtnTags()">
+    onclick="toggleBtnTags()"
+>
     <p>Show Categories</p>
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-triangle-inverted" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.363 20.405l-8.106 -13.534a1.914 1.914 0 0 1 1.636 -2.871h16.214a1.914 1.914 0 0 1 1.636 2.871l-8.106 13.534a1.914 1.914 0 0 1 -3.274 0z" /></svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-triangle-inverted"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+            d="M10.363 20.405l-8.106 -13.534a1.914 1.914 0 0 1 1.636 -2.871h16.214a1.914 1.914 0 0 1 1.636 2.871l-8.106 13.534a1.914 1.914 0 0 1 -3.274 0z"
+        ></path></svg
+    >
 </div>
 
-
-<div class="hidden lg:block"
-    id="tagList">
+<div class="hidden lg:block" id="tagList">
     <p class="mb-3">Top {maxTags} Tags</p>
     <div class="flex flex-wrap gap-2 mb-5">
         {
             [...tags].map((tag) => (
-                <a href={`/tags/${tag.trim().toLowerCase()}`}
-                    class="bg-slate-700 text-white hover:text-white hover:bg-slate-900 
+                <a
+                    href={`/tags/${tag.trim().toLowerCase()}`}
+                    class="bg-slate-700 text-white hover:text-white hover:bg-slate-900
                         px-1 py-1 rounded-md text-xs"
-                    >
+                >
                     {tag}
                 </a>
             ))
         }
     </div>
 
-<div>
-    <button 
-        class="w-full bg-gray-400 hover:bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm"
-        onclick="showAllTags()">
-        Show all tags
-    </button>
-</div>
+    <div>
+        <button
+            class="w-full bg-gray-400 hover:bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm"
+            onclick="showAllTags()"
+        >
+            Show all tags
+        </button>
+    </div>
 </div>
 
 <!-- Modal to show all tags -->
-<div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50">
+<div
+    id="modal"
+    class="hidden fixed inset-0 bg-black bg-opacity-z-50 overflow-auto"
+>
     <div class="bg-white w-4/5 md:w-2/3 mx-auto mt-10 p-5 rounded-md">
         <div class="flex justify-between">
             <h2 class="text-lg font-bold">All Tags</h2>
@@ -92,9 +107,10 @@ const tags = Object.entries(tagCounts)
         <div class="flex flex-wrap gap-2 mt-3 overflow-y">
             {
                 [...uniqueTags].map((tag) => (
-                    <a href={`/tags/${tag.trim().toLowerCase()}`}
+                    <a
+                        href={`/tags/${tag.trim().toLowerCase()}`}
                         class="bg-gray-200 text-gray-800 px-1 py-1 rounded-md text-xs"
-                        >
+                    >
                         {tag}
                     </a>
                 ))
