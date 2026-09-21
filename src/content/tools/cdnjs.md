@@ -7,7 +7,7 @@ snippet: >-
   open-source CDN service trusted by over 11% of all websites, powered by
   Cloudflare. We make it faster and easier to load library files on your
   websites.
-tags: ["CDN"]
+tags: ["CDN", "cdn"]
 createdAt: 2021-06-21T00:00:00.000Z
 ---
 Free and Open Source
