@@ -8,7 +8,7 @@ snippet: >-
 image: null
 thumbnail: >-
   https://cloudinary-res.cloudinary.com/image/upload/f_auto,q_auto/c_scale,w_128/v1597183771/website/cloudinary_web_favicon.png
-tags: ["storage"]
+tags: ["storage", "cdn", "image", "media", "CDN", "image-hosting", "optimization"]
 createdAt: 2021-06-17T01:51:24.525Z
 ---
 Media CDN
