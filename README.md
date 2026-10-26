@@ -55,6 +55,7 @@ P.S:
 - At the end write the features as one feature per line
 
 ## Sponsors
+- [Ideoy](https://ideoy.ai) - Remake this week's meme videos with one selfie (AI image-to-video, freemium, adults only).
 - [Codehooks.io](https://codehooks.io?ref=freestuffedv) - Build and deploy flexible APIs with integrated database in minutes.
 
 ## Code of Conduct
