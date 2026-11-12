@@ -6,4 +6,4 @@ snippet: "Merge, split and convert PDFs and images in your browser without uploa
 tags: ["pdf","image","api","privacy","file-processing"]
 createdAt: 2026-11-09T11:00:16.842Z
 ---
-442 free browser tools (PDF, image, audio, video, docs) that run entirely client-side, no upload. Plus a free REST API (1,000 credits/month, no card) and a free MCP server for AI agents.
+Free browser tools (PDF, image, audio, video, docs) that run on your device; files are not uploaded. For developers, a free REST API (1,000 credits/month with a free key, no card) and an MCP server for AI agents; API and MCP calls send the file to our server, where it is processed in memory and not stored.
