@@ -3,7 +3,7 @@ title: "Convika"
 link: "https://convika.com"
 thumbnail: "https://convika.com/apple-touch-icon.png"
 snippet: "Host static HTML pages with forms that keep entries and visitor stats built in. Upload a file, or publish from Claude, ChatGPT or another MCP client."
-tags: ["hosting", "hosting-static", "forms", "analytics"]
+tags: ["hosting", "hosting-static", "form", "analytics"]
 createdAt: 2026-11-14T00:00:00.000Z
 ---
 Free plan, no credit card, commercial use allowed
