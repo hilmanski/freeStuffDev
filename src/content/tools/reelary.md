@@ -1,6 +1,6 @@
 ---
 title: "Reelary"
-link: "https://reelary.app/"
+link: "https://reelary.app/tools"
 thumbnail: "https://reelary.app/favicon.svg"
 snippet: "Search every frame of your footage by meaning, then cut a finished MP4 from one sentence. 100% local AI video search for Windows and Mac - no cloud, no uploads, no subscription."
 tags: ["video","search","ai","mac"]
